@@ -1,6 +1,6 @@
 # Qoder Sites 仓库格式
 
-状态：已确定，等待实现  
+状态：已实现并部署（v1.0）
 更新：2026-11-07  
 依据：Qoder Sites `sites-building` 技能、Qoder environment 与 Static output 参考
 
@@ -19,10 +19,10 @@
 ```text
 finish-reading/
 ├── site/                  # Qoder Sites 项目根
-│   ├── src/               # React 源码（待初始化）
-│   ├── public/            # 静态资源（待初始化）
+│   ├── src/               # React 源码
+│   ├── public/            # 静态资源
 │   ├── dist/              # 生产构建产物（忽略）
-│   ├── package.json       # 待初始化
+│   ├── package.json       # 已初始化
 │   └── .qoder.site        # 由 Qoder Sites 工具生成，不手写、不提交
 ├── docs/
 │   ├── product/
@@ -35,18 +35,18 @@ finish-reading/
 
 - 使用 Qoder Sites 自带的 React starter 初始化 `site/`：
   `node "<sites-building-skill-root>/scripts/create-site.mjs" "<repo>/site"`
-  实际路径在实现时用已安装插件目录确认；初始化前确保 `site/` 为空（当前只有 README）。
+  实际路径在实现时用已安装插件目录确认；初始化前将占位的 `site/README.md` 暂时移出，确保 `site/` 为空。初始化完成后再决定是否把说明合并回根 README，不在 `site/` 保留非源码占位文件。
 - 初始化后执行 `npm ci`，用 `npm run dev` 本地预览，`npm run build` 生成 `site/dist/`。
-- 以上命令尚未在本项目验证；实现时以 starter 的 `package.json` 为准。
+- 上述命令已在本项目验证：Node 24.22.1；`npm run build` 通过，开发地址为 `http://127.0.0.1:5173/`。
 
 ## `.qoder.site` 与设计工作台
 
 - 不手写 `.qoder.site`，也不提交它；它由 `open_design_workbench` / `prepare_site` 生成。
-- 在 Desktop 上初始化：
+- 在 Desktop 上已初始化：
   - `projectPath`: `site`
   - `name`: `读完`
   - `design.version`: 1
-  - `design.pages`: 首页、心情签到、配文结果、阅读、读完卡片、文本来源（以实际路由/状态为准）
+  - `design.pages`: `/`（单页状态切换，无独立路由）
   - `design.capabilities`: `appearance`, `radius`, `spacing`, `typography`, `motion`
 - 样式必须消费 `--site-*` 变量（`--site-bg`、`--site-fg`、`--site-accent`、`--site-surface`、`--site-muted`、`--site-border`、`--site-font`、`--site-radius`、`--site-space`、`--site-type`、`--site-motion`），并提供与“纸张/墨色”设计一致的默认值。
 - 页面与能力以实际实现为准；不要用空的 capabilities 列表。
@@ -58,7 +58,8 @@ finish-reading/
   - 当前设计倾向单页状态切换、无深链接：`spa: false`。
   - 若后续改为 React Router 等深链接：`spa: true`，并验证刷新/直达。
 - 不手写 `sites.json`、ZIP 或外层 manifest；打包产物由工具生成。
-- 发布后验证公网 URL 在无痕窗口可打开；站点默认公开访问。
+- 发布后验证公网 URL 在无痕窗口可打开；新站默认 private，需在 `get_site_access` 后把访问策略改为 `public`。
+- 当前已发布：<https://finish-reading-5ianhlwh00d.qoder.zone/>（public，`spa: false`，无 Function）。
 
 ## 边界
 

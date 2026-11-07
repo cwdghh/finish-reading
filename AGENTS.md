@@ -19,12 +19,25 @@ Read `/Users/chenwei/Documents/Workspace/AGENTS.md` for shared working agreement
 - 论坛作品帖必须包含：作品链接、自我介绍、作品是什么、为什么做、怎么用（5 步以内）、用 Qoder 做出来的过程，以及所用 Qoder 账号。
 - 不把账号密码、API Key、个人证件或未公开的个人信息写入仓库或提交材料。
 - 截图和外部素材需确认可公开使用；引用他人内容时注明来源。
-- 技术栈计划为 Vite + React + TypeScript，通过 Qoder Sites 静态部署；站点源码放在 `site/`，按 `docs/product/site-format.md` 组织。若后续引入 Python 工具，遵守工作区约定，为本项目建立独立的 `pyproject.toml`、Python 版本 pin、`uv.lock` 和忽略的 `.venv/`。
-- 赛道与选题已确定（LifeHack / 读完）；实现前以 `docs/product/mvp.md` 为准，避免为未确定的需求预建架构。
+- 技术栈为 Vite + React + TypeScript，通过 Qoder Sites 静态部署；站点源码在 `site/`，按 `docs/product/site-format.md` 组织。若后续引入 Python 工具，遵守工作区约定，为本项目建立独立的 `pyproject.toml`、Python 版本 pin、`uv.lock` 和忽略的 `.venv/`。
+- 赛道与选题已确定（LifeHack / 读完）；实现与修改以 `docs/product/mvp.md` 和 `docs/product/design.md` 为准，避免为未确定的需求预建架构。
+- `.qoder.site` 由 Qoder Sites 工具生成，不手写、不提交；`dist/`、`node_modules/`、`.env*` 同样不提交。
+- 站点修改后必须本地启动，并在浏览器实际走通“签到 → 配文 → 选文 → 阅读 → 读完卡片”；至少验证 375px 与 1440px，不以类型检查代替交互验证。
+- Git 提交使用一次性 `-c user.name=... -c user.email=...` 参数，不修改本地/全局 git config；不要把邮箱或账号信息写入仓库文档。
 
 ## Commands
 
-站点源码将位于 `site/`，计划使用 Node + Vite（Qoder Sites React starter）；实际命令在实现时验证后补充。网络较慢时先按 `docs/development-environment.md` 设置代理。
+站点源码位于 `site/`，使用 Node + Vite（Qoder Sites React starter，Node `^22.13.0 || >=24.0.0`）。常用命令：
+
+```bash
+export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
+cd site
+npm ci
+npm run dev
+npm run build
+```
+
+开发服务器默认 `http://127.0.0.1:5173/`；构建输出 `site/dist/`。发布使用 `webDirectory: "dist"`、`spa: false`。验收记录见 `docs/evidence/2026-11-07-local-acceptance.md`；网络较慢时先按 `docs/development-environment.md` 设置代理。
 
 ## Network
 

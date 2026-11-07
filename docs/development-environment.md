@@ -26,8 +26,9 @@ export ALL_PROXY=socks5://127.0.0.1:10808
 
 ## 当前环境
 
-- Node.js：v24.22.1（初始化 Qoder Sites React starter 前，以其 `package.json` 的 engines 为准）。
-- 包管理器：计划使用 npm；`site/` 初始化后以 starter 的 lockfile 为准。
+- Node.js：v24.22.1（`site/package.json` engines 为 `^22.13.0 || >=24.0.0`）。Homebrew 路径为 `/opt/homebrew/opt/node@24/bin`，当前 shell 可用 `export PATH="/opt/homebrew/opt/node@24/bin:$PATH"`。
+- 包管理器：npm；依赖与 lockfile 位于 `site/`。
+- 本地开发地址：`http://127.0.0.1:5173/`（Vite 默认端口）。
 - Git 作者：Wei Chen（邮箱通过一次性提交参数提供，不写入仓库文档）。执行环境不允许修改 git config，因此提交时使用一次性 `-c user.name=... -c user.email=...` 参数，不写入本地/全局配置。
 - GitHub 远程：`git@github.com:cwdghh/finish-reading.git`（SSH）。
 - 2026-11-07 SSH 认证成功，`main` 已推送并跟踪 `origin/main`。
@@ -51,4 +52,25 @@ git status
 git remote -v
 ```
 
-实现阶段会补充并验证本地开发、构建和 Qoder Sites 预览命令；当前项目尚未开始实现，见 [site-format.md](product/site-format.md)。
+## 本地开发与构建
+
+```bash
+export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
+cd site
+npm ci
+npm run dev
+```
+
+生产构建：
+
+```bash
+cd site
+npm run build
+npm run preview
+```
+
+`npm run build` 先执行 `tsc --noEmit`，再由 Vite 输出静态文件到 `site/dist/`。Qoder Sites 发布使用 `webDirectory: "dist"`、`spa: false`。
+
+## 浏览器验收
+
+本地实现完成后，使用 Chrome 在 375×812 与 1440×1000 实际走通“签到 → 配文 → 选文 → 阅读 → 读完卡片 → 处方笺”。记录与截图见 [evidence/2026-11-07-local-acceptance.md](evidence/2026-11-07-local-acceptance.md)。
