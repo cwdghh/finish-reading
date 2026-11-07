@@ -8,7 +8,7 @@ Updated: 2026-11-07
 
 ## State
 
-赛道和产品方向已确定：LifeHack 生活娱乐，“读完”——按心情匹配公共版权短阅读单元、陪用户按节奏读完的阅读网站。产品概念、公版来源、Qoder Sites 仓库格式与 MVP 范围已写入 `docs/product/`。站点源码将放在 `site/`；尚未开始实现，尚未报名/认证，尚无公网 URL。Git 首次提交已完成（`3d27e6e`），`origin` 已指向 `cwdghh/finish-reading`；远程仓库当前无分支，尚未推送。
+赛道和产品方向已确定：LifeHack 生活娱乐，“读完”——按心情匹配公共版权短阅读单元、陪用户按节奏读完的阅读网站。产品概念、公版来源、Qoder Sites 仓库格式与 MVP 范围已写入 `docs/product/`。站点源码将放在 `site/`；尚未开始实现，尚未报名/认证，尚无公网 URL。Git 已有本地提交（最新 `c41dc80`），`origin` 已指向 `cwdghh/finish-reading`；推送阻塞：本机没有可用的 GitHub HTTPS 凭据或 SSH key。
 
 ## Latest evidence
 
@@ -18,6 +18,8 @@ Updated: 2026-11-07
 - 2026-11-07 已核对鲁迅《秋夜》维基文库页面，带 `{{Pd/1996|1936}}` 公版模板；可作为现代公版文本的样板。
 - 2026-11-07 阅读对象改为 2–15 分钟的“阅读单元”，不要求读完整本书。
 - 2026-11-07 Git 首次提交 `3d27e6e`；`origin` 指向 <https://github.com/cwdghh/finish-reading>；远程当前无分支。
+- 2026-11-07 用户确认：仅中国公版可接受、结果按匹配度排 10+、印章改为预设计样式、同意推送 GitHub。
+- 2026-11-07 推送尝试：HTTPS 无凭据（`could not read Username`），SSH 无 key（`Permission denied (publickey)`）；待本机完成 GitHub 认证。
 
 ## Current outputs
 
@@ -58,11 +60,11 @@ Updated: 2026-11-07
 - 团队成员与分工（目前按个人参赛准备）。
 - Qoder 账号与 Qoder Sites 可用性。
 - 报名/实名认证/阿里云大学生认证状态。
-- 是否现在推送到 GitHub 远程（推送需用户确认）。
+- 推送认证方式：HTTPS PAT / GitHub CLI / SSH key，任选一种后即可推送。
 
 ## Next step
 
 1. 确认产品文档、首批文本与心情卡文案；需要时调整。
-2. 经确认后推送到 GitHub；远程仓库当前为空，推送前需确认凭据。
+2. 在本机完成 GitHub 认证并推送；远程仓库当前为空，认证方式见 `docs/development-environment.md`。
 3. 完成天池报名、实名认证、阿里云大学生认证，领取 Qoder CN 权益。
 4. 按 `docs/product/mvp.md` 的里程碑开始实现（下一阶段，不在本轮）。

@@ -31,6 +31,16 @@ export ALL_PROXY=socks5://127.0.0.1:10808
 - Git 作者：Wei Chen（邮箱通过一次性提交参数提供，不写入仓库文档）。执行环境不允许修改 git config，因此提交时使用一次性 `-c user.name=... -c user.email=...` 参数，不写入本地/全局配置。
 - GitHub 远程：<https://github.com/cwdghh/finish-reading>。
 
+## GitHub 推送认证
+
+远程已配置为 HTTPS。本机 `credential.helper=osxkeychain`，但尚未保存 GitHub 凭据；SSH 也没有可用 key。任选一种方式完成一次认证：
+
+1. **HTTPS + PAT**：在本机终端执行 `git push -u origin main`，用户名填 GitHub 用户名，密码填 Personal Access Token（需要仓库 Contents 写权限）。成功后 macOS Keychain 会记住，后续推送不再询问。
+2. **GitHub CLI**：安装并登录 `gh`（`brew install gh`、`gh auth login`、`gh auth setup-git`），然后执行推送。
+3. **SSH**：生成 SSH key 并添加到 GitHub，再把远程改为 `git@github.com:cwdghh/finish-reading.git`。
+
+不要把 token 写进仓库、`.env` 或对话。认证完成后可让 Agent 继续执行推送，或自己执行 `git push -u origin main`。
+
 ## 常用检查
 
 ```bash
