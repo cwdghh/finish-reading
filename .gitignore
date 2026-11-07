@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+node_modules/
+dist/
+.vite/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+
+# Qoder Sites local descriptors
+*.qoder.site
+.qoder/
