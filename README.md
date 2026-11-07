@@ -55,7 +55,7 @@ Created: 2026-11-05
 
 - 比赛主页：<https://tianchi.aliyun.com/competition/entrance/532536>（页面信息核对于 2026-11-07）。
 - 学生权益领取入口：<https://university.aliyun.com/action/qoder>。
-- GitHub 仓库：<https://github.com/cwdghh/finish-reading>（源码与备份；部署仍走 Qoder Sites）。
+- GitHub 仓库：<https://github.com/cwdghh/finish-reading>（源码与备份；`main` 已推送；部署仍走 Qoder Sites）。
 - 尚缺：团队成员、Qoder 账号、报名/认证记录、Qoder Sites 发布验证。
 
 ## Commands

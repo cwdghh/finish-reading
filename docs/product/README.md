@@ -26,6 +26,7 @@
 - [concept.md](concept.md)：产品定义、用户、问题、差异化、非目标。
 - [content-plan.md](content-plan.md)：阅读单元、文本库、元数据、版权规则。
 - [public-domain-sources.md](public-domain-sources.md)：公版书来源与核验流程。
+- [design.md](design.md)：视觉、页面、交互与印章系统的初步设计计划（讨论稿）。
 - [site-format.md](site-format.md)：Qoder Sites 仓库格式、设计工作台与发布边界。
 - [mvp.md](mvp.md)：MVP 范围、页面、匹配规则、验收标准、里程碑。
 - [../evidence/README.md](../evidence/README.md)：Qoder 过程证据规范。

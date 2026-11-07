@@ -8,7 +8,7 @@ Updated: 2026-11-07
 
 ## State
 
-赛道和产品方向已确定：LifeHack 生活娱乐，“读完”——按心情匹配公共版权短阅读单元、陪用户按节奏读完的阅读网站。产品概念、公版来源、Qoder Sites 仓库格式与 MVP 范围已写入 `docs/product/`。站点源码将放在 `site/`；尚未开始实现，尚未报名/认证，尚无公网 URL。Git 已有本地提交（最新 `c41dc80`），`origin` 已指向 `cwdghh/finish-reading`；推送阻塞：本机没有可用的 GitHub HTTPS 凭据或 SSH key。
+赛道和产品方向已确定：LifeHack 生活娱乐，“读完”——按心情匹配公共版权短阅读单元、陪用户按节奏读完的阅读网站。产品概念、公版来源、Qoder Sites 仓库格式、MVP 范围与初步设计计划已写入 `docs/product/`。站点源码将放在 `site/`；尚未开始实现，尚未报名/认证，尚无公网 URL。Git `main` 已通过 SSH 推送到 `cwdghh/finish-reading`，最新本地/远程提交为 `00d7bdb`。
 
 ## Latest evidence
 
@@ -19,7 +19,8 @@ Updated: 2026-11-07
 - 2026-11-07 阅读对象改为 2–15 分钟的“阅读单元”，不要求读完整本书。
 - 2026-11-07 Git 首次提交 `3d27e6e`；`origin` 指向 <https://github.com/cwdghh/finish-reading>；远程当前无分支。
 - 2026-11-07 用户确认：仅中国公版可接受、结果按匹配度排 10+、印章改为预设计样式、同意推送 GitHub。
-- 2026-11-07 推送尝试：HTTPS 无凭据（`could not read Username`），SSH 无 key（`Permission denied (publickey)`）；待本机完成 GitHub 认证。
+- 2026-11-07 推送尝试：HTTPS 无凭据，SSH 无 key；随后切换到 SSH 远程，用户添加 key 后认证成功，`main` 已推送。
+- 2026-11-07 初步设计计划写入 `docs/product/design.md`（讨论稿）：视觉方向、页面流程、匹配排序、印章系统、技术映射与讨论点。
 
 ## Current outputs
 
@@ -29,6 +30,7 @@ Updated: 2026-11-07
 - `docs/product/public-domain-sources.md`：公版书来源、许可与核验流程。
 - `docs/product/site-format.md`：Qoder Sites 仓库格式、`.qoder.site` 生成规则与发布边界。
 - `docs/product/mvp.md`：MVP 范围、页面、匹配规则、验收标准与里程碑。
+- `docs/product/design.md`：视觉、页面、交互、印章系统与技术映射（讨论稿）。
 - `docs/development-environment.md`：代理、Node 环境与 Git 远程说明。
 - `docs/evidence/README.md`：Qoder 过程证据规范。
 - `site/README.md`：Qoder Sites 项目根占位说明。
@@ -55,16 +57,19 @@ Updated: 2026-11-07
 - 心情卡/需求卡文案与数量。
 - 18 个单元的名单、节选范围与体裁比例。
 - 是否加入读后心情签到与分享卡片（建议加入）。
-- 印章套装的具体字样、风格与数量。
+- 首页是否直接进入心情签到（建议是）。
+- 结果卡用“很合 / 挺合 / 可以看看”还是显示匹配分数。
+- 印章只在读完时选，还是每个检查点也能盖。
+- 分享卡片用竖版 4:5 还是横版 3:2。
+- 单页状态机还是加路由/查询参数。
 - 默认展示 10 个结果是否合适，还是展示全部 18 个。
 - 团队成员与分工（目前按个人参赛准备）。
 - Qoder 账号与 Qoder Sites 可用性。
 - 报名/实名认证/阿里云大学生认证状态。
-- 推送认证方式：HTTPS PAT / GitHub CLI / SSH key，任选一种后即可推送。
 
 ## Next step
 
-1. 确认产品文档、首批文本与心情卡文案；需要时调整。
-2. 在本机完成 GitHub 认证并推送；远程仓库当前为空，认证方式见 `docs/development-environment.md`。
+1. 和用户确认 `design.md` 里的关键设计选择（首页、匹配展示、印章时机、分享卡、状态机、默认结果数）。
+2. 确认后更新 `design.md` / `mvp.md`，按里程碑开始实现。
 3. 完成天池报名、实名认证、阿里云大学生认证，领取 Qoder CN 权益。
-4. 按 `docs/product/mvp.md` 的里程碑开始实现（下一阶段，不在本轮）。
+4. 实现前保留 Qoder 过程证据，按 `docs/evidence/README.md` 归档。

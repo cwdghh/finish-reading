@@ -87,6 +87,7 @@
 ## 技术与数据
 
 - 前端：Vite + React + TypeScript；样式用 Tailwind 或原生 CSS（实现时定）。
+- 路由：MVP 当前倾向单页视图状态机，不引入前端路由；`prepare_site` 可先用 `spa: false`。若后续需要分享具体结果页，再改用路由并设 `spa: true`。
 - 数据：`site/src/data/texts.json`、`site/src/data/moods.json`；匹配逻辑 `site/src/lib/match.ts`；文本分析 `site/src/lib/textStats.ts`。
 - 无后端；无账号；无外部 API；文本只在浏览器处理。
 - 部署：Qoder Sites 静态站点，公开访问；仓库格式见 [site-format.md](site-format.md)。

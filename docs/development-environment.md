@@ -29,17 +29,18 @@ export ALL_PROXY=socks5://127.0.0.1:10808
 - Node.js：v24.22.1（初始化 Qoder Sites React starter 前，以其 `package.json` 的 engines 为准）。
 - 包管理器：计划使用 npm；`site/` 初始化后以 starter 的 lockfile 为准。
 - Git 作者：Wei Chen（邮箱通过一次性提交参数提供，不写入仓库文档）。执行环境不允许修改 git config，因此提交时使用一次性 `-c user.name=... -c user.email=...` 参数，不写入本地/全局配置。
-- GitHub 远程：<https://github.com/cwdghh/finish-reading>。
+- GitHub 远程：`git@github.com:cwdghh/finish-reading.git`（SSH）。
+- 2026-11-07 SSH 认证成功，`main` 已推送并跟踪 `origin/main`。
 
 ## GitHub 推送认证
 
-远程已配置为 HTTPS。本机 `credential.helper=osxkeychain`，但尚未保存 GitHub 凭据；SSH 也没有可用 key。任选一种方式完成一次认证：
+远程已切换为 SSH，本机 key 已添加到 GitHub，推送验证通过。后续正常执行：
 
-1. **HTTPS + PAT**：在本机终端执行 `git push -u origin main`，用户名填 GitHub 用户名，密码填 Personal Access Token（需要仓库 Contents 写权限）。成功后 macOS Keychain 会记住，后续推送不再询问。
-2. **GitHub CLI**：安装并登录 `gh`（`brew install gh`、`gh auth login`、`gh auth setup-git`），然后执行推送。
-3. **SSH**：生成 SSH key 并添加到 GitHub，再把远程改为 `git@github.com:cwdghh/finish-reading.git`。
+```bash
+git push
+```
 
-不要把 token 写进仓库、`.env` 或对话。认证完成后可让 Agent 继续执行推送，或自己执行 `git push -u origin main`。
+如果换机器或 key 失效，需要重新配置 SSH key，或改用 GitHub CLI / HTTPS PAT。不要把 token 写进仓库、`.env` 或对话。
 
 ## 常用检查
 

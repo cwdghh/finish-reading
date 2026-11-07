@@ -55,8 +55,8 @@ finish-reading/
 
 - 使用 Qoder Sites 的 `prepare_site` / `publish_site`（通过 `sites-hosting` 技能）发布。
 - `prepare_site` 的 `projectRoot` 为 `site`，`webDirectory` 为 `dist`；`spa` 取决于最终路由：
-  - 单页状态切换、无深链接：`spa: false`。
-  - React Router 等深链接：`spa: true`，并验证刷新/直达。
+  - 当前设计倾向单页状态切换、无深链接：`spa: false`。
+  - 若后续改为 React Router 等深链接：`spa: true`，并验证刷新/直达。
 - 不手写 `sites.json`、ZIP 或外层 manifest；打包产物由工具生成。
 - 发布后验证公网 URL 在无痕窗口可打开；站点默认公开访问。
 
