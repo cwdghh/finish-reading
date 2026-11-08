@@ -201,7 +201,7 @@ light     15  逗笑=6 美=9 点醒=6
   - [need-order-report.json](need-order-report.json)：三分支需求排序。
   - [build-output.txt](build-output.txt)：最终构建与覆盖矩阵。
 
-> 2026-11-08 后续阅读优化：阅读页已改为默认连续滚动，并在完成页加入全文外链；详见 [2026-11-08-reading-refinement.md](2026-11-08-reading-refinement.md)。本记录中阅读页“整篇读完”的旧描述以该记录为准。
+> 2026-11-08 后续阅读优化：阅读页已改为默认连续滚动，并在完成页加入全文外链；详见 [2026-11-08-reading-refinement.md](2026-11-08-reading-refinement.md)。当前段落聚焦与 60 个文本的扩库见 [2026-11-08-focus-and-expansion.md](2026-11-08-focus-and-expansion.md)。本记录中的 53 个单元和阅读页旧描述均以后续记录为准。
 
 ## 13. 结论与未完成项
 

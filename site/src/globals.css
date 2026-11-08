@@ -1705,6 +1705,28 @@ ul {
   text-align: center;
 }
 
+.reading-body[data-focus="on"] .reading-section > p {
+  opacity: 0.55;
+  transition: opacity 240ms ease;
+}
+
+.reading-body[data-focus="on"] .reading-section > p[data-active="true"] {
+  opacity: 1;
+}
+
+.reading-body[data-focus="on"] .poem-line {
+  filter: opacity(0.55);
+  transition: filter 240ms ease;
+}
+
+.reading-body[data-focus="on"] .poem-line[data-active="true"] {
+  filter: none;
+}
+
+.reading-heading h1:focus {
+  outline: none;
+}
+
 .reading-body--poem {
   max-width: 580px;
   font-size: calc(22px * var(--reader-scale, 1) * var(--site-type, 1));
@@ -3031,6 +3053,11 @@ ul {
   }
 
   .reading-toolbar__work {
+    display: inline;
+    color: var(--reading-fg);
+  }
+
+  .reading-toolbar__unit {
     display: none;
   }
 

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import { FORM_LABELS, unitKindLabel, unitSubtitle } from "../data/moods";
 import type { TextUnit } from "../lib/types";
@@ -31,8 +31,11 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
   const [leading, setLeading] = useState<Leading>(1.9);
   const [night, setNight] = useState(false);
   const [showNotes, setShowNotes] = useState(true);
+  const [focusMode, setFocusMode] = useState(true);
+  const [activeBlock, setActiveBlock] = useState(-1);
   const [exitOpen, setExitOpen] = useState(false);
   const [warningOpen, setWarningOpen] = useState(unit.contentWarnings.length > 0);
+  const headingRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
     const timer = window.setInterval(() => setElapsed((value) => value + 1), 1000);
@@ -62,6 +65,48 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
     };
   }, [unit.id, wholePoem, fontScale, leading, showNotes]);
 
+  useEffect(() => {
+    if (!warningOpen) headingRef.current?.focus({ preventScroll: true });
+  }, [unit.id, warningOpen]);
+
+  useEffect(() => {
+    if (!focusMode) {
+      setActiveBlock(-1);
+      return;
+    }
+    let frame = 0;
+    const update = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        const blocks = Array.from(document.querySelectorAll<HTMLElement>("[data-reading-block]"));
+        if (blocks.length === 0) return;
+        const focusLine = window.innerHeight * 0.38;
+        let next = 0;
+        let best = Infinity;
+        blocks.forEach((block, index) => {
+          const rect = block.getBoundingClientRect();
+          const distance =
+            rect.top <= focusLine && rect.bottom >= focusLine
+              ? 0
+              : Math.min(Math.abs(rect.top - focusLine), Math.abs(rect.bottom - focusLine));
+          if (distance < best) {
+            best = distance;
+            next = index;
+          }
+        });
+        setActiveBlock((current) => (current === next ? current : next));
+      });
+    };
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [focusMode, unit.id, wholePoem, fontScale, leading, showNotes, revealed, warningOpen]);
+
   const isPoem = unit.form === "poem";
   const totalLines = useMemo(
     () => (isPoem ? unit.stanzas.reduce((sum, stanza) => sum + stanza.length, 0) : 0),
@@ -89,6 +134,7 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
     "--reader-scale": fontScale,
     "--reader-leading": leading,
   } as CSSProperties;
+  let proseBlockIndex = 0;
 
   if (warningOpen) {
     return (
@@ -218,6 +264,20 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
               <span className="switch__label">{night ? "已打开" : "关"}</span>
             </button>
           </div>
+          <div className="reading-settings__row">
+            <span>{isPoem ? "聚焦当前句" : "聚焦当前段"}</span>
+            <button
+              type="button"
+              className="switch"
+              role="switch"
+              aria-label={isPoem ? "聚焦当前阅读诗句" : "聚焦当前阅读段落"}
+              aria-checked={focusMode}
+              onClick={() => setFocusMode((value) => !value)}
+            >
+              <span className="switch__thumb" />
+              <span className="switch__label">{focusMode ? "已打开" : "关"}</span>
+            </button>
+          </div>
           {unit.notes.length > 0 && (
             <div className="reading-settings__row">
               <span>注释</span>
@@ -242,7 +302,7 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
           <p className="kicker">
             读完 / {FORM_LABELS[unit.form]} / {unitKindLabel(unit)}
           </p>
-          <h1>
+          <h1 ref={headingRef} tabIndex={-1}>
             <span>《{unit.workTitle}》</span>
             {unitSubtitle(unit) && <em>{unitSubtitle(unit)}</em>}
           </h1>
@@ -264,7 +324,11 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
         )}
 
         {isPoem ? (
-          <section className="reading-body reading-body--poem" aria-label="诗歌正文">
+          <section
+            className="reading-body reading-body--poem"
+            data-focus={focusMode ? "on" : "off"}
+            aria-label="诗歌正文"
+          >
             <div className="reading-mode-toggle reading-mode-toggle--top">
               <span>读法</span>
               <div className="segmented">
@@ -305,8 +369,17 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
                   {visibleLines.map((line, lineIndex) => {
                     const absoluteIndex = previousCount + lineIndex;
                     const isCurrent = !wholePoem && absoluteIndex === revealed - 1;
+                    const isFocused =
+                      focusMode &&
+                      (wholePoem ? activeBlock === absoluteIndex : absoluteIndex === revealed - 1);
                     return (
-                      <p className={`poem-line${isCurrent ? " is-current" : ""}`} key={`${line}-${lineIndex}`}>
+                      <p
+                        className={`poem-line${isCurrent ? " is-current" : ""}`}
+                        key={`${line}-${lineIndex}`}
+                        data-reading-block
+                        data-active={isFocused ? "true" : undefined}
+                        aria-current={isFocused ? "true" : undefined}
+                      >
                         {line}
                       </p>
                     );
@@ -316,12 +389,24 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
             })}
           </section>
         ) : (
-          <section className="reading-body" aria-label="正文">
+          <section className="reading-body" data-focus={focusMode ? "on" : "off"} aria-label="正文">
             {sections.map((paragraphs, index) => (
               <div className="reading-section" key={index}>
-                {paragraphs.map((paragraph, paragraphIndex) => (
-                  <p key={paragraphIndex}>{paragraph}</p>
-                ))}
+                {paragraphs.map((paragraph, paragraphIndex) => {
+                  const blockIndex = proseBlockIndex;
+                  proseBlockIndex += 1;
+                  const isFocused = focusMode && activeBlock === blockIndex;
+                  return (
+                    <p
+                      key={paragraphIndex}
+                      data-reading-block
+                      data-active={isFocused ? "true" : undefined}
+                      aria-current={isFocused ? "true" : undefined}
+                    >
+                      {paragraph}
+                    </p>
+                  );
+                })}
               </div>
             ))}
 

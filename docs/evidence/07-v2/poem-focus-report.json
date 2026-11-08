@@ -1,0 +1,29 @@
+{
+  "result": {
+    "lines": 8,
+    "activeCount": 1,
+    "activeText": "茅檐低小，",
+    "aria": "true",
+    "opacities": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "filters": [
+      "none",
+      "opacity(0.55)",
+      "opacity(0.55)",
+      "opacity(0.55)",
+      "opacity(0.55)",
+      "opacity(0.55)",
+      "opacity(0.55)",
+      "opacity(0.55)"
+    ]
+  },
+  "switchLabel": 1
+}

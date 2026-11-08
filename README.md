@@ -85,4 +85,4 @@ npm run build
 
 ## Progress
 
-v1 已完成 Qoder Sites 公网部署与验收；v2（四步签到、自由输入、9 个结果、53 个单元、新鲜度与移动端修正）已在本地实现并通过 375/1440 验收，尚未重新部署，论坛作品帖尚未发布。v1 公网验收见 [docs/evidence/06-deploy/2026-11-07-deployment.md](docs/evidence/06-deploy/2026-11-07-deployment.md)，v2 本地验收见 [docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md](docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md)，当前进度与下一步见 [STATUS.md](STATUS.md)。
+v1 已完成 Qoder Sites 公网部署与验收；v2（四步签到、自由输入、9 个结果、60 个单元、新鲜度与移动端修正）已在本地实现并通过 375/1440 验收，尚未重新部署，论坛作品帖尚未发布。v1 公网验收见 [docs/evidence/06-deploy/2026-11-07-deployment.md](docs/evidence/06-deploy/2026-11-07-deployment.md)，v2 本地验收见 [docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md](docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md)，当前进度与下一步见 [STATUS.md](STATUS.md)。

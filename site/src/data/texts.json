@@ -3336,5 +3336,386 @@
     "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
     "accessedAt": "2026-11-08",
     "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "luxun-lilun",
+    "workTitle": "立论",
+    "unitTitle": "全文",
+    "author": "鲁迅",
+    "authorDeathYear": 1936,
+    "publicationYear": 1925,
+    "form": "prose",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "light",
+    "weather": "晴",
+    "moodTags": [
+      "幽默",
+      "荒诞",
+      "点醒",
+      "闲适"
+    ],
+    "needTags": [
+      "逗笑",
+      "点醒"
+    ],
+    "valence": 0.5,
+    "arousal": 0.55,
+    "contentWarnings": [],
+    "contextBefore": "一个梦里的课堂：学生向老师请教，怎样说一句谁都不得罪的话。",
+    "sections": [
+      [
+        "我梦见自己正在小学校的讲堂上预备作文，向老师请教立论的方法。",
+        "“难！”老师从眼镜圈外斜射出眼光来，看着我，说。“我告诉你一件事——"
+      ],
+      [
+        "“一家人家生了一个男孩，合家高兴透顶了。满月的时候，抱出来给客人看，——大概自然是想得一点好兆头。",
+        "“一个说：‘这孩子将来要发财的。’他于是得到一番感谢。",
+        "“一个说：‘这孩子将来是要死的。’他于是得到一顿大家合力的痛打。"
+      ],
+      [
+        "“说要死的必然，说富贵的许谎。但说谎的得好报，说必然的遭打。你……”",
+        "“我愿意既不说谎，也不遭打。那么，老师，我得怎么说呢？”",
+        "“那么，你得说：‘啊呀！这孩子呵！您瞧！那么……。阿唷！哈哈！Ｈｅｈｅ！ｈｅ，ｈｅｈｅｈｅｈｅ！’”"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "说要死的必然，说富贵的许谎。但说谎的得好报，说必然的遭打。",
+    "excerpt": "一个说：‘这孩子将来是要死的。’他于是得到一顿大家合力的痛打。",
+    "whyItFits": "一场关于怎么说话的黑色小喜剧；笑完会明白，真话有时最不讨好。",
+    "moodDescription": "适合累但不想睡、想被逗一下又不想被说教的时候；短，带一点世故的笑。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/立論",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
+  },
+  {
+    "id": "shishuoxinyu-wanglantian",
+    "workTitle": "世说新语",
+    "unitTitle": "王蓝田食鸡子",
+    "author": "刘义庆（编）",
+    "authorDeathYear": 444,
+    "publicationYear": 430,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "light",
+    "weather": "晴",
+    "moodTags": [
+      "幽默",
+      "生活",
+      "荒诞",
+      "闲适",
+      "逗笑"
+    ],
+    "needTags": [
+      "逗笑"
+    ],
+    "valence": 0.62,
+    "arousal": 0.5,
+    "contentWarnings": [],
+    "contextBefore": "王述，字蓝田，东晋人；《世说新语》把他吃鸡蛋的一次发火记了下来。",
+    "sections": [
+      [
+        "王蓝田性急。尝食鸡子，以箸刺之，不得，便大怒，举以掷地。鸡子于地圆转未止，仍下地以履齿蹍之，又不得，瞋甚，复于地取内口中，啮破，即吐之。王右军闻而大笑，曰：“使安期有此性，犹当无一豪可论，况蓝田邪！”"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "箸",
+        "text": "筷子。"
+      },
+      {
+        "term": "履齿",
+        "text": "木屐底部的齿。"
+      },
+      {
+        "term": "内",
+        "text": "同“纳”，放进。"
+      }
+    ],
+    "quote": "王蓝田性急。尝食鸡子，以箸刺之，不得，便大怒，举以掷地。",
+    "excerpt": "鸡子于地圆转未止，仍下地以履齿蹍之，又不得，瞋甚，复于地取内口中，啮破，即吐之。",
+    "whyItFits": "一个人跟一颗鸡蛋较劲，古人写得一本正经；读完会忍不住笑，也会想起自己较劲的样子。",
+    "moodDescription": "适合疲惫但不想睡、需要一点轻的时候；它不讲道理，只让你看一个人跟鸡蛋生气。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/世說新語/忿狷",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
+  },
+  {
+    "id": "xinqiji-qingpingyue-cunju",
+    "workTitle": "清平乐",
+    "unitTitle": "村居",
+    "author": "辛弃疾",
+    "authorDeathYear": 1207,
+    "publicationYear": 1180,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "晴",
+    "moodTags": [
+      "轻盈",
+      "童趣",
+      "美",
+      "闲适"
+    ],
+    "needTags": [
+      "逗笑",
+      "美"
+    ],
+    "valence": 0.78,
+    "arousal": 0.45,
+    "contentWarnings": [],
+    "contextBefore": "辛弃疾晚年住在江西上饶，看见一户农家在溪边过日子。",
+    "sections": [],
+    "stanzas": [
+      [
+        "茅檐低小，",
+        "溪上青青草。",
+        "醉里吴音相媚好，",
+        "白发谁家翁媪？"
+      ],
+      [
+        "大儿锄豆溪东，",
+        "中儿正织鸡笼。",
+        "最喜小儿无赖，",
+        "溪头卧剥莲蓬。"
+      ]
+    ],
+    "notes": [],
+    "quote": "最喜小儿无赖，溪头卧剥莲蓬。",
+    "excerpt": "茅檐低小，溪上青青草。",
+    "whyItFits": "一家人的日常，被写得又小又亮；最后那个趴在溪边剥莲蓬的小孩，会把人的眉头松开。",
+    "moodDescription": "适合心情尚可、想轻松一点的时候；没有大道理，只有溪水、青草和小孩。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/清平樂_(辛棄疾)",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
+  },
+  {
+    "id": "baijuyi-wenliushijiu",
+    "workTitle": "问刘十九",
+    "unitTitle": "全文",
+    "author": "白居易",
+    "authorDeathYear": 846,
+    "publicationYear": 817,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "雪",
+    "moodTags": [
+      "温暖",
+      "陪伴",
+      "夜",
+      "美"
+    ],
+    "needTags": [
+      "陪伴",
+      "美",
+      "安慰"
+    ],
+    "valence": 0.72,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "一个将雪的傍晚，白居易问朋友刘十九要不要来喝一杯。",
+    "sections": [],
+    "stanzas": [
+      [
+        "绿蚁新醅酒，",
+        "红泥小火炉。"
+      ],
+      [
+        "晚来天欲雪，",
+        "能饮一杯无？"
+      ]
+    ],
+    "notes": [],
+    "quote": "晚来天欲雪，能饮一杯无？",
+    "excerpt": "绿蚁新醅酒，红泥小火炉。",
+    "whyItFits": "红泥小火炉、新酒、将雪的傍晚；它不劝你振作，只问你要不要来坐一会儿。",
+    "moodDescription": "适合想被陪、又不想说太多的时候；很小的一杯暖。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/問劉十九",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
+  },
+  {
+    "id": "wangwei-niaomingjian",
+    "workTitle": "鸟鸣涧",
+    "unitTitle": "全文",
+    "author": "王维",
+    "authorDeathYear": 761,
+    "publicationYear": 750,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "安静",
+      "夜",
+      "美",
+      "自然"
+    ],
+    "needTags": [
+      "美",
+      "陪伴"
+    ],
+    "valence": 0.6,
+    "arousal": 0.2,
+    "contentWarnings": [],
+    "contextBefore": "春夜的山里很静，静到能听见桂花落下。",
+    "sections": [],
+    "stanzas": [
+      [
+        "人闲桂花落，",
+        "夜静春山空。"
+      ],
+      [
+        "月出惊山鸟，",
+        "时鸣春涧中。"
+      ]
+    ],
+    "notes": [],
+    "quote": "月出惊山鸟，时鸣春涧中。",
+    "excerpt": "人闲桂花落，夜静春山空。",
+    "whyItFits": "它把安静写得有声音：花落、月出、鸟鸣；适合脑子停不下来时，把注意力放到很远的地方。",
+    "moodDescription": "适合夜里还醒着、想让脑子慢下来的人；读完像在山里站了一会儿。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/皇甫嶽雲溪雜題五首/鳥鳴澗",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
+  },
+  {
+    "id": "yangwanli-xiaochi",
+    "workTitle": "小池",
+    "unitTitle": "全文",
+    "author": "杨万里",
+    "authorDeathYear": 1206,
+    "publicationYear": 1170,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "晴",
+    "moodTags": [
+      "轻盈",
+      "夏天",
+      "美",
+      "童趣"
+    ],
+    "needTags": [
+      "美"
+    ],
+    "valence": 0.8,
+    "arousal": 0.4,
+    "contentWarnings": [],
+    "contextBefore": "初夏的小池边，泉眼、树阴、小荷和蜻蜓都很小。",
+    "sections": [],
+    "stanzas": [
+      [
+        "泉眼无声惜细流，",
+        "树阴照水爱晴柔。"
+      ],
+      [
+        "小荷才露尖尖角，",
+        "早有蜻蜓立上头。"
+      ]
+    ],
+    "notes": [],
+    "quote": "小荷才露尖尖角，早有蜻蜓立上头。",
+    "excerpt": "泉眼无声惜细流，树阴照水爱晴柔。",
+    "whyItFits": "四个小东西，各占一句；没有大事，但每一句都让人想再看一眼。",
+    "moodDescription": "适合想轻松一点、又不想看沉重东西的时候；两分钟，像在池边停一下。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/小池",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
+  },
+  {
+    "id": "dumu-shanxing",
+    "workTitle": "山行",
+    "unitTitle": "全文",
+    "author": "杜牧",
+    "authorDeathYear": 852,
+    "publicationYear": 830,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "晚霞",
+    "moodTags": [
+      "秋",
+      "美",
+      "轻盈",
+      "晚霞"
+    ],
+    "needTags": [
+      "美"
+    ],
+    "valence": 0.75,
+    "arousal": 0.4,
+    "contentWarnings": [],
+    "contextBefore": "秋天上山，路很远，枫叶却很红。",
+    "sections": [],
+    "stanzas": [
+      [
+        "远上寒山石径斜，",
+        "白云生处有人家。"
+      ],
+      [
+        "停车坐爱枫林晚，",
+        "霜叶红于二月花。"
+      ]
+    ],
+    "notes": [],
+    "quote": "停车坐爱枫林晚，霜叶红于二月花。",
+    "excerpt": "远上寒山石径斜，白云生处有人家。",
+    "whyItFits": "前两句把人带到山上，后两句忽然停下来；它教人为了好看的东西停一停。",
+    "moodDescription": "适合心情尚可、想看点明亮颜色的时候；两分钟，一次小小的秋游。",
+    "sourceUrl": "https://zh.wikisource.org/wiki/山行_(杜牧)",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08",
+    "contextAfter": ""
   }
 ]

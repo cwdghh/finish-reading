@@ -1,0 +1,66 @@
+{
+  "375": {
+    "initial": {
+      "activeCount": 1,
+      "activeText": "我们过了江，进了车站。我买票，他忙着照看行李。行",
+      "activeAria": "true",
+      "opacities": [
+        "1",
+        "0.55",
+        "0.55"
+      ],
+      "focusedTag": "H1",
+      "focusedText": "《背影》车站买橘",
+      "focusMode": "on"
+    },
+    "afterScroll": {
+      "activeCount": 1,
+      "activeText": "我赶紧拭干了泪，怕他看见，也怕别人看见。我再向外",
+      "activeIndex": 2,
+      "progress": "87%"
+    },
+    "switchState": "true",
+    "afterOff": {
+      "focusMode": "off",
+      "activeCount": 0,
+      "opacities": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "errors": []
+  },
+  "1440": {
+    "initial": {
+      "activeCount": 1,
+      "activeText": "我们过了江，进了车站。我买票，他忙着照看行李。行",
+      "activeAria": "true",
+      "opacities": [
+        "1",
+        "0.55",
+        "0.55"
+      ],
+      "focusedTag": "H1",
+      "focusedText": "《背影》车站买橘",
+      "focusMode": "on"
+    },
+    "afterScroll": {
+      "activeCount": 1,
+      "activeText": "我赶紧拭干了泪，怕他看见，也怕别人看见。我再向外",
+      "activeIndex": 2,
+      "progress": "100%"
+    },
+    "switchState": "true",
+    "afterOff": {
+      "focusMode": "off",
+      "activeCount": 0,
+      "opacities": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "errors": []
+  }
+}

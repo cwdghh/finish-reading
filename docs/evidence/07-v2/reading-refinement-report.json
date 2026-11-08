@@ -73,7 +73,7 @@
   },
   "poem": {
     "poem": {
-      "title": "《如梦令》常记溪亭日暮",
+      "title": "《清平乐》村居",
       "wholePressed": [
         {
           "text": "逐句",
@@ -84,7 +84,7 @@
           "pressed": "true"
         }
       ],
-      "lines": 6,
+      "lines": 8,
       "action": "我读完了",
       "nextButtons": 0,
       "flowNote": "整首已展开，按自己的速度向下读。"
