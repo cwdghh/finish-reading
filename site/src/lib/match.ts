@@ -71,6 +71,7 @@ export interface MatchResult {
   removedRecent: number;
   removedShown: number;
   recentFallback: boolean;
+  shownFallback: boolean;
   neutral: boolean;
   weak: boolean;
   freeThemes: string[];
@@ -385,12 +386,15 @@ export function rankTexts(
   const removedRecent = safe.length - pool.length;
 
   let removedShown = 0;
+  let shownFallback = false;
   const shownIds = options.shownIds ?? [];
   if (shownIds.length > 0) {
     const fresh = pool.filter((unit) => !shownIds.includes(unit.id));
     if (fresh.length >= Math.max(batchSize * 2, 16)) {
       removedShown = pool.length - fresh.length;
       pool = fresh;
+    } else {
+      shownFallback = true;
     }
   }
 
@@ -537,6 +541,7 @@ export function rankTexts(
     removedRecent,
     removedShown,
     recentFallback,
+    shownFallback,
     neutral,
     weak: (items[0]?.score ?? 0) < 0.7,
     freeThemes: inference.themes,

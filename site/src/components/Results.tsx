@@ -195,6 +195,7 @@ export function Results({
         result.removedRecent > 0 ||
         result.removedShown > 0 ||
         result.recentFallback ||
+        result.shownFallback ||
         result.items.length < 9) && (
         <div className="result-notes" role="status">
           {result.removedByWarnings > 0 && (
@@ -203,6 +204,9 @@ export function Results({
           {result.removedRecent > 0 && <span>最近读过的 {result.removedRecent} 个没有再出现。</span>}
           {result.removedShown > 0 && (
             <span>最近展示过的 {result.removedShown} 个先没有重复。</span>
+          )}
+          {result.shownFallback && (
+            <span>可选单元不多了，这一轮可能会和前几批重复。</span>
           )}
           {result.recentFallback && <span>可选单元不多了，读过的也可能再次出现。</span>}
           {result.items.length < 9 && (

@@ -1691,20 +1691,6 @@ ul {
   text-indent: 2em;
 }
 
-.reading-section + .reading-section {
-  margin-top: calc(34px * var(--site-space, 1));
-}
-
-.reading-section + .reading-section::before {
-  content: "·";
-  display: block;
-  margin-bottom: calc(22px * var(--site-space, 1));
-  color: var(--reading-muted);
-  font-size: 0.8em;
-  line-height: 1;
-  text-align: center;
-}
-
 .reading-body[data-focus="on"] .reading-section > p {
   opacity: 0.55;
   transition: opacity 240ms ease;

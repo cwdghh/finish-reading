@@ -1,0 +1,425 @@
+{
+  "base": "http://127.0.0.1:4173/",
+  "checkedAt": "2026-11-08T08:40:03.172Z",
+  "scenarios": [
+    {
+      "name": "free-input whitespace",
+      "label": "说不清，先跳过",
+      "reached": "need step",
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "free-input punctuation",
+      "label": "就按这句话配",
+      "results": {
+        "heading": "今天先读一篇",
+        "main": "《桨声灯影里的秦淮河》",
+        "rows": [
+          "《春风沉醉的晚上》",
+          "《记承天寺夜游》",
+          "《枫桥夜泊》",
+          "《敬业与乐业》",
+          "《与朱元思书》",
+          "《海滨故人》",
+          "《五柳先生传》",
+          "《再别康桥》"
+        ],
+        "count": 9,
+        "notes": "",
+        "empty": false
+      },
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "free-input suggestions/direct",
+      "cappedLength": 80,
+      "suggestions": [
+        "累但不想睡",
+        "脑子停不下来"
+      ],
+      "themes": [
+        "疲惫",
+        "夜",
+        "脑子停不下来"
+      ],
+      "results": {
+        "heading": "这轮先看 9 个",
+        "main": "《鸟鸣涧》",
+        "rows": [
+          "《秋夜》",
+          "《静夜思》",
+          "《荷塘月色》",
+          "《山居秋暝》",
+          "《竹里馆》",
+          "《答谢中书书》",
+          "《教我如何不想她》",
+          "《滁州西涧》"
+        ],
+        "count": 9,
+        "notes": "最近展示过的 9 个先没有重复。",
+        "empty": false
+      },
+      "neutral": "",
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "unclear path",
+      "results": {
+        "heading": "这轮先看 9 个",
+        "main": "《故乡》",
+        "rows": [
+          "《春风沉醉的晚上》",
+          "《海滨故人》",
+          "《桨声灯影里的秦淮河》",
+          "《水调歌头》",
+          "《小石潭记》",
+          "《敬业与乐业》",
+          "《雨巷》",
+          "《三峡》"
+        ],
+        "count": 9,
+        "notes": "",
+        "empty": false
+      },
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "avoid all warnings",
+      "results": {
+        "heading": "这轮先看 9 个",
+        "main": "《竹里馆》",
+        "rows": [
+          "《秋夜》",
+          "《教我如何不想她》",
+          "《静夜思》",
+          "《荷塘月色》",
+          "《滁州西涧》",
+          "《问刘十九》",
+          "《雪》",
+          "《山居秋暝》"
+        ],
+        "count": 9,
+        "notes": "按你的内容偏好，避开了 13 个单元。最近展示过的 6 个先没有重复。",
+        "empty": false
+      },
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "shuffle five times",
+      "batches": [
+        {
+          "heading": "这轮先看 9 个",
+          "count": 9,
+          "notes": ""
+        },
+        {
+          "heading": "今天先读一篇",
+          "count": 9,
+          "notes": "最近展示过的 9 个先没有重复。"
+        },
+        {
+          "heading": "今天先读一篇",
+          "count": 9,
+          "notes": "最近展示过的 18 个先没有重复。"
+        },
+        {
+          "heading": "今天先读一篇",
+          "count": 9,
+          "notes": "最近展示过的 27 个先没有重复。"
+        },
+        {
+          "heading": "今天先读一篇",
+          "count": 9,
+          "notes": "最近展示过的 36 个先没有重复。"
+        },
+        {
+          "heading": "这轮先看 9 个",
+          "count": 9,
+          "notes": "可选单元不多了，这一轮可能会和前几批重复。"
+        }
+      ],
+      "duplicateTitles": [
+        {
+          "batch": 0,
+          "title": "《世说新语》"
+        },
+        {
+          "batch": 5,
+          "title": "《记承天寺夜游》"
+        },
+        {
+          "batch": 5,
+          "title": "《立论》"
+        },
+        {
+          "batch": 5,
+          "title": "《五柳先生传》"
+        },
+        {
+          "batch": 5,
+          "title": "《清平乐》"
+        },
+        {
+          "batch": 5,
+          "title": "《世说新语》"
+        },
+        {
+          "batch": 5,
+          "title": "《如梦令》"
+        },
+        {
+          "batch": 5,
+          "title": "《卖油翁》"
+        },
+        {
+          "batch": 5,
+          "title": "《从百草园到三味书屋》"
+        },
+        {
+          "batch": 5,
+          "title": "《世说新语》"
+        }
+      ],
+      "overflow": {
+        "innerWidth": 1440,
+        "innerHeight": 1000,
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "finish guards and paragraph gap",
+      "gap": {
+        "paragraphs": 2,
+        "gap": 21
+      },
+      "paragraphButtons": {
+        "before": [
+          {
+            "text": "收下卡片",
+            "disabled": true
+          },
+          {
+            "text": "下载 PNG",
+            "disabled": true
+          }
+        ],
+        "moodOnly": [
+          {
+            "text": "收下卡片",
+            "disabled": true
+          },
+          {
+            "text": "下载 PNG",
+            "disabled": true
+          }
+        ],
+        "ready": [
+          {
+            "text": "收下卡片",
+            "disabled": false
+          },
+          {
+            "text": "下载 PNG",
+            "disabled": false
+          }
+        ],
+        "threeStamps": [
+          {
+            "text": "收下卡片",
+            "disabled": false
+          },
+          {
+            "text": "下载 PNG",
+            "disabled": false
+          }
+        ],
+        "fourthDisabled": true,
+        "afterDeselect": [
+          {
+            "text": "收下卡片",
+            "disabled": false
+          },
+          {
+            "text": "下载 PNG",
+            "disabled": false
+          }
+        ]
+      },
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "poem line-by-line",
+      "clicks": 7,
+      "finished": true,
+      "finishHeading": "读完了。",
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "320px narrow",
+      "home": {
+        "innerWidth": 320,
+        "innerHeight": 568,
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "overflow": false
+      },
+      "q4": {
+        "innerWidth": 320,
+        "innerHeight": 568,
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "overflow": false
+      },
+      "results": {
+        "innerWidth": 320,
+        "innerHeight": 568,
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "overflow": false
+      },
+      "reading": {
+        "innerWidth": 320,
+        "innerHeight": 568,
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "overflow": false
+      },
+      "finish": {
+        "innerWidth": 320,
+        "innerHeight": 568,
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "overflow": false
+      },
+      "overflow": {
+        "innerWidth": 320,
+        "innerHeight": 568,
+        "scrollWidth": 320,
+        "clientWidth": 320,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "localStorage blocked",
+      "homeHeading": "此刻，你更接近哪一种？",
+      "results": {
+        "heading": "这轮先看 9 个",
+        "main": "《记承天寺夜游》",
+        "rows": [
+          "《立论》",
+          "《五柳先生传》",
+          "《清平乐》",
+          "《世说新语》",
+          "《如梦令》",
+          "《卖油翁》",
+          "《从百草园到三味书屋》",
+          "《世说新语》"
+        ],
+        "count": 9,
+        "notes": "",
+        "empty": false
+      },
+      "overflow": {
+        "innerWidth": 375,
+        "innerHeight": 812,
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "overflow": false
+      },
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    }
+  ]
+}
