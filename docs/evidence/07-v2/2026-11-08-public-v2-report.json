@@ -1,0 +1,330 @@
+{
+  "url": "https://finish-reading-5ianhlwh00d.qoder.zone/",
+  "checkedAt": "2026-11-08T08:28:59.258Z",
+  "viewports": [
+    {
+      "label": "375",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "steps": {
+        "home": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 812,
+          "heading": "此刻，你更接近哪一种？"
+        },
+        "q2": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 812,
+          "heading": "疲惫的时候，更像哪一种？"
+        },
+        "q3": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 936,
+          "heading": "你想被怎样对待？"
+        },
+        "q4": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 1044,
+          "heading": "现在，有多少时间？"
+        },
+        "results": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 2054,
+          "heading": "这轮先看 9 个",
+          "kicker": "配文结果 / 从 60 个单元里",
+          "mainTitle": "《记承天寺夜游》",
+          "rankCount": 8,
+          "resultCount": 9,
+          "context": [
+            "累但不想睡",
+            "被逗笑",
+            "5 分钟",
+            "散文"
+          ]
+        },
+        "reading": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 1298,
+          "heading": "《记承天寺夜游》",
+          "focus": {
+            "blockCount": 2,
+            "active": [
+              {
+                "index": 0,
+                "active": true,
+                "aria": true
+              }
+            ],
+            "focus": "on"
+          }
+        },
+        "focusScroll": {
+          "before": {
+            "blockCount": 2,
+            "active": [
+              {
+                "index": 0,
+                "active": true,
+                "aria": true
+              }
+            ],
+            "focus": "on"
+          },
+          "after": {
+            "blockCount": 2,
+            "active": [
+              {
+                "index": 1,
+                "active": true,
+                "aria": true
+              }
+            ],
+            "focus": "on"
+          }
+        },
+        "focusOff": {
+          "blockCount": 2,
+          "active": [],
+          "focus": "off"
+        },
+        "focusOn": {
+          "blockCount": 2,
+          "active": [
+            {
+              "index": 0,
+              "active": true,
+              "aria": true
+            }
+          ],
+          "focus": "on"
+        },
+        "finish": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 2302,
+          "heading": "读完了。",
+          "fulltext": {
+            "text": "打开《记承天寺夜游》原文 ↗",
+            "href": "https://zh.wikisource.org/wiki/記承天寺夜遊",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "postMoodPressed": 0,
+          "stampCount": 12
+        },
+        "saved": {
+          "savedText": "已存入这台设备的处方笺。没有账号，也不会上传。",
+          "fixedHint": "已存入处方笺"
+        },
+        "download": {
+          "filename": "读完-20261108-记承天寺夜游.png",
+          "saved": true
+        },
+        "history": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "bodyScrollWidth": 375,
+          "scrollHeight": 812,
+          "heading": "读过的，都在这里。",
+          "cards": 1
+        }
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "label": "1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "steps": {
+        "home": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1078,
+          "heading": "此刻，你更接近哪一种？"
+        },
+        "q2": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1000,
+          "heading": "疲惫的时候，更像哪一种？"
+        },
+        "q3": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1000,
+          "heading": "你想被怎样对待？"
+        },
+        "q4": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1046,
+          "heading": "现在，有多少时间？"
+        },
+        "results": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1997,
+          "heading": "这轮先看 9 个",
+          "kicker": "配文结果 / 从 60 个单元里",
+          "mainTitle": "《记承天寺夜游》",
+          "rankCount": 8,
+          "resultCount": 9,
+          "context": [
+            "累但不想睡",
+            "被逗笑",
+            "5 分钟",
+            "散文"
+          ]
+        },
+        "reading": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1198,
+          "heading": "《记承天寺夜游》",
+          "focus": {
+            "blockCount": 2,
+            "active": [
+              {
+                "index": 0,
+                "active": true,
+                "aria": true
+              }
+            ],
+            "focus": "on"
+          }
+        },
+        "focusScroll": {
+          "before": {
+            "blockCount": 2,
+            "active": [
+              {
+                "index": 0,
+                "active": true,
+                "aria": true
+              }
+            ],
+            "focus": "on"
+          },
+          "after": {
+            "blockCount": 2,
+            "active": [
+              {
+                "index": 1,
+                "active": true,
+                "aria": true
+              }
+            ],
+            "focus": "on"
+          }
+        },
+        "focusOff": {
+          "blockCount": 2,
+          "active": [],
+          "focus": "off"
+        },
+        "focusOn": {
+          "blockCount": 2,
+          "active": [
+            {
+              "index": 0,
+              "active": true,
+              "aria": true
+            }
+          ],
+          "focus": "on"
+        },
+        "finish": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1461,
+          "heading": "读完了。",
+          "fulltext": {
+            "text": "打开《记承天寺夜游》原文 ↗",
+            "href": "https://zh.wikisource.org/wiki/記承天寺夜遊",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          "postMoodPressed": 0,
+          "stampCount": 12
+        },
+        "saved": {
+          "savedText": "已存入这台设备的处方笺。没有账号，也不会上传。",
+          "fixedHint": "已存入处方笺"
+        },
+        "download": {
+          "filename": "读完-20261108-记承天寺夜游.png",
+          "saved": true
+        },
+        "history": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "scrollHeight": 1000,
+          "heading": "读过的，都在这里。",
+          "cards": 1
+        }
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ]
+}

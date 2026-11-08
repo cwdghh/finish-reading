@@ -18,7 +18,7 @@ Updated: 2026-11-08
 - 阅读默认连续滚动，诗歌默认整首、可切逐句；默认聚焦当前段/句，可在设置关闭；末尾一个“我读完了”；读完页提供中文维基文库全文/原文外链；读后心情无默认值；移动端固定保存/下载，下载同时存入处方笺。
 - 本地处方笺、文本来源抽屉、375/1440 响应式与基础无障碍保留。
 
-v1 公网站点 <https://finish-reading-5ianhlwh00d.qoder.zone/> 保留、未下线；v1 annotated tag 仍在 `b1eb658`，未移动。v2 已完成构建并准备了 Qoder Sites 部署草稿（action `C32BB744-A7CF-49B9-823D-4F25BB6912F1`，descriptor 已写入），但 `publish_site` 被平台权限拦截，公网仍为 v1；需要用户明确说“恢复部署”后才能发布。Git `main` 已提交并推送 v2 稳定版 `12bdbe7`；当前段落聚焦、60 篇扩库与移动端工具栏修正已提交并推送 `34f5e23`，文档更新为 `d1759f4`、`075fffc`。
+v1 annotated tag 仍在 `b1eb658`，未移动。v2 已于 2026-11-08 发布到 Qoder Sites，公网地址仍为 <https://finish-reading-5ianhlwh00d.qoder.zone/>，访问范围公开。首次公网验收发现平台右下角 “Made with Qoder” 角标会覆盖移动端固定底栏按钮，已通过增加底栏避让空间修正并重新发布；375×812 与 1440×1000 公网全流程通过。Git `main` 已提交并推送 v2 稳定版 `12bdbe7`、聚焦与 60 篇扩库 `34f5e23`、文档 `d1759f4`/`075fffc`/`0d0399c`；本次角标修正与公网验收记录随后提交。
 
 天池报名已完成（个人队，1 人），实名认证已通过；阿里云大学生认证状态待最终确认。
 
@@ -39,7 +39,8 @@ v1 公网站点 <https://finish-reading-5ianhlwh00d.qoder.zone/> 保留、未下
 - 2026-11-08 证据目录：`docs/evidence/07-v2/`，含 375/1440 全流程截图、PNG、`e2e-report.json`、`behavior-report.json`、`timing-report.json`、聚焦与扩库记录。
 - 2026-11-08 阅读优化：散文/小说/古文改为连续滚动，3 段一次展开，逐段翻页按钮为 0，末尾仅“我读完了”；诗歌默认整首，逐句改为可选。375/1440 进度环从 0% 到 100%，控制台 0 错误。
 - 2026-11-08 完成页全文链接：节选《背影》显示“去中文维基文库读《背影》全文”，全文《如梦令》显示“打开《如梦令》原文”；均新标签页打开、`rel="noopener noreferrer"`、无横向溢出。详见 `docs/evidence/07-v2/2026-11-08-reading-refinement.md`。
-- 2026-11-08 部署前检查：`npm run build` 通过，文本校验 60 个单元；Qoder Sites 部署草稿 `C32BB744-A7CF-49B9-823D-4F25BB6912F1` 已准备且 `canPublish: true`，但发布被权限拦截，未改动公网 v1。
+- 2026-11-08 v2 公网发布：公网地址不变，线上资源为 60 篇构建；375×812 与 1440×1000 走通“疲惫 → 累但不想睡 → 被逗笑 → 5 分钟 → 散文 → 9 个结果 → 读《记承天寺夜游》 → 读完 → 保存 → 处方笺”。聚焦开关、全文链接属性、12 枚印章、1 张历史记录、1080×1350 PNG、无横向溢出、控制台/页面/请求错误 0 均通过。详见 `docs/evidence/07-v2/2026-11-08-public-v2-acceptance.md`。
+- 2026-11-08 移动端角标修正：平台 “Made with Qoder” 角标（147×32、最高 z-index）原会覆盖 375px 固定底栏的“生成处方/收下卡片/下载 PNG”；底栏底部内边距增至 52px 后，按钮上移，真实角标存在时全流程点击成功。
 - 2026-11-08 论坛帖草稿按 v2 更新：四步自适应签到、9 个结果、60 篇、连续阅读、段落聚焦、全文外链；自我介绍与 Qoder 账号仍待填写。
 
 ## Current outputs
@@ -59,10 +60,11 @@ v1 公网站点 <https://finish-reading-5ianhlwh00d.qoder.zone/> 保留、未下
 - `docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md`：v2 本地验收记录与截图索引。
 - `docs/evidence/07-v2/2026-11-08-reading-refinement.md`：连续阅读与完成页全文链接验收。
 - `docs/evidence/07-v2/2026-11-08-focus-and-expansion.md`：当前段落聚焦、移动端工具栏与 60 个文本扩库验收。
+- `docs/evidence/07-v2/2026-11-08-public-v2-acceptance.md`：v2 公网发布、375/1440 验收、移动端角标避让与截图索引。
 - `site/`：可运行的 React 站点源码（60 个单元、四步签到、自由输入、匹配/新鲜度、阅读、完成卡、PNG、处方笺、来源抽屉）。
 - `site/scripts/validate-texts.mjs`：文本与覆盖校验。
-- 公网作品（v1）：<https://finish-reading-5ianhlwh00d.qoder.zone/>。
-- `submission/forum-post.md`：论坛帖草稿（尚未按 v2 更新/发布）。
+- 公网作品（v2）：<https://finish-reading-5ianhlwh00d.qoder.zone/>。
+- `submission/forum-post.md`：论坛帖草稿（已按 v2 更新，待填个人信息与 Qoder 账号后发布）。
 
 ## Decisions
 
@@ -82,18 +84,19 @@ v1 公网站点 <https://finish-reading-5ianhlwh00d.qoder.zone/> 保留、未下
 - 不做积分、连续天数、排行榜、AI 摘要/问答、账号、后端。
 - 站点源码根目录为 `site/`；`.qoder.site` 由工具生成，不手写、不提交。
 - 视觉为 A+C 混合：暖纸、墨字、朱红；正文窄栏；`prefers-reduced-motion`。
+- 移动端固定底栏预留 52px 底部空间，避开 Qoder Sites 平台角标；角标保持显示，不隐藏或改写。
 - Git 作者身份使用 Wei Chen（邮箱通过一次性提交参数提供，不写入仓库文档）；远程 `origin` 指向 GitHub `cwdghh/finish-reading`。执行环境不允许修改 git config。
 
 ## Open questions
 
-- 是否恢复 Qoder Sites 部署与论坛帖发布；v2 部署草稿已就绪，但需要用户明确说“恢复部署”才能调用 `publish_site`。
 - 60 个是否继续扩到 100+；当前已满足 48–60 目标。
 - 阿里云大学生认证的最终状态与 Qoder CN 学生权益领取。
-- 论坛帖中的自我介绍、所用 Qoder 账号与分享链接待填写。
+- 论坛帖中的自我介绍、所用 Qoder 账号与分享链接待填写；v2 公网地址已可写入。
+- 论坛帖的最终发布账号与发布时间待确认。
 
 ## Next step
 
-1. v2、连续阅读、段落聚焦与 60 篇扩库已提交并推送；v1 tag 保持 `b1eb658`；v2 部署草稿已准备。
-2. 等用户明确说“恢复部署”后发布 v2，再做公网 375/1440 验收并更新证据；论坛帖改到 v2 口径后再发布。
-3. 若继续扩充内容，优先补“有点委屈 × 点醒”（当前 4 个）与更多“疲惫 × 逗笑”，仍以双公版为底线。
-4. 复核阿里云大学生认证状态，补齐论坛帖的自我介绍、Qoder 账号与分享链接。
+1. v2 已发布并通过 375/1440 公网验收；v1 tag 保持 `b1eb658`，未移动。
+2. 补齐论坛帖的自我介绍、所用 Qoder 账号与分享链接，然后把 v2 公网地址和过程证据发到天池论坛。
+3. 复核阿里云大学生认证状态与 Qoder CN 学生权益。
+4. 若继续扩充内容，优先补“有点委屈 × 点醒”（当前 4 个）与更多“疲惫 × 逗笑”，仍以双公版为底线；扩库后需重新构建、发布并做一次公网回归。

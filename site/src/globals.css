@@ -4103,7 +4103,8 @@ ul {
     z-index: 60;
     gap: 10px;
     margin: 0;
-    padding: 10px 18px calc(10px + env(safe-area-inset-bottom));
+    /* Keep the fixed actions above the platform-injected Qoder badge. */
+    padding: 10px 18px calc(52px + env(safe-area-inset-bottom));
     border-top: 1px solid var(--site-border);
     background: rgba(245, 240, 230, 0.97);
     backdrop-filter: blur(6px);
@@ -4133,7 +4134,7 @@ ul {
   }
 
   .site-shell[data-view="checkin"] .site-main {
-    padding-bottom: 108px;
+    padding-bottom: 150px;
   }
 
   .site-shell[data-view="checkin"] .site-footer {
@@ -4223,7 +4224,7 @@ ul {
   }
 
   .finish {
-    padding-bottom: 96px;
+    padding-bottom: 150px;
   }
 
   .finish-actions__primary,
@@ -4241,7 +4242,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    padding: 10px 18px calc(10px + env(safe-area-inset-bottom));
+    padding: 10px 18px calc(52px + env(safe-area-inset-bottom));
     border-top: 1px solid var(--site-border);
     background: rgba(245, 240, 230, 0.97);
     backdrop-filter: blur(6px);
