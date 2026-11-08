@@ -1,4 +1,4 @@
-import { STAMPS } from "../data/moods";
+import { STAMPS, unitKindLabel, unitSubtitle } from "../data/moods";
 import type { HistoryRecord } from "./types";
 import { formatDate } from "./storage";
 
@@ -125,26 +125,34 @@ export function renderFinishCard(record: HistoryRecord): HTMLCanvasElement {
   ctx.fillStyle = ACCENT;
   ctx.fillRect(92, 162, 64, 3);
 
-  // Title block
+  // Title block: the work is the headline; full/excerpt is metadata.
+  const unitType =
+    record.unitType ??
+    (record.unitTitle === "全文" || record.unitTitle === "整首" ? "full" : "excerpt");
+  const kind = unitKindLabel({ unitType, form: record.form });
+  const subtitle = unitSubtitle({ unitTitle: record.unitTitle });
   ctx.textAlign = "left";
-  ctx.fillStyle = MUTED;
-  ctx.font = `24px ${SANS}`;
-  ctx.fillText(`《${record.workTitle}》`, 92, 238);
-
   ctx.fillStyle = INK;
   ctx.font = `600 64px ${SERIF}`;
-  const titleLines = wrapText(ctx, record.unitTitle, 860, 2);
+  const titleLines = wrapText(ctx, `《${record.workTitle}》`, 860, 2);
   titleLines.forEach((line, index) => {
-    ctx.fillText(line, 92, 320 + index * 78);
+    ctx.fillText(line, 92, 300 + index * 78);
   });
 
-  const titleBottom = 320 + (titleLines.length - 1) * 78;
+  const titleBottom = 300 + (titleLines.length - 1) * 78;
+  if (subtitle) {
+    ctx.fillStyle = MUTED;
+    ctx.font = `28px ${SERIF}`;
+    ctx.fillText(subtitle, 92, titleBottom + 52);
+  }
+
+  const bylineY = titleBottom + (subtitle ? 104 : 52);
   ctx.fillStyle = MUTED;
   ctx.font = `22px ${SANS}`;
   ctx.fillText(
-    `${record.author} · ${record.readingMinutes} 分钟 · ${record.weather}`,
+    `${record.author} · ${kind} · ${record.readingMinutes} 分钟 · ${record.weather}`,
     92,
-    titleBottom + 52,
+    bylineY,
   );
 
   // A faint ink character keeps the middle of the card from feeling empty.
@@ -162,7 +170,7 @@ export function renderFinishCard(record: HistoryRecord): HTMLCanvasElement {
   const quoteLines = wrapText(ctx, record.quote, 830, 5);
   const quoteLineHeight = 61;
   const quoteBlockHeight = Math.max(1, quoteLines.length) * quoteLineHeight;
-  const quoteRegionTop = titleBottom + 110;
+  const quoteRegionTop = bylineY + 62;
   const quoteRegionBottom = record.note ? 840 : 940;
   const quoteTop = Math.min(
     quoteRegionBottom - quoteBlockHeight,

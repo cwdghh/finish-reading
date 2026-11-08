@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { CSSProperties } from "react";
-import { FORM_LABELS } from "../data/moods";
+import { FORM_LABELS, unitKindLabel, unitSubtitle } from "../data/moods";
 import type { TextUnit } from "../lib/types";
 import { formatClock } from "../lib/storage";
 import { ArrowLeft, ArrowRight, CheckIcon, ClockIcon, SlidersIcon } from "./icons";
@@ -21,11 +21,11 @@ type Leading = 1.9 | 2.05;
 
 export function Reading({ unit, onExit, onFinish }: ReadingProps) {
   const [elapsed, setElapsed] = useState(0);
-  const [sectionIndex, setSectionIndex] = useState(0);
-  const [notes, setNotes] = useState<string[]>(() => unit.sections.map(() => ""));
+  const [note, setNote] = useState("");
   const [revealed, setRevealed] = useState(1);
   const [revealedBeforeWhole, setRevealedBeforeWhole] = useState(1);
-  const [wholePoem, setWholePoem] = useState(() => unit.form === "poem" && unit.stanzas.flat().length > 14);
+  const [wholePoem, setWholePoem] = useState(true);
+  const [scrollProgress, setScrollProgress] = useState(0);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [fontScale, setFontScale] = useState<FontScale>(1);
   const [leading, setLeading] = useState<Leading>(1.9);
@@ -39,31 +39,42 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
     return () => window.clearInterval(timer);
   }, []);
 
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        setScrollProgress(max <= 0 ? 1 : Math.min(1, Math.max(0, window.scrollY / max)));
+      });
+    };
+    update();
+    const observer =
+      typeof ResizeObserver === "undefined" ? null : new ResizeObserver(update);
+    observer?.observe(document.body);
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      cancelAnimationFrame(frame);
+      observer?.disconnect();
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [unit.id, wholePoem, fontScale, leading, showNotes]);
+
   const isPoem = unit.form === "poem";
   const totalLines = useMemo(
     () => (isPoem ? unit.stanzas.reduce((sum, stanza) => sum + stanza.length, 0) : 0),
     [isPoem, unit.stanzas],
   );
   const sections = unit.sections;
-  const currentSection = sections[sectionIndex] ?? [];
-  const isLastSection = sectionIndex >= sections.length - 1;
-  const poemProgress = wholePoem ? 1 : Math.min(1, revealed / Math.max(1, totalLines));
-  const proseProgress = Math.min(1, (sectionIndex + 1) / Math.max(1, sections.length));
-  const progress = isPoem ? poemProgress : proseProgress;
+  const poemProgress = Math.min(1, revealed / Math.max(1, totalLines));
+  const progress = isPoem && !wholePoem ? poemProgress : scrollProgress;
 
-  const readingNotes = notes.map((note) => note.trim()).filter(Boolean);
+  const readingNotes = note.trim() ? [note.trim()] : [];
 
   const finish = () => {
     onFinish({ durationSeconds: elapsed, readingNotes });
-  };
-
-  const advanceSection = () => {
-    if (isLastSection) {
-      finish();
-      return;
-    }
-    setSectionIndex((index) => index + 1);
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const revealLine = () => {
@@ -141,8 +152,10 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
             </svg>
             <span>
               {isPoem
-                ? `${wholePoem ? totalLines : Math.min(revealed, totalLines)}/${totalLines}`
-                : `${sectionIndex + 1}/${sections.length}`}
+                ? wholePoem
+                  ? "整首"
+                  : `${Math.min(revealed, totalLines)}/${totalLines}`
+                : `${Math.round(progress * 100)}%`}
             </span>
           </span>
           <button
@@ -227,19 +240,23 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
       <main className="reading-main">
         <header className="reading-heading">
           <p className="kicker">
-            读完 / {FORM_LABELS[unit.form]}
-            {unit.unitType === "excerpt" ? " / 节选" : ""}
+            读完 / {FORM_LABELS[unit.form]} / {unitKindLabel(unit)}
           </p>
           <h1>
             <span>《{unit.workTitle}》</span>
-            <em>{unit.unitTitle}</em>
+            {unitSubtitle(unit) && <em>{unitSubtitle(unit)}</em>}
           </h1>
           <p className="reading-byline">
             {unit.author} · {unit.readingMinutes} 分钟 · {unit.weather}
           </p>
+          <p className="reading-flow-note">
+            {isPoem && !wholePoem
+              ? "逐句阅读中；随时可以切回整首。"
+              : `${isPoem ? "整首" : "正文"}已展开，按自己的速度向下读。`}
+          </p>
         </header>
 
-        {sectionIndex === 0 && unit.contextBefore && (
+        {unit.contextBefore && (
           <aside className="reading-context">
             <span>前情</span>
             <p>{unit.contextBefore}</p>
@@ -300,18 +317,22 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
           </section>
         ) : (
           <section className="reading-body" aria-label="正文">
-            {currentSection.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
+            {sections.map((paragraphs, index) => (
+              <div className="reading-section" key={index}>
+                {paragraphs.map((paragraph, paragraphIndex) => (
+                  <p key={paragraphIndex}>{paragraph}</p>
+                ))}
+              </div>
             ))}
 
-            {unit.notes.length > 0 && showNotes && sectionIndex === 0 && (
+            {unit.notes.length > 0 && showNotes && (
               <aside className="classical-notes" aria-label="注释">
                 <p className="classical-notes__title">短注</p>
                 <ol>
-                  {unit.notes.map((note) => (
-                    <li key={note.term}>
-                      <strong>{note.term}</strong>
-                      <span>{note.text}</span>
+                  {unit.notes.map((item) => (
+                    <li key={item.term}>
+                      <strong>{item.term}</strong>
+                      <span>{item.text}</span>
                     </li>
                   ))}
                 </ol>
@@ -320,22 +341,18 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
 
             <div className="checkpoint-note">
               <label htmlFor="checkpoint-note">
-                用一句话记住这一段
+                用一句话记住这次阅读
                 <span>可以不写</span>
               </label>
               <textarea
                 id="checkpoint-note"
                 rows={2}
                 maxLength={80}
-                placeholder="这段在讲什么？或者，你想记住哪一句？"
-                value={notes[sectionIndex] ?? ""}
-                onChange={(event) => {
-                  const next = [...notes];
-                  next[sectionIndex] = event.target.value;
-                  setNotes(next);
-                }}
+                placeholder="想记住哪一句？或者，读完后想说什么？"
+                value={note}
+                onChange={(event) => setNote(event.target.value)}
               />
-              <span className="checkpoint-note__count">{notes[sectionIndex]?.length ?? 0}/80</span>
+              <span className="checkpoint-note__count">{note.length}/80</span>
             </div>
           </section>
         )}
@@ -344,23 +361,13 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
           <span className="reading-actions__hint">
             {isPoem
               ? wholePoem
-                ? "读完之后，去留一张卡片。"
-                : "一次一句，也可以随时看整首。"
-              : isLastSection
-                ? "读完这一段，就可以收下这次阅读。"
-                : "这一段没有笔记也没关系。"}
+                ? "整首都在这里。读完之后，去留一张卡片。"
+                : "一次一句，也可以随时切回整首。"
+              : "这篇的内容都在这一页，按自己的速度读。读完后收下这次阅读。"}
           </span>
-          {isPoem ? (
-            wholePoem ? (
-              <button type="button" className="btn btn--primary" onClick={finish}>
-                我读完了 <CheckIcon />
-              </button>
-            ) : (
-              <button
-                type="button"
-                className="btn btn--primary"
-                onClick={revealLine}
-              >
+          <div className="reading-actions__buttons">
+            {isPoem && !wholePoem ? (
+              <button type="button" className="btn btn--primary" onClick={revealLine}>
                 {revealed >= totalLines ? (
                   <>
                     读完了 <CheckIcon />
@@ -371,20 +378,12 @@ export function Reading({ unit, onExit, onFinish }: ReadingProps) {
                   </>
                 )}
               </button>
-            )
-          ) : (
-            <button type="button" className="btn btn--primary" onClick={advanceSection}>
-              {isLastSection ? (
-                <>
-                  读完了 <CheckIcon />
-                </>
-              ) : (
-                <>
-                  读完这段 <ArrowRight />
-                </>
-              )}
-            </button>
-          )}
+            ) : (
+              <button type="button" className="btn btn--primary" onClick={finish}>
+                我读完了 <CheckIcon />
+              </button>
+            )}
+          </div>
         </footer>
       </main>
 

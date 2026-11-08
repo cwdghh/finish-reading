@@ -10,6 +10,10 @@ export type ContentWarning = "死亡" | "离别" | "疾病" | "暴力" | "沉重
 
 export type CopyrightScope = "public-domain-cn-us" | "public-domain-cn";
 
+export type MoodBranchId = "low" | "tired" | "good" | "unclear";
+
+export type UnitType = "full" | "excerpt";
+
 export interface TextNote {
   term: string;
   text: string;
@@ -23,7 +27,7 @@ export interface TextUnit {
   authorDeathYear: number;
   publicationYear: number;
   form: Form;
-  unitType: "full" | "excerpt";
+  unitType: UnitType;
   readingMinutes: number;
   difficulty: 1 | 2 | 3;
   pace: Pace;
@@ -51,14 +55,22 @@ export interface TextUnit {
   checkedAt: string;
 }
 
-export interface MoodOption {
+export interface MoodLeaf {
   id: string;
+  branch: MoodBranchId;
   label: string;
   sub: string;
   valence: number;
   arousal: number;
   affinity: string[];
   difficulty: 1 | 2 | 3;
+}
+
+export interface MoodBranch {
+  id: Exclude<MoodBranchId, "unclear">;
+  label: string;
+  sub: string;
+  leaves: string[];
 }
 
 export interface NeedOption {
@@ -87,9 +99,21 @@ export interface RankedUnit {
   breakdown: MatchBreakdown;
   reason: string;
   tooLong: boolean;
+  freeHit: boolean;
+}
+
+export interface MatchWeights {
+  need: number;
+  mood: number;
+  free: number;
+  time: number;
+  form: number;
+  affect: number;
+  difficulty: number;
 }
 
 export interface Answers {
+  branchId: MoodBranchId | "";
   moodId: string;
   needId: string;
   minutes: 5 | 15 | 25;
@@ -114,6 +138,7 @@ export interface HistoryRecord {
   finishedAt: string;
   workTitle: string;
   unitTitle: string;
+  unitType?: UnitType;
   author: string;
   form: Form;
   weather: Weather;
@@ -132,4 +157,16 @@ export interface StoredPrefs {
   minutes: 5 | 15 | 25;
   form: Form | "any";
   avoid: ContentWarning[];
+}
+
+export interface ShownRecord {
+  unitId: string;
+  shownAt: string;
+}
+
+export interface BatchCache {
+  seed: string;
+  ids: string[];
+  createdAt: string;
+  batchIndex: number;
 }

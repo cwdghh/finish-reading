@@ -108,7 +108,7 @@
     "stanzas": [],
     "notes": [],
     "quote": "他用两手攀着上面，两脚再向上缩；他肥胖的身子向左微倾，显出努力的样子。",
-    "excerpt": "我看见他戴着黑布小帽，穿着黑布大马褂，深青布棉袍，蹒跚地走到铁道边。",
+    "excerpt": "他给我拣定了靠车门的一张椅子；我将他给我做的紫毛大衣铺好坐位。",
     "whyItFits": "细节密、句子慢，像有人坐在旁边，不急着安慰你，只陪你想起一个人。",
     "moodDescription": "适合想家、想起父母、又不想被打扰的傍晚；读完会有一点酸，但不至于沉下去。",
     "copyrightScope": "public-domain-cn-us",
@@ -141,7 +141,8 @@
     ],
     "needTags": [
       "美",
-      "陪伴"
+      "陪伴",
+      "安慰"
     ],
     "valence": 0.55,
     "arousal": 0.22,
@@ -254,7 +255,8 @@
       "沉重"
     ],
     "needTags": [
-      "点醒"
+      "点醒",
+      "逗笑"
     ],
     "valence": 0.22,
     "arousal": 0.4,
@@ -292,7 +294,7 @@
     "stanzas": [],
     "notes": [],
     "quote": "不多不多！多乎哉？不多也。",
-    "excerpt": "孔乙己是站着喝酒而穿长衫的唯一的人。他身材很高大；青白脸色，皱纹间时常夹些伤痕。",
+    "excerpt": "只有穿长衫的，才踱进店面隔壁的房子里，要酒要菜，慢慢地坐喝。",
     "whyItFits": "它让你笑，也让你在笑完之后不太舒服；适合想看清一点人和旁观的时候。",
     "moodDescription": "适合想读一个好故事、又愿意面对一点凉意的时候；它不是安慰，是一面不太客气的镜子。",
     "copyrightScope": "public-domain-cn-us",
@@ -325,7 +327,8 @@
     ],
     "needTags": [
       "陪伴",
-      "美"
+      "美",
+      "安慰"
     ],
     "valence": 0.48,
     "arousal": 0.45,
@@ -367,8 +370,8 @@
     ],
     "stanzas": [],
     "notes": [],
-    "quote": "深蓝的天空中挂着一轮金黄的圆月，下面是海边的沙地，都种着一望无际的碧绿的西瓜。",
-    "excerpt": "这时候，我的脑里忽然闪出一幅神异的图画来：深蓝的天空中挂着一轮金黄的圆月……",
+    "quote": "深蓝的天空中挂着一轮金黄的圆月，下面是海边的沙地，都种着一望无际的碧绿的西瓜",
+    "excerpt": "这少年便是闰土。",
     "whyItFits": "它把童年写得很亮，又把“再也回不去”藏在最后；适合想被温柔地陪一会儿的时候。",
     "moodDescription": "适合想起小时候、想起一个很久没见的人；读完会有一点暖，也有一点空。",
     "copyrightScope": "public-domain-cn-us",
@@ -401,7 +404,8 @@
     ],
     "needTags": [
       "美",
-      "逗笑"
+      "逗笑",
+      "陪伴"
     ],
     "valence": 0.72,
     "arousal": 0.55,
@@ -424,7 +428,7 @@
     "stanzas": [],
     "notes": [],
     "quote": "两岸的豆麦和河底的水草所发散出来的清香，夹杂在水气中扑面的吹来；月色便朦胧在这水气里。",
-    "excerpt": "我的很重的心忽而轻松了，身体也似乎舒展到说不出的大。一出门，便望见月下的平桥内泊着一只白篷的航船。",
+    "excerpt": "我的很重的心忽而轻松了，身体也似乎舒展到说不出的大。",
     "whyItFits": "它把一次普通的夜航写成小小的冒险；适合今天还不错、想延长一点轻盈的时候。",
     "moodDescription": "适合夏夜、想出门又懒得动的时候；读着像坐在船头，风从豆麦田里吹过来。",
     "copyrightScope": "public-domain-cn-us",
@@ -491,7 +495,7 @@
     "stanzas": [],
     "notes": [],
     "quote": "一个人死了之后，究竟有没有魂灵的？",
-    "excerpt": "她一手提着竹篮。内中一个破碗，空的；一手拄着一支比她更长的竹竿，下端开了裂。",
+    "excerpt": "她分明已经纯乎是一个乞丐了。",
     "whyItFits": "它不提供答案，只把一个具体的人放在你面前；适合愿意慢一点、看清一点的时候。",
     "moodDescription": "适合想读一点有重量的东西、又不想被廉价的安慰打发的时候；读完会沉默一会儿。",
     "copyrightScope": "public-domain-cn-us",
@@ -552,7 +556,7 @@
     ],
     "stanzas": [],
     "notes": [],
-    "quote": "不必说碧绿的菜畦，光滑的石井栏，高大的皂荚树，紫红的桑椹；也不必说鸣蝉在树叶里长吟。",
+    "quote": "单是周围的短短的泥墙根一带，就有无限趣味。",
     "excerpt": "单是周围的短短的泥墙根一带，就有无限趣味。油蛉在这里低唱，蟋蟀们在这里弹琴。",
     "whyItFits": "它把一个小小的园子写成整个童年；适合今天还不错、想让心情再轻一点的时候。",
     "moodDescription": "适合想回到小时候、或者只是想让脑子歇一会儿的下午；读完会想出门看看草。",
@@ -586,7 +590,8 @@
     ],
     "needTags": [
       "陪伴",
-      "美"
+      "美",
+      "安慰"
     ],
     "valence": 0.5,
     "arousal": 0.42,
@@ -645,7 +650,8 @@
     ],
     "needTags": [
       "力量",
-      "点醒"
+      "点醒",
+      "安慰"
     ],
     "valence": 0.66,
     "arousal": 0.5,
@@ -903,7 +909,8 @@
     ],
     "needTags": [
       "美",
-      "陪伴"
+      "陪伴",
+      "安慰"
     ],
     "valence": 0.3,
     "arousal": 0.3,
@@ -971,7 +978,7 @@
     ],
     "notes": [],
     "quote": "我希望逢着一个丁香一样地结着愁怨的姑娘。",
-    "excerpt": "撑着油纸伞，独自彷徨在悠长，悠长又寂寥的雨巷。",
+    "excerpt": "撑着油纸伞，独自彷徨在悠长，悠长又寂寥的雨巷",
     "whyItFits": "它不急着把你从孤独里拉出来，只陪你在雨里走一段；适合心里有点空的时候。",
     "moodDescription": "适合雨天、傍晚、一个人走路的时候；读完会觉得那点惆怅被看见了。",
     "copyrightScope": "public-domain-cn-us",
@@ -1004,7 +1011,8 @@
     ],
     "needTags": [
       "美",
-      "陪伴"
+      "陪伴",
+      "点醒"
     ],
     "valence": 0.62,
     "arousal": 0.3,
@@ -1154,7 +1162,7 @@
     ],
     "stanzas": [],
     "notes": [],
-    "quote": "少年智则国智，少年富则国富；少年强则国强，少年独立则国独立。",
+    "quote": "美哉我少年中国，与天不老；壮哉我中国少年，与国无疆！",
     "excerpt": "故今日之责任，不在他人，而全在我少年。",
     "whyItFits": "它不绕弯子，直接把力气递过来；适合需要被推一把、或者想重新相信一点什么的时候。",
     "moodDescription": "适合早起、跑步、准备做一件难事的时候；读完会想站起来。",
@@ -1164,5 +1172,2169 @@
     "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
     "accessedAt": "2026-11-07",
     "checkedAt": "2026-11-07"
+  },
+  {
+    "id": "libai-jingyesi",
+    "workTitle": "静夜思",
+    "unitTitle": "全文",
+    "author": "李白",
+    "authorDeathYear": 762,
+    "publicationYear": 730,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "孤独",
+      "夜",
+      "思乡",
+      "安静"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.36,
+    "arousal": 0.25,
+    "contentWarnings": [],
+    "contextBefore": "一个睡不着的夜里，月光落进房间。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "床前明月光，",
+        "疑是地上霜。"
+      ],
+      [
+        "举头望明月，",
+        "低头思故乡。"
+      ]
+    ],
+    "notes": [],
+    "quote": "举头望明月，低头思故乡。",
+    "excerpt": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+    "whyItFits": "二十个字，把一个人想家的夜晚说完了；不用解释，也不用振作。",
+    "moodDescription": "适合夜里醒来、忽然想起家的人；它不劝你睡，只把月光留在原处。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/靜夜思",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "menghaoran-chunxiao",
+    "workTitle": "春晓",
+    "unitTitle": "全文",
+    "author": "孟浩然",
+    "authorDeathYear": 740,
+    "publicationYear": 730,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "小雨",
+    "moodTags": [
+      "轻盈",
+      "春",
+      "自然",
+      "闲适"
+    ],
+    "needTags": [
+      "美",
+      "安慰"
+    ],
+    "valence": 0.72,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "春天早晨醒来，听见窗外鸟声和一夜风雨的余音。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "春眠不觉晓，",
+        "处处闻啼鸟。"
+      ],
+      [
+        "夜来风雨声，",
+        "花落知多少。"
+      ]
+    ],
+    "notes": [],
+    "quote": "夜来风雨声，花落知多少。",
+    "excerpt": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
+    "whyItFits": "它不追问你睡得好不好，只把鸟声、风雨和落花放在一个早晨里。",
+    "moodDescription": "适合心情尚可、想延长一点春日闲意的早晨；有点惋惜，但不沉重。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/春曉_(孟浩然)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "wangzhihuan-dengguanquelou",
+    "workTitle": "登鹳雀楼",
+    "unitTitle": "全文",
+    "author": "王之涣",
+    "authorDeathYear": 742,
+    "publicationYear": 730,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "steady",
+    "density": "light",
+    "weather": "晚霞",
+    "moodTags": [
+      "开阔",
+      "力量",
+      "点醒",
+      "美"
+    ],
+    "needTags": [
+      "力量",
+      "点醒",
+      "安慰"
+    ],
+    "valence": 0.68,
+    "arousal": 0.55,
+    "contentWarnings": [],
+    "contextBefore": "傍晚登楼，黄河与落日一起铺到天边。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "白日依山尽，",
+        "黄河入海流。"
+      ],
+      [
+        "欲穷千里目，",
+        "更上一层楼。"
+      ]
+    ],
+    "notes": [],
+    "quote": "欲穷千里目，更上一层楼。",
+    "excerpt": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+    "whyItFits": "它不喊口号，只把“再上一层”说成一个自然的动作。",
+    "moodDescription": "适合需要一点力气、又不愿被说教的人；视野先被打开，力气随后才来。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/登鸛雀樓_(王之渙)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liuzongyuan-jiangxue",
+    "workTitle": "江雪",
+    "unitTitle": "全文",
+    "author": "柳宗元",
+    "authorDeathYear": 819,
+    "publicationYear": 815,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "light",
+    "weather": "雪",
+    "moodTags": [
+      "孤独",
+      "安静",
+      "雪",
+      "美"
+    ],
+    "needTags": [
+      "美",
+      "陪伴"
+    ],
+    "valence": 0.3,
+    "arousal": 0.18,
+    "contentWarnings": [],
+    "contextBefore": "大雪覆盖江面，山里没有鸟，路上没有人。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "千山鸟飞绝，",
+        "万径人踪灭。"
+      ],
+      [
+        "孤舟蓑笠翁，",
+        "独钓寒江雪。"
+      ]
+    ],
+    "notes": [],
+    "quote": "孤舟蓑笠翁，独钓寒江雪。",
+    "excerpt": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。",
+    "whyItFits": "它把孤独写成一片很干净的雪景，不替你喊冷，也不催你离开。",
+    "moodDescription": "适合想一个人待着、又不想被完全隔绝的冬日；孤独里有自己的姿态。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/江雪",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "zhangji-fengqiaoyebo",
+    "workTitle": "枫桥夜泊",
+    "unitTitle": "全文",
+    "author": "张继",
+    "authorDeathYear": 779,
+    "publicationYear": 760,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "孤独",
+      "夜",
+      "愁",
+      "美"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.3,
+    "arousal": 0.25,
+    "contentWarnings": [],
+    "contextBefore": "船停在枫桥边，夜半的钟声从寒山寺传来。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "月落乌啼霜满天，",
+        "江枫渔火对愁眠。"
+      ],
+      [
+        "姑苏城外寒山寺，",
+        "夜半钟声到客船。"
+      ]
+    ],
+    "notes": [],
+    "quote": "姑苏城外寒山寺，夜半钟声到客船。",
+    "excerpt": "月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。",
+    "whyItFits": "它不消除愁，只让钟声在夜里响一下，像有人知道你还没睡。",
+    "moodDescription": "适合夜里睡不着、心里有点堵的人；愁被安放在江水和钟声之间。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/楓橋夜泊",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "wangwei-zhuliguan",
+    "workTitle": "竹里馆",
+    "unitTitle": "全文",
+    "author": "王维",
+    "authorDeathYear": 761,
+    "publicationYear": 750,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "安静",
+      "闲适",
+      "夜",
+      "自然"
+    ],
+    "needTags": [
+      "陪伴",
+      "美",
+      "安慰"
+    ],
+    "valence": 0.55,
+    "arousal": 0.15,
+    "contentWarnings": [],
+    "contextBefore": "独坐在竹林深处，弹琴、长啸，明月从林梢照下来。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "独坐幽篁里，",
+        "弹琴复长啸。"
+      ],
+      [
+        "深林人不知，",
+        "明月来相照。"
+      ]
+    ],
+    "notes": [],
+    "quote": "深林人不知，明月来相照。",
+    "excerpt": "独坐幽篁里，弹琴复长啸。深林人不知，明月来相照。",
+    "whyItFits": "一个人待着，却不显得被遗弃；月亮替沉默的人留了一盏灯。",
+    "moodDescription": "适合累了一天、只想安静坐一会儿的人；陪伴很轻，不打扰。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/輞川集_(王維)/竹里館",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "weiyingwu-chuzhouxijian",
+    "workTitle": "滁州西涧",
+    "unitTitle": "全文",
+    "author": "韦应物",
+    "authorDeathYear": 792,
+    "publicationYear": 780,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "小雨",
+    "moodTags": [
+      "闲适",
+      "自然",
+      "美",
+      "安静"
+    ],
+    "needTags": [
+      "美",
+      "安慰"
+    ],
+    "valence": 0.6,
+    "arousal": 0.22,
+    "contentWarnings": [],
+    "contextBefore": "春潮带着雨涨起来，荒野渡口没有人，只有一只小船横在水边。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "独怜幽草涧边生，",
+        "上有黄鹂深树鸣。"
+      ],
+      [
+        "春潮带雨晚来急，",
+        "野渡无人舟自横。"
+      ]
+    ],
+    "notes": [],
+    "quote": "春潮带雨晚来急，野渡无人舟自横。",
+    "excerpt": "独怜幽草涧边生，上有黄鹂深树鸣。春潮带雨晚来急，野渡无人舟自横。",
+    "whyItFits": "没有人来渡河，船也不着急；世界偶尔可以不围着人转。",
+    "moodDescription": "适合想从现实里退半步的人；雨声、草色和一只空船就够了。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/滁州西澗",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "sushi-tixilinbi",
+    "workTitle": "题西林壁",
+    "unitTitle": "全文",
+    "author": "苏轼",
+    "authorDeathYear": 1101,
+    "publicationYear": 1084,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "light",
+    "weather": "薄雾",
+    "moodTags": [
+      "山",
+      "点醒",
+      "豁达",
+      "理趣",
+      "自然"
+    ],
+    "needTags": [
+      "点醒",
+      "力量"
+    ],
+    "valence": 0.58,
+    "arousal": 0.45,
+    "contentWarnings": [],
+    "contextBefore": "从西林寺看庐山，横看是岭，侧看是峰，怎么看都不一样。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "横看成岭侧成峰，",
+        "远近高低各不同。"
+      ],
+      [
+        "不识庐山真面目，",
+        "只缘身在此山中。"
+      ]
+    ],
+    "notes": [],
+    "quote": "不识庐山真面目，只缘身在此山中。",
+    "excerpt": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
+    "whyItFits": "它不替你找答案，只提醒你：看不清，可能只是因为站得太近。",
+    "moodDescription": "适合脑子停不下来、反复想同一件事的人；它给的是一个换视角的动作。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/題西林壁_(蘇軾)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "sushi-shuidiaogetou",
+    "workTitle": "水调歌头",
+    "unitTitle": "明月几时有",
+    "author": "苏轼",
+    "authorDeathYear": 1101,
+    "publicationYear": 1076,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 5,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "夜风",
+    "moodTags": [
+      "思念",
+      "豁达",
+      "月",
+      "美",
+      "孤独"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰",
+      "美",
+      "点醒"
+    ],
+    "valence": 0.55,
+    "arousal": 0.35,
+    "contentWarnings": [
+      "离别"
+    ],
+    "contextBefore": "中秋夜，苏轼在密州喝酒到天亮，想起多年未见的弟弟苏辙。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "明月几时有？把酒问青天。",
+        "不知天上宫阙，今夕是何年。"
+      ],
+      [
+        "我欲乘风归去，又恐琼楼玉宇，高处不胜寒。",
+        "起舞弄清影，何似在人间。"
+      ],
+      [
+        "转朱阁，低绮户，照无眠。",
+        "不应有恨，何事长向别时圆？"
+      ],
+      [
+        "人有悲欢离合，月有阴晴圆缺，此事古难全。",
+        "但愿人长久，千里共婵娟。"
+      ]
+    ],
+    "notes": [],
+    "quote": "但愿人长久，千里共婵娟。",
+    "excerpt": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。",
+    "whyItFits": "它承认离别和缺憾，却没有停在遗憾里；最后把祝愿放得很远。",
+    "moodDescription": "适合想念一个人、又知道暂时见不到的时候；月光把距离说得温柔一点。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/水調歌頭_(明月幾時有)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liqingzhao-shengshengman",
+    "workTitle": "声声慢",
+    "unitTitle": "寻寻觅觅",
+    "author": "李清照",
+    "authorDeathYear": 1155,
+    "publicationYear": 1150,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 5,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "小雨",
+    "moodTags": [
+      "愁",
+      "孤独",
+      "秋",
+      "美"
+    ],
+    "needTags": [
+      "安慰",
+      "陪伴"
+    ],
+    "valence": 0.18,
+    "arousal": 0.3,
+    "contentWarnings": [
+      "沉重意象"
+    ],
+    "contextBefore": "一个乍暖还寒的秋天，词人独自守着窗儿，听梧桐细雨。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+        "乍暖还寒时候，最难将息。"
+      ],
+      [
+        "三杯两盏淡酒，怎敌他、晚来风急？",
+        "雁过也，正伤心，却是旧时相识。"
+      ],
+      [
+        "满地黄花堆积。憔悴损，如今有谁堪摘？",
+        "守着窗儿，独自怎生得黑？"
+      ],
+      [
+        "梧桐更兼细雨，到黄昏、点点滴滴。",
+        "这次第，怎一个愁字了得！"
+      ]
+    ],
+    "notes": [],
+    "quote": "这次第，怎一个愁字了得！",
+    "excerpt": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。",
+    "whyItFits": "它不急着把愁劝走，只是把冷、雨、黄昏一层层写出来，让情绪有个地方放。",
+    "moodDescription": "适合心里堵得说不清、又不想被强行安慰的时候；它先承认难受。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/聲聲慢_(李清照)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liyu-yumeiren",
+    "workTitle": "虞美人",
+    "unitTitle": "春花秋月何时了",
+    "author": "李煜",
+    "authorDeathYear": 978,
+    "publicationYear": 978,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "夜风",
+    "moodTags": [
+      "亡国",
+      "愁",
+      "美",
+      "怀旧"
+    ],
+    "needTags": [
+      "美",
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.15,
+    "arousal": 0.3,
+    "contentWarnings": [
+      "沉重意象"
+    ],
+    "contextBefore": "春花秋月年年依旧，故国却已经回不去了。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "春花秋月何时了，",
+        "往事知多少？"
+      ],
+      [
+        "小楼昨夜又东风，",
+        "故国不堪回首月明中！"
+      ],
+      [
+        "雕阑玉砌应犹在，",
+        "只是朱颜改。"
+      ],
+      [
+        "问君能有几多愁？",
+        "恰似一江春水向东流！"
+      ]
+    ],
+    "notes": [],
+    "quote": "问君能有几多愁？恰似一江春水向东流！",
+    "excerpt": "春花秋月何时了，往事知多少？小楼昨夜又东风，故国不堪回首月明中！",
+    "whyItFits": "它把很大的失去写成一江春水，读完之后，胸口的堵有了形状。",
+    "moodDescription": "适合委屈、失落、又说不出口的时候；它不提供解法，只把愁放到一个更宽的地方。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/虞美人_(李煜)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "mayuanzhi-tianjingsha",
+    "workTitle": "天净沙·秋思",
+    "unitTitle": "秋思",
+    "author": "马致远",
+    "authorDeathYear": 1321,
+    "publicationYear": 1300,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "晚霞",
+    "moodTags": [
+      "孤独",
+      "秋",
+      "思乡",
+      "美"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.25,
+    "arousal": 0.2,
+    "contentWarnings": [],
+    "contextBefore": "一个秋天的傍晚，旅人还在古道上，离家很远。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "枯藤老树昏鸦，",
+        "小桥流水人家，",
+        "古道西风瘦马。"
+      ],
+      [
+        "夕阳西下，",
+        "断肠人在天涯。"
+      ]
+    ],
+    "notes": [],
+    "quote": "夕阳西下，断肠人在天涯。",
+    "excerpt": "枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。",
+    "whyItFits": "它没有说“别难过”，只是把黄昏、古道和人家摆在一起，让想家的人被看见。",
+    "moodDescription": "适合傍晚突然想家、又回不去的时候；短，但不轻飘。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/天淨沙·秋思",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "wenyiduo-sishui",
+    "workTitle": "死水",
+    "unitTitle": "全文",
+    "author": "闻一多",
+    "authorDeathYear": 1946,
+    "publicationYear": 1928,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 3,
+    "pace": "steady",
+    "density": "dense",
+    "weather": "薄雾",
+    "moodTags": [
+      "沉重",
+      "讽刺",
+      "点醒",
+      "力量"
+    ],
+    "needTags": [
+      "点醒",
+      "力量"
+    ],
+    "valence": 0.12,
+    "arousal": 0.55,
+    "contentWarnings": [
+      "沉重意象"
+    ],
+    "contextBefore": "一沟不再流动的死水，被写得越“美”，越让人不安。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "这是一沟绝望的死水，",
+        "清风吹不起半点漪沦。",
+        "不如多扔些破铜烂铁，",
+        "爽性泼你的剩菜残羹。"
+      ],
+      [
+        "也许铜的要绿成翡翠，",
+        "铁罐上锈出几瓣桃花；",
+        "再让油腻织一层罗绮，",
+        "霉菌给他蒸出些云霞。"
+      ],
+      [
+        "让死水酵成一沟绿酒，",
+        "飘满了珍珠似的白沫；",
+        "小珠们笑声变成大珠，",
+        "又被偷酒的花蚊咬破。"
+      ],
+      [
+        "那么一沟绝望的死水，",
+        "也就夸得上几分鲜明。",
+        "如果青蛙耐不住寂寞，",
+        "又算死水叫出了歌声。"
+      ],
+      [
+        "这是一沟绝望的死水，",
+        "这里断不是美的所在，",
+        "不如让给丑恶来开垦，",
+        "看他造出个什么世界。"
+      ]
+    ],
+    "notes": [],
+    "quote": "这是一沟绝望的死水，这里断不是美的所在",
+    "excerpt": "这是一沟绝望的死水，清风吹不起半点漪沦。",
+    "whyItFits": "它不提供温柔的安慰，但会把“不对劲”说得很清楚；适合需要一句真话的时候。",
+    "moodDescription": "适合脑子停不下来、对现实憋着一口气的人；读完不一定轻松，但会更清醒。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/死水",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "xuzhimo-ouran",
+    "workTitle": "偶然",
+    "unitTitle": "全文",
+    "author": "徐志摩",
+    "authorDeathYear": 1931,
+    "publicationYear": 1926,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "相遇",
+      "离别",
+      "美",
+      "轻盈",
+      "温柔"
+    ],
+    "needTags": [
+      "美",
+      "安慰",
+      "陪伴"
+    ],
+    "valence": 0.55,
+    "arousal": 0.3,
+    "contentWarnings": [
+      "离别"
+    ],
+    "contextBefore": "两个人像云和波心，在夜里短暂地交会，又各自离开。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "我是天空里的一片云，",
+        "偶尔投影在你的波心──",
+        "你不必讶异，",
+        "更无须欢喜──",
+        "在转瞬间消灭了踪影。"
+      ],
+      [
+        "你我相逢在黑夜的海上，",
+        "你有你的，我有我的，方向；",
+        "你记得也好，",
+        "最好你忘掉，",
+        "在这交会时互放的光亮！"
+      ]
+    ],
+    "notes": [],
+    "quote": "你记得也好，最好你忘掉，在这交会时互放的光亮！",
+    "excerpt": "我是天空里的一片云，偶尔投影在你的波心──",
+    "whyItFits": "它把相遇和分开都说得很轻，不要求谁留下，也不否定那一刻的光。",
+    "moodDescription": "适合想起一个已经走远的人、又不想把怀念弄得太重的时候。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/偶然",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liubannong-jiaowo",
+    "workTitle": "教我如何不想她",
+    "unitTitle": "全文",
+    "author": "刘半农",
+    "authorDeathYear": 1934,
+    "publicationYear": 1920,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 1,
+    "pace": "steady",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "思念",
+      "温柔",
+      "美",
+      "夜"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰",
+      "美"
+    ],
+    "valence": 0.5,
+    "arousal": 0.35,
+    "contentWarnings": [],
+    "contextBefore": "微云、微风、月光和海洋，都成了想念一个人的理由。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "天上飘着些微云，",
+        "地上吹着些微风。",
+        "啊！",
+        "微风吹动了我头发，",
+        "教我如何不想她？"
+      ],
+      [
+        "月光恋爱着海洋，",
+        "海洋恋爱着月光。",
+        "啊！",
+        "这般蜜也似的银夜，",
+        "教我如何不想她？"
+      ],
+      [
+        "水面落花慢慢流，",
+        "水底鱼儿慢慢游。",
+        "啊！",
+        "燕子你说些什么话？",
+        "教我如何不想她？"
+      ],
+      [
+        "枯树在冷风里摇，",
+        "野火在暮色中烧。",
+        "啊！",
+        "西天还有些儿残霞，",
+        "教我如何不想她？"
+      ]
+    ],
+    "notes": [],
+    "quote": "微风吹动了我头发，教我如何不想她？",
+    "excerpt": "天上飘着些微云，地上吹着些微风。啊！微风吹动了我头发，教我如何不想她？",
+    "whyItFits": "它不解释想念，只把风、月光和残霞一件件摆出来，让思念有地方落脚。",
+    "moodDescription": "适合想一个人、又不方便打扰对方的时候；温柔，但不纠缠。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/教我如何不想她",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liqingzhao-yijianmei",
+    "workTitle": "一剪梅",
+    "unitTitle": "红藕香残玉簟秋",
+    "author": "李清照",
+    "authorDeathYear": 1155,
+    "publicationYear": 1100,
+    "form": "poem",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "薄雾",
+    "moodTags": [
+      "思念",
+      "愁",
+      "美",
+      "秋",
+      "温柔"
+    ],
+    "needTags": [
+      "安慰",
+      "陪伴",
+      "美"
+    ],
+    "valence": 0.3,
+    "arousal": 0.25,
+    "contentWarnings": [
+      "离别"
+    ],
+    "contextBefore": "荷花凋谢，竹席生凉，一个人划船时想起远方的来信。",
+    "contextAfter": "",
+    "sections": [],
+    "stanzas": [
+      [
+        "红藕香残玉簟秋。",
+        "轻解罗裳，独上兰舟。",
+        "云中谁寄锦书来？",
+        "雁字回时，月满西楼。"
+      ],
+      [
+        "花自飘零水自流，",
+        "一种相思，两处闲愁。",
+        "此情无计可消除，",
+        "才下眉头，却上心头。"
+      ]
+    ],
+    "notes": [],
+    "quote": "此情无计可消除，才下眉头，却上心头。",
+    "excerpt": "红藕香残玉簟秋。轻解罗裳，独上兰舟。",
+    "whyItFits": "它把想念写成一件赶不走的小事：眉头刚放下，心里又浮起来。",
+    "moodDescription": "适合有点委屈、又还在等一个消息的时候；被说中，比被劝好更舒服。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/一剪梅_(李清照)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liuyuxi-loushiming",
+    "workTitle": "陋室铭",
+    "unitTitle": "全文",
+    "author": "刘禹锡",
+    "authorDeathYear": 842,
+    "publicationYear": 830,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "闲适",
+      "安静",
+      "点醒",
+      "自得"
+    ],
+    "needTags": [
+      "点醒",
+      "安慰"
+    ],
+    "valence": 0.62,
+    "arousal": 0.25,
+    "contentWarnings": [],
+    "contextBefore": "一间简朴的屋子，因为住的人和不来往的人，变得不那么简陋。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "山不在高，有仙则名。水不在深，有龙则灵。斯是陋室，惟吾德馨。苔痕上阶绿，草色入帘青。谈笑有鸿儒，往来无白丁。可以调素琴，阅金经。无丝竹之乱耳，无案牍之劳形。南阳诸葛庐，西蜀子云亭。孔子云：何陋之有？"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "鸿儒",
+        "text": "博学的人。"
+      },
+      {
+        "term": "白丁",
+        "text": "这里指没有学问的人。"
+      },
+      {
+        "term": "案牍",
+        "text": "官府的文书。"
+      }
+    ],
+    "quote": "斯是陋室，惟吾德馨。",
+    "excerpt": "山不在高，有仙则名。水不在深，有龙则灵。斯是陋室，惟吾德馨。",
+    "whyItFits": "它不劝你拥有更多，只把“够住、够安静”说成一种体面。",
+    "moodDescription": "适合累了一天、不想再被物质和比较推着走的时候；安静里有自持。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/陋室銘",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "zhoudunyi-ailianshuo",
+    "workTitle": "爱莲说",
+    "unitTitle": "全文",
+    "author": "周敦颐",
+    "authorDeathYear": 1073,
+    "publicationYear": 1063,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "美",
+      "点醒",
+      "清高",
+      "夏",
+      "安静"
+    ],
+    "needTags": [
+      "点醒",
+      "美",
+      "安慰"
+    ],
+    "valence": 0.6,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "世人爱牡丹的富贵，陶渊明爱菊的隐逸，作者独爱莲。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "水陆草木之花，可爱者甚蕃。晋陶渊明独爱菊。自李唐来，世人盛爱牡丹。予独爱莲之出淤泥而不染，濯清涟而不妖，中通外直，不蔓不枝，香远益清，亭亭净植，可远观而不可亵玩焉。"
+      ],
+      [
+        "予谓菊，花之隐逸者也；牡丹，花之富贵者也；莲，花之君子者也。噫！菊之爱，陶后鲜有闻。莲之爱，同予者何人？牡丹之爱，宜乎众矣。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "蕃",
+        "text": "多。"
+      },
+      {
+        "term": "濯",
+        "text": "洗。"
+      },
+      {
+        "term": "亭亭",
+        "text": "高洁挺立的样子。"
+      }
+    ],
+    "quote": "予独爱莲之出淤泥而不染，濯清涟而不妖",
+    "excerpt": "水陆草木之花，可爱者甚蕃。晋陶渊明独爱菊。",
+    "whyItFits": "它不要求你离开泥，只提醒你可以在泥里保持自己的形状。",
+    "moodDescription": "适合有点委屈、又不想变成自己讨厌的样子的时候；它给的是一个站直的姿势。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/愛蓮說",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liuzongyuan-xiaoshitan",
+    "workTitle": "小石潭记",
+    "unitTitle": "全文",
+    "author": "柳宗元",
+    "authorDeathYear": 819,
+    "publicationYear": 810,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 5,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "美",
+      "安静",
+      "清冷",
+      "自然"
+    ],
+    "needTags": [
+      "美",
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.42,
+    "arousal": 0.2,
+    "contentWarnings": [],
+    "contextBefore": "柳宗元被贬永州，沿着小丘向西走，听见竹林里传来水声。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "从小丘西行百二十步，隔篁竹，闻水声，如鸣珮环，心乐之。伐竹取道，下见小潭，水尤清洌。全石以为底，近岸，卷石底以出，为坻，为屿，为嵁，为岩。青树翠蔓，蒙络摇缀，参差披拂。"
+      ],
+      [
+        "潭中鱼可百许头，皆若空游无所依。日光下澈，影布石上，佁然不动；俶尔远逝，往来翕忽，似与游者相乐。"
+      ],
+      [
+        "潭西南而望，斗折蛇行，明灭可见。其岸势犬牙差互，不可知其源。",
+        "坐潭上，四面竹树环合，寂寥无人，凄神寒骨，悄怆幽邃。以其境过清，不可久居，乃记之而去。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "篁竹",
+        "text": "竹林。"
+      },
+      {
+        "term": "坻",
+        "text": "水中的小洲。"
+      },
+      {
+        "term": "嵁",
+        "text": "不平的岩石。"
+      }
+    ],
+    "quote": "潭中鱼可百许头，皆若空游无所依。",
+    "excerpt": "从小丘西行百二十步，隔篁竹，闻水声，如鸣珮环，心乐之。",
+    "whyItFits": "它先给你一潭清水和一群鱼，最后才承认这里太清冷；美和孤独可以同时成立。",
+    "moodDescription": "适合想逃开一会儿、又不想走太远的人；眼睛先被水声带走。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/至小丘西小石潭記",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "sushi-jichengtiansi",
+    "workTitle": "记承天寺夜游",
+    "unitTitle": "全文",
+    "author": "苏轼",
+    "authorDeathYear": 1101,
+    "publicationYear": 1083,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "light",
+    "weather": "夜风",
+    "moodTags": [
+      "轻松",
+      "夜",
+      "美",
+      "陪伴",
+      "安静",
+      "点醒"
+    ],
+    "needTags": [
+      "陪伴",
+      "美",
+      "逗笑",
+      "点醒"
+    ],
+    "valence": 0.66,
+    "arousal": 0.25,
+    "contentWarnings": [],
+    "contextBefore": "苏轼被贬黄州，一个夜里睡不着，去找同样没睡的张怀民散步。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。"
+      ],
+      [
+        "庭下如积水空明，水中藻荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "念",
+        "text": "想到。"
+      },
+      {
+        "term": "空明",
+        "text": "清澈透明。"
+      },
+      {
+        "term": "闲人",
+        "text": "这里指有闲情、也略带宽解自嘲的人。"
+      }
+    ],
+    "quote": "何夜无月？何处无竹柏？但少闲人如吾两人者耳。",
+    "excerpt": "元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。",
+    "whyItFits": "两个睡不着的人，在月光里走了一圈；它不解决失眠，但让夜里多了一个同伴。",
+    "moodDescription": "适合累但不想睡、想找个人说两句的时候；轻，带一点自嘲的松快。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/記承天寺夜遊",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "zhangdai-huxinting",
+    "workTitle": "湖心亭看雪",
+    "unitTitle": "全文",
+    "author": "张岱",
+    "authorDeathYear": 1689,
+    "publicationYear": 1640,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "雪",
+    "moodTags": [
+      "美",
+      "安静",
+      "孤独",
+      "雪",
+      "点醒"
+    ],
+    "needTags": [
+      "美",
+      "陪伴",
+      "点醒"
+    ],
+    "valence": 0.5,
+    "arousal": 0.2,
+    "contentWarnings": [],
+    "contextBefore": "大雪三日，西湖上没有人声；作者划一条小船，去湖心亭看雪。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。"
+      ],
+      [
+        "是日更定矣，余拿一小舟，拥毳衣炉火，独往湖心亭看雪。雾凇沆砀，天与云、与山、与水，上下一白。湖上影子，惟长堤一痕，湖心亭一点，与余舟一芥，舟中人两三粒而已。",
+        "到亭上，有两人铺毡对坐，一童子烧酒，炉正沸。见余大喜曰：“湖中焉得更有此人！”拉余同饮，余强饮三大白而别。问其姓氏，是金陵人，客此。"
+      ],
+      [
+        "及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者。”"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "更定",
+        "text": "初更以后，大约晚上八点。"
+      },
+      {
+        "term": "毳衣",
+        "text": "毛皮做的衣服。"
+      },
+      {
+        "term": "沆砀",
+        "text": "白气弥漫的样子。"
+      }
+    ],
+    "quote": "湖上影子，惟长堤一痕，湖心亭一点，与余舟一芥，舟中人两三粒而已。",
+    "excerpt": "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。",
+    "whyItFits": "它把世界缩成几笔墨痕，孤独就不再是压迫，而是一种很静的视野。",
+    "moodDescription": "适合想从人群里退出来、又不想彻底封闭的时候；雪把声音都收走了。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/湖心亭看雪",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "lidaoyuan-sanxia",
+    "workTitle": "三峡",
+    "unitTitle": "全文",
+    "author": "郦道元",
+    "authorDeathYear": 527,
+    "publicationYear": 520,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "薄雾",
+    "moodTags": [
+      "壮阔",
+      "美",
+      "自然",
+      "力量"
+    ],
+    "needTags": [
+      "美",
+      "力量",
+      "安慰"
+    ],
+    "valence": 0.6,
+    "arousal": 0.5,
+    "contentWarnings": [],
+    "contextBefore": "从三峡七百里山水写起，春夏秋冬各有不同的声势。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "自三峡七百里中，两岸连山，略无阙处。重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。"
+      ],
+      [
+        "至于夏水襄陵，沿溯阻绝。或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。"
+      ],
+      [
+        "春冬之时，则素湍绿潭，回清倒影。绝𪩘多生柽柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+        "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。故渔者歌曰：巴东三峡巫峡长，猿鸣三声泪沾裳。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "阙",
+        "text": "缺口。"
+      },
+      {
+        "term": "襄陵",
+        "text": "水漫上山陵。"
+      },
+      {
+        "term": "曦",
+        "text": "日光。"
+      }
+    ],
+    "quote": "巴东三峡巫峡长，猿鸣三声泪沾裳。",
+    "excerpt": "自三峡七百里中，两岸连山，略无阙处。",
+    "whyItFits": "山水的尺度一大，个人的烦闷就被放在一个更宽的画面里。",
+    "moodDescription": "适合需要一点力气、又不想被直接鼓励的时候；先看山的重量，再回到自己。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/三峽",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "taohongjing-daxiezhongshu",
+    "workTitle": "答谢中书书",
+    "unitTitle": "全文",
+    "author": "陶弘景",
+    "authorDeathYear": 536,
+    "publicationYear": 510,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 2,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "light",
+    "weather": "晚霞",
+    "moodTags": [
+      "美",
+      "安静",
+      "自然",
+      "闲适"
+    ],
+    "needTags": [
+      "美",
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.7,
+    "arousal": 0.25,
+    "contentWarnings": [],
+    "contextBefore": "一封写给朋友的信，只说山川之美。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交辉。青林翠竹，四时俱备。晓雾将歇，猿鸟乱鸣；夕日欲颓，沉鳞竞跃。实是欲界之仙都。自康乐以来，未复有能与其奇者。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "歇",
+        "text": "消散。"
+      },
+      {
+        "term": "颓",
+        "text": "落下。"
+      },
+      {
+        "term": "康乐",
+        "text": "指谢灵运，封康乐公。"
+      }
+    ],
+    "quote": "实是欲界之仙都。",
+    "excerpt": "山川之美，古来共谈。高峰入云，清流见底。",
+    "whyItFits": "它不讨论烦恼，只把一处好山水推到眼前；眼睛先离开，心才慢慢跟上。",
+    "moodDescription": "适合想逃开一会儿、又只有几分钟的时候；短得像一次深呼吸。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/答謝中書書",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "taoyuanming-wuliu",
+    "workTitle": "五柳先生传",
+    "unitTitle": "全文",
+    "author": "陶渊明",
+    "authorDeathYear": 427,
+    "publicationYear": 420,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "闲适",
+      "自嘲",
+      "点醒",
+      "幽默",
+      "安静",
+      "轻盈"
+    ],
+    "needTags": [
+      "逗笑",
+      "点醒",
+      "安慰"
+    ],
+    "valence": 0.66,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "陶渊明给自己写传，写一个不慕荣利、爱读书喝酒的人。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "先生不知何许人也，亦不详其姓字。宅边有五柳树，因以为号焉。"
+      ],
+      [
+        "闲静少言，不慕荣利。好读书，不求甚解，每有会意，便欣然忘食。性嗜酒，家贫不能常得。亲旧知其如此，或置酒而招之。造饮辄尽，期在必醉，既醉而退，曾不吝情去留。环堵萧然，不蔽风日；短褐穿结，箪瓢屡空，晏如也。常著文章自娱，颇示己志。忘怀得失，以此自终。"
+      ],
+      [
+        "赞曰：黔娄之妻有言：“不戚戚于贫贱，不汲汲于富贵。”极其言，兹若人之俦乎？酣觞赋诗，以乐其志。无怀氏之民欤！葛天氏之民欤！"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "不求甚解",
+        "text": "这里指读书重在领会，不抠字句。"
+      },
+      {
+        "term": "环堵",
+        "text": "四面墙，形容居室简陋。"
+      },
+      {
+        "term": "黔娄",
+        "text": "古代安贫乐道的隐士。"
+      }
+    ],
+    "quote": "好读书，不求甚解，每有会意，便欣然忘食。",
+    "excerpt": "先生不知何许人也，亦不详其姓字。宅边有五柳树，因以为号焉。",
+    "whyItFits": "它把“没什么成就”写得自得其乐；不励志，但让人松一口气。",
+    "moodDescription": "适合想轻松一点、又不想读太甜的东西的时候；自嘲里有分寸。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/五柳先生傳",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "ouyangxiu-maiyouweng",
+    "workTitle": "卖油翁",
+    "unitTitle": "全文",
+    "author": "欧阳修",
+    "authorDeathYear": 1072,
+    "publicationYear": 1060,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "幽默",
+      "点醒",
+      "技艺",
+      "轻松",
+      "力量",
+      "轻盈"
+    ],
+    "needTags": [
+      "逗笑",
+      "点醒",
+      "力量"
+    ],
+    "valence": 0.68,
+    "arousal": 0.4,
+    "contentWarnings": [],
+    "contextBefore": "陈尧咨善射，很自得；一个卖油翁看他射箭，只是微微点头。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "陈康肃公尧咨善射，当世无双，公亦以此自矜。尝射于家圃，有卖油翁释担而立，睨之，久而不去。见其发矢十中八九，但微颔之。"
+      ],
+      [
+        "康肃问曰：“汝亦知射乎？吾射不亦精乎？”翁曰：“无他，但手熟尔。”康肃忿然曰：“尔安敢轻吾射！”翁曰：“以我酌油知之。”乃取一葫芦置于地，以钱覆其口，徐以杓酌油沥之，自钱孔入而钱不湿。因曰：“我亦无他，惟手熟尔。”康肃笑而遣之。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "自矜",
+        "text": "自夸。"
+      },
+      {
+        "term": "睨",
+        "text": "斜着眼看。"
+      },
+      {
+        "term": "颔",
+        "text": "点头。"
+      }
+    ],
+    "quote": "无他，但手熟尔。",
+    "excerpt": "陈康肃公尧咨善射，当世无双，公亦以此自矜。",
+    "whyItFits": "它用一个小故事把“熟练”说得很轻，既不打击人，也不灌鸡汤。",
+    "moodDescription": "适合需要一点力气、又不想被大道理压住的时候；先笑一下，再做事。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/賣油翁",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "wujun-yuzhuyuansi",
+    "workTitle": "与朱元思书",
+    "unitTitle": "全文",
+    "author": "吴均",
+    "authorDeathYear": 520,
+    "publicationYear": 510,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 3,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "美",
+      "自然",
+      "安静",
+      "点醒",
+      "清朗"
+    ],
+    "needTags": [
+      "美",
+      "点醒",
+      "安慰"
+    ],
+    "valence": 0.66,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "从富阳到桐庐，一百来里山水，作者写信告诉朋友。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "风烟俱净，天山共色，从流飘荡，任意东西。自富阳至桐庐，一百许里，奇山异水，天下独绝。"
+      ],
+      [
+        "水皆缥碧，千丈见底，游鱼细石，直视无碍。急湍甚箭，猛浪若奔。",
+        "夹岸高山，皆生寒树，负势竞上，互相轩邈；争高直指，千百成峰。"
+      ],
+      [
+        "泉水激石，泠泠作响。好鸟相鸣，嘤嘤成韵。蝉则千转不穷，猿则百叫无绝。",
+        "鸢飞戾天者，望峰息心；经纶世务者，窥谷忘反。横柯上蔽，在昼犹昏；疏条交映，有时见日。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "缥碧",
+        "text": "青白色。"
+      },
+      {
+        "term": "轩邈",
+        "text": "高远。"
+      },
+      {
+        "term": "戾",
+        "text": "至、到达。"
+      }
+    ],
+    "quote": "鸢飞戾天者，望峰息心；经纶世务者，窥谷忘反。",
+    "excerpt": "风烟俱净，天山共色，从流飘荡，任意东西。",
+    "whyItFits": "它不劝你放下，只说看见这样的山谷，心里的急会自然慢一点。",
+    "moodDescription": "适合脑子停不下来、被事务追着走的时候；山水把速度调低。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/與宋元思書",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "weixueyi-hezhouji",
+    "workTitle": "核舟记",
+    "unitTitle": "全文",
+    "author": "魏学洢",
+    "authorDeathYear": 1625,
+    "publicationYear": 1620,
+    "form": "classical",
+    "unitType": "full",
+    "readingMinutes": 6,
+    "difficulty": 3,
+    "pace": "steady",
+    "density": "dense",
+    "weather": "晴",
+    "moodTags": [
+      "奇巧",
+      "专注",
+      "美",
+      "技艺",
+      "安静"
+    ],
+    "needTags": [
+      "美",
+      "点醒",
+      "陪伴"
+    ],
+    "valence": 0.62,
+    "arousal": 0.35,
+    "contentWarnings": [],
+    "contextBefore": "一只桃核，被刻成一条船，船上有五个人、八扇窗和三十四个字。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "明有奇巧人曰王叔远，能以径寸之木，为宫室、器皿、人物，以至鸟兽、木石，罔不因势象形，各具情态。尝贻余核舟一，盖大苏泛赤壁云。"
+      ],
+      [
+        "舟首尾长约八分有奇，高可二黍许。中轩敞者为舱，箬篷覆之。旁开小窗，左右各四，共八扇。启窗而观，雕栏相望焉。闭之，则右刻“山高月小，水落石出”，左刻“清风徐来，水波不兴”，石青糁之。",
+        "船头坐三人，中峨冠而多髯者为东坡，佛印居右，鲁直居左。苏黄共阅一手卷；东坡右手执卷端，左手抚鲁直背；鲁直左手执卷末，右手指卷，如有所语。东坡现右足，鲁直现左足，身各微侧；其两膝相比者，各隐卷底衣褶中。佛印绝类弥勒，袒胸露乳，矫首昂视，神情与苏黄不属。卧右膝，诎右臂支船，而竖其左膝，左臂挂念珠倚之，珠可历历数也。"
+      ],
+      [
+        "舟尾横卧一楫。楫左右舟子各一人。居右者椎髻仰面，左手倚一衡木，右手攀右趾，若啸呼状。居左者右手执蒲葵扇，左手抚炉，炉上有壶，其人视端容寂，若听茶声然。",
+        "其船背稍夷，则题名其上，文曰“天启壬戌秋日，虞山王毅叔远甫刻”，细若蚊足，钩画了了，其色墨。又用篆章一，文曰“初平山人”，其色丹。",
+        "通计一舟：为人者五，为窗者八，为箬篷，为楫，为炉，为壶，为手卷，为念珠者各一；对联、题名并篆文，为字共三十有四：而计其长，曾不盈寸，盖简桃核修狭者为之。",
+        "魏子详瞩既毕，诧曰：“嘻！技亦灵怪矣哉！庄、列所载，称惊犹鬼神者良多，然谁有游削于不寸之质，而须麋了然者？假有人焉，举我言以复于我，亦必疑其诳，乃今亲睹之。繇斯以观，棘刺之端，未必不可为母猴也。嘻！技亦灵怪矣哉！”"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [
+      {
+        "term": "奇巧",
+        "text": "手艺奇妙精巧。"
+      },
+      {
+        "term": "罔不",
+        "text": "无不。"
+      },
+      {
+        "term": "糁",
+        "text": "用石青涂在刻字上。"
+      }
+    ],
+    "quote": "嘻！技亦灵怪矣哉！",
+    "excerpt": "尝贻余核舟一，盖大苏泛赤壁云。",
+    "whyItFits": "它把注意力全放在一只桃核上；看得越细，脑子里的杂音越少。",
+    "moodDescription": "适合脑子停不下来、需要把注意力放到一件具体小事上的时候。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/核舟記",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "luxun-xue",
+    "workTitle": "雪",
+    "unitTitle": "全文",
+    "author": "鲁迅",
+    "authorDeathYear": 1936,
+    "publicationYear": 1925,
+    "form": "prose",
+    "unitType": "full",
+    "readingMinutes": 5,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "雪",
+    "moodTags": [
+      "美",
+      "安静",
+      "孤独",
+      "力量",
+      "雪"
+    ],
+    "needTags": [
+      "美",
+      "力量",
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.45,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "南方的雪滋润，北方的雪如粉如沙；作者写雪，也写两种不同的孤独。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "暖国的雨，向来没有变过冰冷的坚硬的灿烂的雪花。博识的人们觉得他单调，他自己也以为不幸否耶？江南的雪，可是滋润美艳之至了；那是还在隐约着的青春的消息，是极壮健的处子的皮肤。雪野中有血红的宝珠山茶，白中隐青的单瓣梅花，深黄的磬口的蜡梅花，雪下面还有冷绿的杂草。胡蝶确乎没有；蜜蜂是否来采山茶花和梅花的蜜，我可记不真切了。但我的眼前仿佛看见冬花开在雪野中，有许多蜜蜂们忙碌地飞着，也听得他们嗡嗡地闹着。"
+      ],
+      [
+        "孩子们呵着冻得通红，像紫芽姜一般的小手，七八个一齐来塑雪罗汉。因为不成功，谁的父亲也来帮忙了。罗汉就塑得比孩子们高得多，虽然不过是上小下大的一堆，终于分不清是壶卢还是罗汉，然而很洁白，很明艳，以自身的滋润相黏结，整个地闪闪地生光。孩子们用龙眼核给他做眼珠，又从谁的母亲的脂粉奁中偷得胭脂来涂在嘴唇上。这回确是一个大阿罗汉了。他也就目光灼灼地嘴唇通红地坐在雪地里。",
+        "第二天还有几个孩子来访问他；对了他拍手，点头，嘻笑。但他终于独自坐着了。晴天又来消释他的皮肤，寒夜又使他结一层冰，化作不透明的水晶模样，连续的晴天又使他成为不知道算什么，而嘴上的胭脂也褪尽了。"
+      ],
+      [
+        "但是，朔方的雪花在纷飞之后，却永远如粉，如沙，他们决不黏连，撒在屋上，地上，枯草上，就是这样。屋上的雪是早已就有消化了的，因为屋里居人的火的温热。别的，在晴天之下，旋风忽来，便蓬勃地奋飞，在日光中灿灿地生光，如包藏火焰的大雾，旋转而且升腾，弥漫太空，使太空旋转而且升腾地闪烁。",
+        "在无边的旷野上，在凛冽的天宇下，闪闪地旋转升腾着的是雨的精魂……",
+        "是的，那是孤独的雪，是死掉的雨，是雨的精魂。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "是的，那是孤独的雪，是死掉的雨，是雨的精魂。",
+    "excerpt": "江南的雪，可是滋润美艳之至了；那是还在隐约着的青春的消息",
+    "whyItFits": "它先给你一个热闹的雪罗汉，再把它独自留在雪地里；美和孤独都不回避。",
+    "moodDescription": "适合想逃开一会儿、又愿意面对一点清冷的人；雪景干净，心里也会空出一点位置。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/雪_(鲁迅)",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "luxun-fengzheng",
+    "workTitle": "风筝",
+    "unitTitle": "全文",
+    "author": "鲁迅",
+    "authorDeathYear": 1936,
+    "publicationYear": 1925,
+    "form": "prose",
+    "unitType": "full",
+    "readingMinutes": 7,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "怀旧",
+      "歉疚",
+      "点醒",
+      "亲情",
+      "沉重"
+    ],
+    "needTags": [
+      "点醒",
+      "安慰",
+      "陪伴"
+    ],
+    "valence": 0.32,
+    "arousal": 0.35,
+    "contentWarnings": [
+      "沉重意象"
+    ],
+    "contextBefore": "北京的冬天，远处有风筝浮动；作者想起小时候折断弟弟风筝的那一幕。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "北京的冬季，地上还有积雪，灰黑色的秃树枝丫叉于晴朗的天空中，而远处有一二风筝浮动，在我是一种惊异和悲哀。"
+      ],
+      [
+        "故乡的风筝时节，是春二月，倘听到沙沙的风轮声，仰头便能看见一个淡墨色的蟹风筝或嫩蓝色的蜈蚣风筝。还有寂寞的瓦片风筝，没有风轮，又放得很低，伶仃地显出憔悴可怜模样。但此时地上的杨柳已经发芽，早的山桃也多吐蕾，和孩子们的天上的点缀相照应，打成一片春日的温和。我现在在那里呢？四面都还是严冬的肃杀，而久经诀别的故乡的久经逝去的春天，却就在这天空中荡漾了。",
+        "但我是向来不爱放风筝的，不但不爱，并且嫌恶他，因为我以为这是没出息孩子所做的玩艺。和我相反的是我的小兄弟，他那时大概十岁内外罢，多病，瘦得不堪，然而最喜欢风筝，自己买不起，我又不许放，他只得张着小嘴，呆看着空中出神，有时至于小半日。远处的蟹风筝突然落下来了，他惊呼；两个瓦片风筝的缠绕解开了，他高兴得跳跃，他的这些，在我看来都是笑柄，可鄙的。"
+      ],
+      [
+        "有一天，我忽然想起，似乎多日不很看见他了，但记得曾见他在后园拾枯竹。我恍然大悟似的，便跑向少有人去的一间堆积杂物的小屋去，推开门，果然就在尘封的什物堆中发见了他。他向着大方凳，坐在小凳上；便很惊惶地站了起来，失了色瑟缩着。大方凳旁靠着一个胡蝶风筝的竹骨，还没有糊上纸，凳上是一对做眼睛用的小风轮，正用红纸条装饰着，将要完工了。我在破获秘密的满足中，又很愤怒他的瞒了我的眼睛，这样苦心孤诣地来偷做没出息孩子的玩艺。我即刻伸手折断了胡蝶的一支翅骨，又将风轮掷在地下，踏扁了。论长幼，论力气，他是都敌不过我的，我当然得到完全的胜利，于是傲然走出，留他绝望地站在小屋里。后来他怎样，我不知道，也没有留心。",
+        "然而我的惩罚终于轮到了，在我们离别得很久之后，我已经是中年。我不幸偶而看了一本外国的讲论儿童的书，才知道游戏是儿童最正当的行为，玩具是儿童的天使。于是二十年来毫不忆及的幼小时候对于精神的虐杀的这一幕，忽地在眼前展开，而我的心也仿佛同时变了铅块，很重很重的坠下去了。",
+        "但心又不竟堕下去而至于断绝，他只是很重很重地堕着，堕着。"
+      ],
+      [
+        "我也知道补过的方法的：送他风筝，赞成他放，劝他放，我和他一同放。我们嚷着，跑着，笑着。——然而他其时已经和我一样，早已有了胡子了。",
+        "我也知道还有一个补过的方法的：去讨他的宽恕，等他说，“我可是毫不怪你呵。”那么，我的心一定就轻松了，这确是一个可行的方法。有一回，我们会面的时候，是脸上都已添刻了许多“生”的辛苦的条纹，而我的心很沉重。我们渐渐谈起儿时的旧事来，我便叙述到这一节，自说少年时代的胡涂。“我可是毫不怪你呵。”我想，他要说了，我即刻便受了宽恕，我的心从此也宽松了罢。",
+        "“有过这样的事么？”他惊异地笑着说，就像旁听着别人的故事一样。他什么也不记得了。"
+      ],
+      [
+        "全然忘却，毫无怨恨，又有什么宽恕之可言呢？无怨的恕，说谎罢了。",
+        "我还能希求什么呢？我的心只得沉重着。",
+        "现在，故乡的春天又在这异地的空中了，既给我久经逝去的儿时的回忆，而一并也带着无可把握的悲哀。我倒不如躲到肃杀的严冬中去罢，——但是，四面又明明是严冬，正给我非常的寒威和冷气。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "游戏是儿童最正当的行为，玩具是儿童的天使。",
+    "excerpt": "在我是一种惊异和悲哀。",
+    "whyItFits": "它不替歉疚开脱，也不把它放大；只是承认有些伤害已经无法补过。",
+    "moodDescription": "适合心里有点堵、想起旧事的时候；它不劝你放下，但让那份沉重被说清楚。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/風箏",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "zhuziqing-qinhuai",
+    "workTitle": "桨声灯影里的秦淮河",
+    "unitTitle": "七板子与秦淮河",
+    "author": "朱自清",
+    "authorDeathYear": 1948,
+    "publicationYear": 1924,
+    "form": "prose",
+    "unitType": "excerpt",
+    "readingMinutes": 10,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "夜风",
+    "moodTags": [
+      "美",
+      "夜",
+      "水",
+      "怅惘",
+      "温柔"
+    ],
+    "needTags": [
+      "美",
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.58,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "1923 年 8 月的一个晚上，朱自清和俞平伯同游秦淮河，雇了一只“七板子”。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "一九二三年八月的一晚，我和平伯同游秦淮河；平伯是初泛，我是重来了。我们雇了一只“七板子”，在夕阳已去、皎月方来的时候，便下了船。于是桨声汩汩，我们开始领略那晃荡着蔷薇色的历史的秦淮河的滋味了。"
+      ],
+      [
+        "秦淮河里的船，比北京万生园、颐和园的船好，比西湖的船好，比扬州瘦西湖的船也好。这几处的船不是觉着笨，就是觉着简陋、局促；都不能引起乘客们的情韵，如秦淮河的船一样。秦淮河的船约略可分为两种：一是大船；一是小船，就是所谓“七板子”。大船舱口阔大，可容二三十人。里面陈设着字画和光洁的红木家具，桌上一律嵌着冰凉的大理石面。窗格雕镂颇细，使人起柔腻之感。窗格里映着红色蓝色的玻璃；玻璃上有精致的花纹，也颇悦人目。“七板子”规模虽不及大船，但那淡蓝色的栏杆，空敞的舱，也足系人情思。"
+      ],
+      [
+        "秦淮河的水是碧阴阴的；看起来厚而不腻，或者是六朝金粉所凝么？我们初上船的时候，天色还未断黑，那漾漾的柔波是这样恬静、委婉，使我们一面有水阔天空之想，一面又憧憬着纸醉金迷之境了。等到灯火明时，阴阴的变为沉沉了：黯淡的水光，像梦一般；那偶然闪烁着的光芒，就是梦的眼睛了。",
+        "大中桥外，顿然空阔，和桥内两岸排着密密的人家的景象大异了。一眼望去，疏疏的林，淡淡的月，衬着蔚蓝的天，颇像荒江野渡光景；那边呢，郁丛丛的，阴森森的，又似乎藏着无边的黑暗：令人几乎不信那是繁华的秦淮河了。但是河中眩晕着的灯光，纵横着的画舫，悠扬着的笛韵，夹着那吱吱的胡琴声，终于使我们认识绿如茵陈酒的秦淮水了。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "秦淮河的水是碧阴阴的；看起来厚而不腻，或者是六朝金粉所凝么？",
+    "excerpt": "一九二三年八月的一晚，我和平伯同游秦淮河；平伯是初泛，我是重来了。",
+    "whyItFits": "它把一条河写得又旧又亮，像在夜里翻开一册有水汽的旧书。",
+    "moodDescription": "适合晚上想出去走走、又懒得出门的时候；灯影和桨声替你把路走了一遍。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/槳聲燈影裏的秦淮河",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "xudishan-luohuasheng",
+    "workTitle": "落花生",
+    "unitTitle": "全文",
+    "author": "许地山",
+    "authorDeathYear": 1941,
+    "publicationYear": 1922,
+    "form": "prose",
+    "unitType": "full",
+    "readingMinutes": 4,
+    "difficulty": 1,
+    "pace": "slow",
+    "density": "light",
+    "weather": "晚霞",
+    "moodTags": [
+      "亲情",
+      "朴素",
+      "点醒",
+      "温暖",
+      "家庭"
+    ],
+    "needTags": [
+      "点醒",
+      "安慰",
+      "陪伴"
+    ],
+    "valence": 0.68,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "屋后半亩隙地种了花生，收获的晚上，一家人围着茅亭说话。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "我们屋后有半亩隙地。母亲说：“让他荒芜着怪可惜，既然你们那么爱吃花生，就辟来做花生园罢。”我们几姊弟和几个小丫头都很喜欢——买种的买种，动土的动土，灌园的灌园；过不了几个月，居然收获了！",
+        "妈妈说：“今晚我们可以做一个收获节，也请你们爹爹来尝尝我们的新花生，如何？”我们都答应了。母亲把花生做成好几样食品，还吩咐这节期要在园里的茅亭举行。"
+      ],
+      [
+        "那晚上的天色不大好，可是爹爹也到来，实在很难得！爹爹说：“你们爱吃花生么？”",
+        "我们都争着答应，“爱！”",
+        "“谁能把花生的好处说出来？”",
+        "姊姊说：“花生的气味很美。”"
+      ],
+      [
+        "哥哥说：“花生可以制油。”",
+        "我说：“无论何等人都可以用贱价买他来吃；都喜欢吃他。这就是他的好处。”",
+        "爹爹说：“花生的用处固然很多；但有一样是很可贵的。这小小的豆不像那好看的苹果、桃子、石榴，把他们的果实悬在枝上，鲜红嫩绿的颜色，令人一望而发生羡慕的心。他只把果子埋在地底，等到成熟，才容人把他挖出来，你们偶然看见一棵花生瑟缩地长在地上，不能立刻辨出他有没有果实，非得等到你接触他才能知道。”",
+        "我们都说：“是的。”母亲也点点头。爹爹接下去说：“所以你们要像花生，因为他是有用的，不是伟大、好看的东西。”我说：“那么，人要做有用的人，不要做伟大、体面的人了。”爹爹说：“这是我对于你们的希望。”",
+        "我们谈到夜阑才散。所有花生食品虽然没有了，然而父亲的话现在还印在我心版上。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "人要做有用的人，不要做伟大、体面的人了。",
+    "excerpt": "我们屋后有半亩隙地。母亲说：“让他荒芜着怪可惜，既然你们那么爱吃花生，就辟来做花生园罢。”",
+    "whyItFits": "它没有大道理，只有一家人围坐的晚上；被安慰的感觉来自桌边，不来自结论。",
+    "moodDescription": "适合有点委屈、想回家又回不去的时候；朴素，但很稳。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/落花生",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "liangqichao-jingyeyule",
+    "workTitle": "敬业与乐业",
+    "unitTitle": "敬业与乐业",
+    "author": "梁启超",
+    "authorDeathYear": 1929,
+    "publicationYear": 1922,
+    "form": "prose",
+    "unitType": "excerpt",
+    "readingMinutes": 8,
+    "difficulty": 2,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "晴",
+    "moodTags": [
+      "力量",
+      "点醒",
+      "工作",
+      "希望",
+      "明亮"
+    ],
+    "needTags": [
+      "力量",
+      "点醒",
+      "安慰"
+    ],
+    "valence": 0.7,
+    "arousal": 0.6,
+    "contentWarnings": [],
+    "contextBefore": "1922 年，梁启超在一次演讲里谈“敬业”和“乐业”。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "我征引儒门、佛门这两段话，不外证明人人都要有正当职业，人人都要不断地劳作。倘若有人问我：“百行什么为先？万恶什么为首？”我便一点不迟疑答道：“百行业为先，万恶懒为首。”没有职业的懒人，简直是社会上的蛀米虫，简直是“掠夺别人勤劳结果”的盗贼。我们对于这种人，是要彻底讨伐，万不能容赦的。"
+      ],
+      [
+        "第一要敬业。“敬”字为古圣贤教人做人最简易、直捷的法门，可惜被后来有些人说得太精微，倒变了不适实用了。惟有朱子解得最好，他说：“主一无适便是敬。”用现在的话讲，凡做一件事，便忠于一件事，将全副精力集中到这事上头，一点不旁骛，便是敬。",
+        "怎样才能把一种劳作做到圆满呢？惟一的秘诀就是忠实，忠实从心理上发出来的便是敬。《庄子》记痀偻丈人承蜩的故事，说道：“虽天地之大，万物之多，而惟吾蜩翼之知。”凡做一件事，便把这件事看作我的生命，无论别的什么好处，到底不肯牺牲我现做的事来和他交换。"
+      ],
+      [
+        "第二要乐业。“做工好苦呀！”这种叹气的声音，无论何人都会常在口边流露出来。但我要问他：“做工苦，难道不做工就不苦吗？”今日大热天气，我在这里喊破喉咙来讲，诸君扯直耳朵来听，有些人看着我们好苦；翻过来，倘若我们去赌钱去吃酒，还不是一样在淘神费力？难道又不苦？须知苦乐全在主观的心，不在客观的事。",
+        "我老实告诉你一句话：“凡职业都是有趣味的，只要你肯继续做下去，趣味自然会发生。”为什么呢？第一、因为凡一件职业，总有许多层累、曲折，倘能身入其中，看它变化、进展的状态，最为亲切有味。第二、因为每一职业之成就，离不了奋斗；一步一步的奋斗前去，从刻苦中将快乐的分量加增。第三，职业性质，常常要和同业的人比较骈进，好像赛球一般，因竞胜而得快感。第四，专心做一职业时，把许多游思、妄想杜绝了，省却无限闲烦恼。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "凡职业都是有趣味的，只要你肯继续做下去，趣味自然会发生。",
+    "excerpt": "我征引儒门、佛门这两段话，不外证明人人都要有正当职业，人人都要不断地劳作。",
+    "whyItFits": "它把“力气”落在具体的一件事上：先专注，再谈趣味，不空喊振作。",
+    "moodDescription": "适合需要一点力气、又不想听空话的时候；像一位说话很快的长辈，但句句有落点。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/敬業與樂業",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "luxun-yijianxiaoshi",
+    "workTitle": "一件小事",
+    "unitTitle": "全文",
+    "author": "鲁迅",
+    "authorDeathYear": 1936,
+    "publicationYear": 1920,
+    "form": "fiction",
+    "unitType": "full",
+    "readingMinutes": 6,
+    "difficulty": 1,
+    "pace": "steady",
+    "density": "medium",
+    "weather": "夜风",
+    "moodTags": [
+      "温暖",
+      "点醒",
+      "城市",
+      "人力车",
+      "自省"
+    ],
+    "needTags": [
+      "点醒",
+      "安慰",
+      "陪伴"
+    ],
+    "valence": 0.55,
+    "arousal": 0.4,
+    "contentWarnings": [],
+    "contextBefore": "民国六年的冬天，作者雇人力车赶路，车把带倒了一个老女人。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "我从乡下跑到京城里，一转眼已经六年了。其间耳闻目睹的所谓国家大事，算起来也很不少；但在我心里，都不留什么痕迹，倘要我寻出这些事的影响来说，便只是增长了我的坏脾气，——老实说，便是教我一天比一天的看不起人。",
+        "但有一件小事，却于我有意义，将我从坏脾气里拖开，使我至今忘记不得。"
+      ],
+      [
+        "这是民国六年的冬天，大北风刮得正猛，我因为生计关系，不得不一早在路上走。一路几乎遇不见人，好容易才雇定了一辆人力车，教他拉到S门去。不一会，北风小了，路上浮尘早已刮净，剩下一条洁白的大道来，车夫也跑得更快。刚近S门，忽而车把上带着一个人，慢慢地倒了。",
+        "跌倒的是一个女人，花白头发，衣服都很破烂。伊从马路边上突然向车前横截过来；车夫已经让开道，但伊的破棉背心没有上扣，微风吹着，向外展开，所以终于兜着车把。幸而车夫早有点停步，否则伊定要栽一个大斤斗，跌到头破血出了。",
+        "伊伏在地上；车夫便也立住脚。我料定这老女人并没有伤，又没有别人看见，便很怪他多事，要自己惹出是非，也误了我的路。"
+      ],
+      [
+        "我便对他说，“没有什么的。走你的罢！”",
+        "车夫毫不理会，——或者并没有听到，——却放下车子，扶那老女人慢慢起来，搀着臂膊立定，向伊说：",
+        "“你怎么啦？”",
+        "“我摔坏了。”"
+      ],
+      [
+        "我想，我眼见你慢慢倒地，怎么会摔坏呢，装腔作势罢了，这真可憎恶。车夫多事，也正是自讨苦吃，现在你自己想法去。",
+        "车夫听了这老女人的话，却毫不踌躇，仍然搀着伊的臂膊，便一步一步的向前走。我有些诧异，忙看前面，是一所巡警分驻所，大风之后，外面也不见人。这车夫扶着那老女人，便正是向那大门走去。",
+        "我这时突然感到一种异样的感觉，觉得他满身灰尘的后影，刹时高大了，而且愈走愈大，须仰视才见。而且他对于我，渐渐的又几乎变成一种威压，甚而至于要榨出皮袍下面藏着的“小”来。",
+        "我的活力这时大约有些凝滞了，坐着没有动，也没有想，直到看见分驻所里走出一个巡警，才下了车。"
+      ],
+      [
+        "巡警走近我说，“你自己雇车罢，他不能拉你了。”",
+        "我没有思索的从外套袋里抓出一大把铜元，交给巡警，说，“请你给他……”",
+        "风全住了，路上还很静。我走着，一面想，几乎怕敢想到我自己。以前的事姑且搁起，这一大把铜元又是什么意思？奖他么？我还能裁判车夫么？我不能回答自己。",
+        "这事到了现在，还是时时记起。我因此也时时熬了苦痛，努力的要想到我自己。几年来的文治武力，在我早如幼小时候所读过的“子曰诗云”一般，背不上半句了。独有这一件小事，却总是浮在我眼前，有时反更分明，教我惭愧，催我自新，并且增长我的勇气和希望。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "独有这一件小事，却总是浮在我眼前，有时反更分明，教我惭愧，催我自新，并且增长我的勇气和希望。",
+    "excerpt": "但有一件小事，却于我有意义，将我从坏脾气里拖开，使我至今忘记不得。",
+    "whyItFits": "它写的是一个普通车夫的选择，不宏大，却让人重新相信一点具体的善意。",
+    "moodDescription": "适合对人和事都有点失望的时候；它不给结论，只把一个人的背影留在眼前。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/一件小事",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "yudafu-chunfeng",
+    "workTitle": "春风沉醉的晚上",
+    "unitTitle": "邓脱路的阁楼",
+    "author": "郁达夫",
+    "authorDeathYear": 1945,
+    "publicationYear": 1923,
+    "form": "fiction",
+    "unitType": "excerpt",
+    "readingMinutes": 10,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "夜风",
+    "moodTags": [
+      "孤独",
+      "城市",
+      "怅惘",
+      "陪伴",
+      "温柔"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰"
+    ],
+    "valence": 0.32,
+    "arousal": 0.3,
+    "contentWarnings": [
+      "沉重意象"
+    ],
+    "contextBefore": "失业的“我”搬进上海邓脱路的贫民窟，隔壁住着一个在烟厂做工的年轻女子。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "在沪上闲居了半年，因为失业的结果，我的寓所迁移了三处。最初我住在静安寺路南的一间同鸟笼似的永也没有太阳晒着的自由的监房里。这些自由的监房的住民，除了几个同强盗小窃一样的凶恶裁缝之外，都是些可怜的无名文士，我当时所以送了那地方一个Yellow Grub Street的称号。在这Grub Street里住了一个月，房租忽涨了价，我就不得不拖了几本破书，搬上跑马厅附近一家相识的栈房里去。后来在这栈房里又受了种种逼迫，不得不搬了，我便在外白渡桥北岸的邓脱路中间，日新里对面的贫民窟里，寻了一间小小的房间，迁移了过去。"
+      ],
+      [
+        "邓脱路的这几排房子，从地上量到屋顶，只有一丈几尺高。我住的楼上的那间房间，更是矮小得不堪。若站在楼板上升一升懒腰，两只手就要把灰黑的屋顶穿通的。从前面的弄里踱进了那房子的门，便是房主的住房。在破布洋铁罐玻璃瓶旧铁器堆满的中间，侧着身子走进两步，就有一张中间有几根横档跌落的梯子靠墙摆在那里。用了这张梯子往上面的黑黝黝的一个二尺宽的洞里一接，即能走上楼去。黑沉沉的这层楼上，本来只有猫额那样大，房主人却把它隔成了两间小房，外面一间是一个N烟公司的女工住在那里，我所租的是梯子口头的那间小房，因为外间的住者要从我的房里出入，所以我的每月的房租要比外间的便宜几角小洋。"
+      ],
+      [
+        "我的房主，是一个五十来岁的弯腰老人。他的脸上的青黄色里，映射着一层暗黑的油光。两只眼睛是一只大一只小，颧骨很高，额上颊上的几条皱纹里满砌着煤灰，好像每天早晨洗也洗不掉的样子。他每日于八九点钟的时候起来，咳嗽一阵，便挑了一双竹篮出去，到午后的三四点钟总仍旧是挑了一双空篮回来的；有时挑了满担回来的时候，他的竹篮里便是那些破布破铁器玻璃瓶之类。像这样的晚上，他必要去买些酒来喝喝，一个人坐在床沿上瞎骂出许多不可捉摸的话来。"
+      ],
+      [
+        "我与间壁的同寓者的第一次相遇，是在搬来的那天午后。春天的急景已经快晚了的五点钟的时候，我点了一枝蜡烛，在那里安放几本刚从栈房里搬过来的破书。先把它们叠成了两方堆，一堆小些，一堆大些，然后把两个二尺长的装画的画架覆在大一点的那堆书上。因为我的器具都卖完了，这一堆书和画架白天要当写字台，晚上可当床睡的。摆好了画架的板，我就朝着了这张由书叠成的桌子，坐在小一点的那堆书上吸烟，我的背自然朝着了梯子的接口。因为我的背朝着了梯子，所以我的背后，忽而侵入了一种细微的声浪，我回头一看，才看见一个瘦削的少女，手里拿着一包纸，站在梯子口上。",
+        "“对不起，我是今朝才搬来的，以后要请你照应。”"
+      ],
+      [
+        "她听了我这话，也并不回答，放了一双漆黑的大眼，对我深深的看了一眼，就走上她的门口去开了锁，进房去了。我与她不过这样的见了一面，不晓是什么原因，我只觉得她是一个可怜的女子。她的高高的鼻梁，灰白长圆的面貌，清瘦不高的身体，好像都是表明她是可怜的特征，但是当时正为了生活问题在那里操心的我，也无暇去怜惜这还未曾失业的女工，过了几分钟我又动也不动的坐在那一小堆书上看蜡烛光了。"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "她的高高的鼻梁，灰白长圆的面貌，清瘦不高的身体，好像都是表明她是可怜的特征",
+    "excerpt": "在沪上闲居了半年，因为失业的结果，我的寓所迁移了三处。",
+    "whyItFits": "两个陌生人在狭窄的阁楼里互相照应；它不美化贫穷，但让孤独有了一个隔壁。",
+    "moodDescription": "适合一个人在城里待着、觉得没人知道自己近况的时候；有人问一句“照应”，就够了。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/春風沉醉的晚上",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
+  },
+  {
+    "id": "luyin-haibin",
+    "workTitle": "海滨故人",
+    "unitTitle": "海边的五个女郎",
+    "author": "庐隐",
+    "authorDeathYear": 1934,
+    "publicationYear": 1925,
+    "form": "fiction",
+    "unitType": "excerpt",
+    "readingMinutes": 6,
+    "difficulty": 2,
+    "pace": "slow",
+    "density": "medium",
+    "weather": "晚霞",
+    "moodTags": [
+      "女性",
+      "友谊",
+      "怅惘",
+      "陪伴",
+      "美"
+    ],
+    "needTags": [
+      "陪伴",
+      "安慰",
+      "美"
+    ],
+    "valence": 0.55,
+    "arousal": 0.3,
+    "contentWarnings": [],
+    "contextBefore": "五个年轻女子在海边避暑，每天两次来赏海景、说旧事。",
+    "contextAfter": "",
+    "sections": [
+      [
+        "呵！多美丽的图画！斜阳红得像血般，照在碧绿的海波上，露出紫蔷薇般的颜色来，那白杨和苍松的荫影之下，她们的旅行队正停在那里，五个青年的女郎，要算是此地的熟客了，她们住在靠海的村子里；只要早晨披白绡的安琪儿，在天空微笑时，她们便各人拿着书跳舞般跑了来。黄昏红裳的哥儿回去时，她们也必定要到。"
+      ],
+      [
+        "她们倒是什么来历呢？有一个名字叫露沙，她在她们五人里，是最活泼的一个，她总喜欢穿白纱的裙子，用云母石作枕头，仰面睡在草地上默默凝思。她在城里念书，现在正是暑假期中，约了她的好朋友——玲玉、莲裳、云青、宗莹住在海边避暑，每天两次来赏鉴海景。她们五个人的相貌和脾气都有极显著的区别。露沙是个很清瘦的面庞和体格，但却十分刚强，她们给她的赞语是“短小精悍”。她的脾气很爽快，但心思极深，对于世界的谜仿佛已经识破，对人们交接，总是诙谐的。玲玉是富于情感，而体格极瘦弱，她常常喜欢人们的赞美和温存。她认定的世界的伟大和神秘，只是爱的作用；她喜欢笑，更喜欢哭，她和露沙两个人常常因为一句话，或是一件事，便哭得泪人儿似的。"
+      ],
+      [
+        "有一天朝霞罩在白云上的时候，她们五个人又来了。露沙睡在海崖上，宗莹蹲在她的身旁，莲裳、玲玉、云青站在海边听怒涛狂歌，看浪花飞溅。宗莹忽然叫道：“你们看，那海上的白鸥，多么自由！”露沙睁开眼，望着那几只白鸥，半晌才说：“自由是自由，可是它们没有家。”"
+      ]
+    ],
+    "stanzas": [],
+    "notes": [],
+    "quote": "她们五个人的相貌和脾气都有极显著的区别。",
+    "excerpt": "呵！多美丽的图画！斜阳红得像血般，照在碧绿的海波上，露出紫蔷薇般的颜色来",
+    "whyItFits": "它让五个性格不同的女孩待在同一片海边；被陪伴的感觉，不一定来自懂你，也可以来自有人在场。",
+    "moodDescription": "适合想和朋友待在一起、又不想说太多的时候；海风替你们把沉默填满。",
+    "copyrightScope": "public-domain-cn-us",
+    "sourceName": "中文维基文库",
+    "sourceUrl": "https://zh.wikisource.org/wiki/海濱故人",
+    "license": "原文公有领域；维基文库转录 CC BY-SA 4.0",
+    "accessedAt": "2026-11-08",
+    "checkedAt": "2026-11-08"
   }
 ]

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { FORM_LABELS } from "../data/moods";
+import { FORM_LABELS, unitKindLabel, unitSubtitle } from "../data/moods";
 import { TEXTS } from "../data/texts";
 import { CloseIcon } from "./icons";
 
@@ -60,11 +60,12 @@ export function SourceDrawer({ onClose }: SourceDrawerProps) {
               <span className="source-item__number">{String(index + 1).padStart(2, "0")}</span>
               <div className="source-item__main">
                 <h2>
-                  《{unit.workTitle}》<span>· {unit.unitTitle}</span>
+                  《{unit.workTitle}》
+                  {unitSubtitle(unit) && <span>· {unitSubtitle(unit)}</span>}
                 </h2>
                 <p className="source-item__meta">
                   {unit.author}（卒于 {unit.authorDeathYear}） · {FORM_LABELS[unit.form]} ·{" "}
-                  {unit.unitType === "excerpt" ? "节选" : "全文/整首"} · {unit.readingMinutes} 分钟
+                  {unitKindLabel(unit)} · {unit.readingMinutes} 分钟
                 </p>
                 <p className="source-item__meta">
                   {unit.publicationYear < 1900 ? "约 " : ""}

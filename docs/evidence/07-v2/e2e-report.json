@@ -1,0 +1,458 @@
+{
+  "mobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "steps": [
+      {
+        "name": "q1",
+        "metrics": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "scrollHeight": 812,
+          "active": {
+            "tag": "BODY",
+            "text": "跳到主要内容读完FINISH READING处方笺文本来源读完读不必读完一本书处方签正在写此刻—想要—时间15 分钟不必"
+          },
+          "live": ""
+        },
+        "cards": 4
+      },
+      {
+        "name": "q2",
+        "metrics": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "scrollHeight": 812,
+          "active": {
+            "tag": "H1",
+            "text": "低落的时候，更像哪一种？"
+          },
+          "live": "第 2 步，低落的时候，更像哪一种？"
+        },
+        "heading": "低落的时候，更像哪一种？"
+      },
+      {
+        "name": "q3",
+        "metrics": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "scrollHeight": 894,
+          "active": {
+            "tag": "H1",
+            "text": "你想被怎样对待？"
+          },
+          "live": "第 3 步，你想被怎样对待？"
+        },
+        "leafOrder": [
+          "心里有点堵",
+          "想逃开一会儿",
+          "有点委屈"
+        ],
+        "heading": "你想被怎样对待？"
+      },
+      {
+        "name": "q4",
+        "metrics": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "scrollHeight": 1002,
+          "active": {
+            "tag": "H1",
+            "text": "现在，有多少时间？"
+          },
+          "live": "第 4 步，现在，有多少时间？"
+        },
+        "needOrder": [
+          "被安慰",
+          "被陪着",
+          "被点醒",
+          "都行"
+        ],
+        "extraVisible": 0,
+        "heading": "现在，有多少时间？"
+      },
+      {
+        "name": "results",
+        "mainTitle": "《背影》",
+        "mainTags": [
+          "很合",
+          "节选",
+          "含 离别"
+        ],
+        "rows": [
+          "02《风筝》鲁迅 · 散文 · 7 分钟 · 晴 · 全文含 沉重意象它的怀旧，离你此刻的状态不远。它不替歉疚开脱，也不把它放大；只是承认有些伤害已经无法补过。",
+          "03《春风沉醉的晚上》邓脱路的阁楼郁达夫 · 小说 · 10 分钟 · 夜风 · 节选含 沉重意象10 分钟，正好。两个陌生人在狭窄的阁楼里互相照应；它不美化贫",
+          "04《落花生》许地山 · 散文 · 4 分钟 · 晚霞 · 全文不长，4 分钟。它没有大道理，只有一家人围坐的晚上；被安慰的感觉来自桌边，不来自结论。挺合",
+          "05《故乡》少年闰土鲁迅 · 小说 · 12 分钟 · 雪 · 节选含 离别时间刚好：12 分钟。它把童年写得很亮，又把“再也回不去”藏在最后；适合想被温柔地陪",
+          "06《桨声灯影里的秦淮河》七板子与秦淮河朱自清 · 散文 · 10 分钟 · 夜风 · 节选这篇接住的是“被安慰”：不急着给答案，句子慢，像有人陪着坐一会儿。它",
+          "07《秋夜》鲁迅 · 散文 · 8 分钟 · 夜风 · 全文你选了“被安慰”，不急着给答案，句子慢，像有人陪着坐一会儿。夜气和孤独都写得很慢，适合在不想睡、又不",
+          "08《月下独酌》花间一壶酒李白 · 诗 · 3 分钟 · 夜风 · 整首3 分钟，正好。一个人喝酒也能喝出热闹；它承认孤独，却不把孤独写得可怜。挺合",
+          "09《教我如何不想她》刘半农 · 诗 · 4 分钟 · 夜风 · 整首夜风的气息，离你此刻不远。它不解释想念，只把风、月光和残霞一件件摆出来，让思念有地方落脚。"
+        ],
+        "count": 9,
+        "reasons": [
+          "读起来会是薄雾的感觉。细节密、句子慢，像有人坐在旁边，不急着安慰你，只陪你想起一个人。"
+        ],
+        "neutral": "",
+        "labels": [
+          "很合",
+          "很合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合"
+        ],
+        "metrics": {
+          "scrollWidth": 375,
+          "clientWidth": 375
+        },
+        "announcements": ""
+      },
+      {
+        "name": "shuffle",
+        "firstIds": [
+          "《背影》",
+          "《风筝》",
+          "《春风沉醉的晚上》",
+          "《落花生》",
+          "《故乡》",
+          "《桨声灯影里的秦淮河》",
+          "《秋夜》",
+          "《月下独酌》",
+          "《教我如何不想她》"
+        ],
+        "secondIds": [
+          "《偶然》",
+          "《雪》",
+          "《海滨故人》",
+          "《虞美人》",
+          "《荷塘月色》",
+          "《一剪梅》",
+          "《敬业与乐业》",
+          "《天净沙·秋思》",
+          "《再别康桥》"
+        ],
+        "overlap": []
+      },
+      {
+        "name": "adjust",
+        "heading": "现在，有多少时间？",
+        "step": "时间"
+      },
+      {
+        "name": "reading",
+        "heading": "《背影》车站买橘",
+        "hasWhole": 0
+      },
+      {
+        "name": "finish",
+        "heading": "读完了。",
+        "selectedPostMood": 0,
+        "primaryDisabled": true,
+        "fixedVisible": true
+      },
+      {
+        "name": "saved",
+        "download": "/Users/chenwei/Documents/Workspace/projects/qoder-university-creativity-2026/docs/evidence/07-v2/375-card-1080x1350.png",
+        "size": 181958
+      },
+      {
+        "name": "history",
+        "count": 1,
+        "finishHistoryAria": "处方笺，查看读过的卡片"
+      },
+      {
+        "name": "final",
+        "metrics": {
+          "innerWidth": 375,
+          "innerHeight": 812,
+          "scrollWidth": 375,
+          "clientWidth": 375,
+          "scrollHeight": 812,
+          "active": {
+            "tag": "BODY",
+            "text": "跳到主要内容处方笺 / 1 张读过的，都在这里。卡片只保存在这台设备的浏览器里。没有账号，也不会上传。 回到首页2026"
+          },
+          "live": ""
+        }
+      }
+    ],
+    "errors": []
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "steps": [
+      {
+        "name": "q1",
+        "metrics": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "scrollHeight": 1078,
+          "active": {
+            "tag": "BODY",
+            "text": "跳到主要内容读完FINISH READING处方笺文本来源读完读不必读完一本书处方签正在写此刻—想要—时间15 分钟不必"
+          },
+          "live": ""
+        },
+        "cards": 4
+      },
+      {
+        "name": "q2",
+        "metrics": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "scrollHeight": 1000,
+          "active": {
+            "tag": "H1",
+            "text": "低落的时候，更像哪一种？"
+          },
+          "live": "第 2 步，低落的时候，更像哪一种？"
+        },
+        "heading": "低落的时候，更像哪一种？"
+      },
+      {
+        "name": "q3",
+        "metrics": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "scrollHeight": 1000,
+          "active": {
+            "tag": "H1",
+            "text": "你想被怎样对待？"
+          },
+          "live": "第 3 步，你想被怎样对待？"
+        },
+        "leafOrder": [
+          "心里有点堵",
+          "想逃开一会儿",
+          "有点委屈"
+        ],
+        "heading": "你想被怎样对待？"
+      },
+      {
+        "name": "q4",
+        "metrics": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "scrollHeight": 1046,
+          "active": {
+            "tag": "H1",
+            "text": "现在，有多少时间？"
+          },
+          "live": "第 4 步，现在，有多少时间？"
+        },
+        "needOrder": [
+          "被安慰",
+          "被陪着",
+          "被点醒",
+          "都行"
+        ],
+        "extraVisible": 0,
+        "heading": "现在，有多少时间？"
+      },
+      {
+        "name": "results",
+        "mainTitle": "《背影》",
+        "mainTags": [
+          "很合",
+          "节选",
+          "含 离别"
+        ],
+        "rows": [
+          "02《风筝》鲁迅 · 散文 · 7 分钟 · 晴 · 全文含 沉重意象它的怀旧，离你此刻的状态不远。它不替歉疚开脱，也不把它放大；只是承认有些伤害已经无法补过。",
+          "03《春风沉醉的晚上》邓脱路的阁楼郁达夫 · 小说 · 10 分钟 · 夜风 · 节选含 沉重意象10 分钟，正好。两个陌生人在狭窄的阁楼里互相照应；它不美化贫",
+          "04《落花生》许地山 · 散文 · 4 分钟 · 晚霞 · 全文不长，4 分钟。它没有大道理，只有一家人围坐的晚上；被安慰的感觉来自桌边，不来自结论。挺合",
+          "05《故乡》少年闰土鲁迅 · 小说 · 12 分钟 · 雪 · 节选含 离别时间刚好：12 分钟。它把童年写得很亮，又把“再也回不去”藏在最后；适合想被温柔地陪",
+          "06《桨声灯影里的秦淮河》七板子与秦淮河朱自清 · 散文 · 10 分钟 · 夜风 · 节选这篇接住的是“被安慰”：不急着给答案，句子慢，像有人陪着坐一会儿。它",
+          "07《秋夜》鲁迅 · 散文 · 8 分钟 · 夜风 · 全文你选了“被安慰”，不急着给答案，句子慢，像有人陪着坐一会儿。夜气和孤独都写得很慢，适合在不想睡、又不",
+          "08《月下独酌》花间一壶酒李白 · 诗 · 3 分钟 · 夜风 · 整首3 分钟，正好。一个人喝酒也能喝出热闹；它承认孤独，却不把孤独写得可怜。挺合",
+          "09《教我如何不想她》刘半农 · 诗 · 4 分钟 · 夜风 · 整首夜风的气息，离你此刻不远。它不解释想念，只把风、月光和残霞一件件摆出来，让思念有地方落脚。"
+        ],
+        "count": 9,
+        "reasons": [
+          "读起来会是薄雾的感觉。细节密、句子慢，像有人坐在旁边，不急着安慰你，只陪你想起一个人。"
+        ],
+        "neutral": "",
+        "labels": [
+          "很合",
+          "很合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合",
+          "挺合"
+        ],
+        "metrics": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440
+        },
+        "announcements": ""
+      },
+      {
+        "name": "shuffle",
+        "firstIds": [
+          "《背影》",
+          "《风筝》",
+          "《春风沉醉的晚上》",
+          "《落花生》",
+          "《故乡》",
+          "《桨声灯影里的秦淮河》",
+          "《秋夜》",
+          "《月下独酌》",
+          "《教我如何不想她》"
+        ],
+        "secondIds": [
+          "《偶然》",
+          "《雪》",
+          "《海滨故人》",
+          "《虞美人》",
+          "《荷塘月色》",
+          "《一剪梅》",
+          "《敬业与乐业》",
+          "《天净沙·秋思》",
+          "《再别康桥》"
+        ],
+        "overlap": []
+      },
+      {
+        "name": "adjust",
+        "heading": "现在，有多少时间？",
+        "step": "时间"
+      },
+      {
+        "name": "reading",
+        "heading": "《背影》车站买橘",
+        "hasWhole": 0
+      },
+      {
+        "name": "finish",
+        "heading": "读完了。",
+        "selectedPostMood": 0,
+        "primaryDisabled": true,
+        "fixedVisible": false
+      },
+      {
+        "name": "saved",
+        "download": "/Users/chenwei/Documents/Workspace/projects/qoder-university-creativity-2026/docs/evidence/07-v2/1440-card-1080x1350.png",
+        "size": 181958
+      },
+      {
+        "name": "history",
+        "count": 1,
+        "finishHistoryAria": "处方笺，查看读过的卡片"
+      },
+      {
+        "name": "final",
+        "metrics": {
+          "innerWidth": 1440,
+          "innerHeight": 1000,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "scrollHeight": 1000,
+          "active": {
+            "tag": "BODY",
+            "text": "跳到主要内容处方笺 / 1 张读过的，都在这里。卡片只保存在这台设备的浏览器里。没有账号，也不会上传。 回到首页2026"
+          },
+          "live": ""
+        }
+      }
+    ],
+    "errors": []
+  },
+  "freeMobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "text": "今天有点累，脑子停不下来",
+    "suggestions": [
+      "累但不想睡",
+      "脑子停不下来"
+    ],
+    "themes": [
+      "疲惫",
+      "夜",
+      "脑子停不下来"
+    ],
+    "primaryLabel": "就按这句话配 ",
+    "result": {
+      "neutral": "未选状态按你写的话来配",
+      "heard": "你说：“今天有点累，脑子停不下来”",
+      "themes": [
+        "疲惫",
+        "夜",
+        "脑子停不下来"
+      ],
+      "note": "它们让这轮 5 篇排得更前，带“因你写的话”标记。",
+      "freeTags": 5,
+      "count": 9,
+      "heading": "这轮先看 9 个",
+      "metrics": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      }
+    },
+    "errors": []
+  },
+  "freeDesktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "text": "今天有点累，脑子停不下来",
+    "suggestions": [
+      "累但不想睡",
+      "脑子停不下来"
+    ],
+    "themes": [
+      "疲惫",
+      "夜",
+      "脑子停不下来"
+    ],
+    "primaryLabel": "就按这句话配 ",
+    "result": {
+      "neutral": "未选状态按你写的话来配",
+      "heard": "你说：“今天有点累，脑子停不下来”",
+      "themes": [
+        "疲惫",
+        "夜",
+        "脑子停不下来"
+      ],
+      "note": "它们让这轮 5 篇排得更前，带“因你写的话”标记。",
+      "freeTags": 5,
+      "count": 9,
+      "heading": "这轮先看 9 个",
+      "metrics": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "errors": []
+  }
+}

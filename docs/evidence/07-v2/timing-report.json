@@ -1,0 +1,11 @@
+{
+  "viewport": "375x812",
+  "timerMs": 280,
+  "measured": {
+    "branchDelay": 288,
+    "leafDelay": 285,
+    "needDelay": 291
+  },
+  "pass": true,
+  "note": "MutationObserver measured from click to new H1 render; previous 1199ms included Playwright actionability waiting."
+}

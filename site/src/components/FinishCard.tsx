@@ -1,23 +1,34 @@
-import { STAMPS } from "../data/moods";
+import { STAMPS, unitKindLabel, unitSubtitle } from "../data/moods";
 import type { HistoryRecord } from "../lib/types";
 import { formatDate } from "../lib/storage";
 import { Seal } from "./Seal";
 
-export type FinishCardRecord = Pick<
-  HistoryRecord,
-  | "workTitle"
-  | "unitTitle"
-  | "author"
-  | "form"
-  | "weather"
-  | "readingMinutes"
-  | "preMood"
-  | "postMood"
-  | "note"
-  | "quote"
-  | "stampIds"
-  | "finishedAt"
->;
+export type FinishCardRecord = Omit<
+  Pick<
+    HistoryRecord,
+    | "workTitle"
+    | "unitTitle"
+    | "unitType"
+    | "author"
+    | "form"
+    | "weather"
+    | "readingMinutes"
+    | "preMood"
+    | "postMood"
+    | "note"
+    | "quote"
+    | "stampIds"
+    | "finishedAt"
+  >,
+  "postMood"
+> & { postMood: HistoryRecord["postMood"] | "" };
+
+function kindOf(record: FinishCardRecord): string {
+  const unitType =
+    record.unitType ??
+    (record.unitTitle === "全文" || record.unitTitle === "整首" ? "full" : "excerpt");
+  return unitKindLabel({ unitType, form: record.form });
+}
 
 interface FinishCardProps {
   record: FinishCardRecord;
@@ -45,10 +56,13 @@ export function FinishCard({ record, variant = "preview" }: FinishCardProps) {
       </header>
 
       <div className="finish-card__title">
-        <p className="finish-card__work">《{record.workTitle}》</p>
-        <h3>{record.unitTitle}</h3>
+        <h3>《{record.workTitle}》</h3>
+        {unitSubtitle({ unitTitle: record.unitTitle }) && (
+          <p className="finish-card__unit">{unitSubtitle({ unitTitle: record.unitTitle })}</p>
+        )}
         <p className="finish-card__byline">
-          {record.author} · {FORM_SHORT[record.form]} · {record.readingMinutes} 分钟
+          {record.author} · {FORM_SHORT[record.form]} · {kindOf(record)} ·{" "}
+          {record.readingMinutes} 分钟
         </p>
       </div>
 
@@ -66,7 +80,7 @@ export function FinishCard({ record, variant = "preview" }: FinishCardProps) {
         <span className="finish-card__arrow" aria-hidden="true">
           →
         </span>
-        <span>读后 · {record.postMood}</span>
+        <span>读后 · {record.postMood || "还没选"}</span>
       </div>
 
       <div className="finish-card__bottom">

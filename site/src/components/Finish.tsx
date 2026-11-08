@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { FORM_LABELS, POST_MOODS, STAMP_GROUPS, STAMPS } from "../data/moods";
+import { FORM_LABELS, POST_MOODS, STAMP_GROUPS, STAMPS, unitKindLabel, unitSubtitle } from "../data/moods";
 import type { HistoryRecord, PostMood, TextUnit } from "../lib/types";
 import { extractSentences } from "../lib/textStats";
 import { formatDate, makeHistoryId } from "../lib/storage";
@@ -16,6 +16,7 @@ interface FinishProps {
   onSave: (record: HistoryRecord) => void;
   onAgain: () => void;
   onHome: () => void;
+  onHistory: () => void;
   onSources: () => void;
 }
 
@@ -27,9 +28,10 @@ export function Finish({
   onSave,
   onAgain,
   onHome,
+  onHistory,
   onSources,
 }: FinishProps) {
-  const [postMood, setPostMood] = useState<PostMood>("更松了");
+  const [postMood, setPostMood] = useState<PostMood | "">("");
   const [note, setNote] = useState(readingNotes.join("；").slice(0, 100));
   const [quote, setQuote] = useState(unit.quote);
   const [stampIds, setStampIds] = useState<string[]>([]);
@@ -46,6 +48,7 @@ export function Finish({
   const record: FinishCardRecord = {
     workTitle: unit.workTitle,
     unitTitle: unit.unitTitle,
+    unitType: unit.unitType,
     author: unit.author,
     form: unit.form,
     weather: unit.weather,
@@ -66,12 +69,13 @@ export function Finish({
     finishedAt: savedRecord?.finishedAt ?? finishedAt,
     workTitle: unit.workTitle,
     unitTitle: unit.unitTitle,
+    unitType: unit.unitType,
     author: unit.author,
     form: unit.form,
     weather: unit.weather,
     readingMinutes: unit.readingMinutes,
     preMood: preMoodLabel,
-    postMood,
+    postMood: (postMood || "差不多") as PostMood,
     note: note.trim(),
     quote,
     stampIds,
@@ -80,7 +84,7 @@ export function Finish({
 
   const persist = (): HistoryRecord | null => {
     if (savedRecord) return savedRecord;
-    if (stampIds.length === 0) return null;
+    if (!postMood || stampIds.length === 0) return null;
     const next = makeRecord();
     onSave(next);
     setSavedRecord(next);
@@ -101,35 +105,63 @@ export function Finish({
     if (saved) downloadFinishCard(saved);
   };
 
-  const canSave = stampIds.length > 0;
+  const canSave = postMood !== "" && stampIds.length > 0;
+  const missingHint = !postMood
+    ? "先选一个读完的感觉"
+    : stampIds.length === 0
+      ? "再选 1 枚印章"
+      : "";
 
   return (
-    <div className="finish view-enter">
+    <div className="finish">
       <header className="finish-head">
         <div>
           <p className="kicker">读完 / {formatDate(finishedAt)}</p>
           <h1>读完了。</h1>
-          <p className="finish-lede">把这次阅读收好。选一枚印章，留下一点痕迹。</p>
+          <p className="finish-lede">把这次阅读收好。选一个读完的感觉，再盖一枚印章。</p>
         </div>
         <div className="finish-head__meta">
-          <span>《{unit.workTitle}》· {unit.unitTitle}</span>
-          <span>{unit.author} · {FORM_LABELS[unit.form]} · {unit.readingMinutes} 分钟</span>
+          <span>
+            《{unit.workTitle}》
+            {unitSubtitle(unit) ? ` · ${unitSubtitle(unit)}` : ""}
+          </span>
+          <span>
+            {unit.author} · {FORM_LABELS[unit.form]} · {unitKindLabel(unit)} ·{" "}
+            {unit.readingMinutes} 分钟
+          </span>
         </div>
       </header>
+
+      <p className="finish-fulltext">
+        <span>{unit.unitType === "excerpt" ? "读到这里只是节选。" : "这篇已经是全文。"}</span>
+        <a
+          href={unit.sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`在${unit.sourceName}打开《${unit.workTitle}》${
+            unit.unitType === "excerpt" ? "全文" : "原文"
+          }（新标签页）`}
+        >
+          {unit.unitType === "excerpt"
+            ? `去${unit.sourceName}读《${unit.workTitle}》全文`
+            : `打开《${unit.workTitle}》原文`}
+          <span aria-hidden="true"> ↗</span>
+        </a>
+      </p>
 
       <div className="finish-layout">
         <div className="finish-preview-col">
           <FinishCard record={record} />
-          <p className="finish-preview-note">
-            竖版 4:5 · 下载后适合发在小红书或朋友圈
-          </p>
+          <p className="finish-preview-note">竖版 4:5 · 下载后适合发在小红书或朋友圈</p>
         </div>
 
         <div className="finish-controls">
           <section className="finish-section" aria-labelledby="post-mood-title">
             <div className="finish-section__head">
               <h2 id="post-mood-title">读完之后，感觉如何？</h2>
-              <span className="finish-section__aside">不做心理评估</span>
+              <span className="finish-section__aside">
+                {postMood ? "不做心理评估" : "请选择"}
+              </span>
             </div>
             <div className="mood-after">
               {POST_MOODS.map((item) => (
@@ -197,7 +229,7 @@ export function Finish({
                     }}
                     disabled={locked}
                   >
-                    {quote}
+                    {item}
                   </button>
                 ))}
               </div>
@@ -238,7 +270,7 @@ export function Finish({
                 </div>
               ))}
             </div>
-            {!canSave && <p className="finish-section__hint">先选 1 枚印章，再收下卡片。</p>}
+            {missingHint && <p className="finish-section__hint">{missingHint}，再收下卡片。</p>}
           </section>
 
           <div className="finish-actions">
@@ -266,6 +298,7 @@ export function Finish({
                 <DownloadIcon /> 下载 4:5 PNG
               </button>
             </div>
+            <p className="finish-download-note">下载 PNG 会同时把这张卡片存进处方笺。</p>
             <div className="finish-actions__secondary">
               <button
                 type="button"
@@ -276,6 +309,19 @@ export function Finish({
                 }}
               >
                 再读一个
+              </button>
+              <span aria-hidden="true">·</span>
+              <button
+                type="button"
+                className="link-button"
+                aria-label="处方笺，查看读过的卡片"
+                title="处方笺 · 读过的卡片"
+                onClick={() => {
+                  persist();
+                  onHistory();
+                }}
+              >
+                处方笺 · 读过的卡片
               </button>
               <span aria-hidden="true">·</span>
               <button
@@ -296,9 +342,35 @@ export function Finish({
             <p className="finish-local-note" role="status">
               {savedRecord
                 ? "已存入这台设备的处方笺。没有账号，也不会上传。"
-                : "卡片只保存在这台设备的浏览器里。"}
+                : "卡片只保存在这台设备的浏览器里，没有账号，也不会上传。"}
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="finish-fixed-bar">
+        <span className="finish-fixed-bar__hint" aria-live="polite">
+          {savedRecord ? "已存入处方笺" : missingHint || "下载会同时存入处方笺"}
+        </span>
+        <div className="finish-fixed-bar__actions">
+          <button
+            type="button"
+            className="btn btn--primary"
+            disabled={!canSave || locked}
+            onClick={() => persist()}
+          >
+            {savedRecord ? "已存入" : "收下卡片"}
+          </button>
+          <button
+            type="button"
+            className="btn btn--ghost"
+            disabled={!canSave}
+            aria-label="下载 4:5 PNG，同时存入处方笺"
+            title="下载 4:5 PNG，同时存入处方笺"
+            onClick={handleDownload}
+          >
+            下载 PNG
+          </button>
         </div>
       </div>
     </div>

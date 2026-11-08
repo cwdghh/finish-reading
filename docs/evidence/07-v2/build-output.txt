@@ -1,0 +1,31 @@
+
+> finish-reading@0.1.0 prebuild
+> node scripts/check-node.mjs
+
+
+> finish-reading@0.1.0 build
+> node scripts/validate-texts.mjs && tsc --noEmit && node scripts/build.mjs
+
+validate-texts: 53 units
+forms: poem=22 prose=11 fiction=7 classical=13
+needs: 安慰=37 逗笑=8 点醒=24 陪伴=35 美=30 力量=10
+coverage (leaf / total / priority needs):
+  blocked   32  安慰=24 陪伴=26 点醒=11
+  escape    39  安慰=29 陪伴=28 点醒=13
+  wronged   18  安慰=14 陪伴=17 点醒=4
+  tired     31  安慰=25 逗笑=3 点醒=9
+  strength  21  安慰=14 逗笑=3 点醒=19
+  restless  36  安慰=25 逗笑=4 点醒=20
+  good      37  逗笑=7 美=28 点醒=13
+  light     15  逗笑=6 美=9 点醒=6
+
+validate-texts: ok
+vite v8.0.16 building client environment for production...
+[2Ktransforming...✓ 34 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.78 kB │ gzip:   0.55 kB
+dist/assets/index-DTXstSnL.css   70.04 kB │ gzip:  11.64 kB
+dist/assets/index-Cwya_ScL.js   397.26 kB │ gzip: 131.03 kB
+
+✓ built in 142ms

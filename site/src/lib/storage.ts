@@ -1,8 +1,19 @@
 import { DEFAULT_PREFS, FORMS } from "../data/moods";
-import type { ContentWarning, HistoryRecord, StoredPrefs } from "./types";
+import type {
+  BatchCache,
+  ContentWarning,
+  HistoryRecord,
+  ShownRecord,
+  StoredPrefs,
+} from "./types";
 
 const HISTORY_KEY = "duwan:history:v1";
 const PREFS_KEY = "duwan:prefs:v1";
+const SHOWN_KEY = "duwan:shown:v1";
+const BATCH_KEY = "duwan:batch:v1";
+const SESSION_KEY = "duwan:session:v1";
+const SHOWN_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+let fallbackNonce = "";
 
 function readJson<T>(key: string): T | null {
   try {
@@ -50,6 +61,62 @@ export function recentUnitIds(records: HistoryRecord[], limit = 8): string[] {
     if (ids.length >= limit) break;
   }
   return ids;
+}
+
+export function loadShown(): ShownRecord[] {
+  const value = readJson<ShownRecord[]>(SHOWN_KEY);
+  if (!Array.isArray(value)) return [];
+  const cutoff = Date.now() - SHOWN_WINDOW_MS;
+  return value.filter((item) => {
+    if (typeof item?.unitId !== "string" || typeof item?.shownAt !== "string") return false;
+    const time = Date.parse(item.shownAt);
+    return Number.isFinite(time) && time >= cutoff;
+  });
+}
+
+export function shownUnitIds(): string[] {
+  return loadShown()
+    .sort((a, b) => Date.parse(b.shownAt) - Date.parse(a.shownAt))
+    .map((item) => item.unitId);
+}
+
+export function recordShown(unitIds: string[]): void {
+  if (unitIds.length === 0) return;
+  const now = new Date().toISOString();
+  const byId = new Map(loadShown().map((item) => [item.unitId, item]));
+  unitIds.forEach((unitId) => byId.set(unitId, { unitId, shownAt: now }));
+  const kept = [...byId.values()].sort(
+    (a, b) => Date.parse(b.shownAt) - Date.parse(a.shownAt),
+  );
+  writeJson(SHOWN_KEY, kept.slice(0, 300));
+}
+
+export function loadBatchCache(): BatchCache | null {
+  const value = readJson<BatchCache>(BATCH_KEY);
+  if (!value || typeof value.seed !== "string" || !Array.isArray(value.ids)) return null;
+  return value;
+}
+
+export function saveBatchCache(cache: BatchCache): void {
+  writeJson(BATCH_KEY, cache);
+}
+
+export function getSessionNonce(): string {
+  try {
+    const existing = window.sessionStorage.getItem(SESSION_KEY);
+    if (existing) return existing;
+    const nonce =
+      typeof crypto !== "undefined" && "randomUUID" in crypto
+        ? crypto.randomUUID()
+        : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    window.sessionStorage.setItem(SESSION_KEY, nonce);
+    return nonce;
+  } catch {
+    if (!fallbackNonce) {
+      fallbackNonce = `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    }
+    return fallbackNonce;
+  }
 }
 
 export function loadPrefs(): StoredPrefs {

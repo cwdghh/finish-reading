@@ -1,0 +1,94 @@
+{
+  "375": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "reading": {
+      "sections": 3,
+      "paragraphs": 3,
+      "actionButtons": [
+        "我读完了"
+      ],
+      "sectionButtons": 0,
+      "flowNote": "正文已展开，按自己的速度向下读。",
+      "progress": "0%",
+      "noteLabel": "用一句话记住这次阅读可以不写",
+      "bodyHeight": 1580.953125,
+      "scrollHeight": 2207
+    },
+    "bottom": {
+      "progress": "100%",
+      "actionVisible": true,
+      "finishText": "我读完了"
+    },
+    "finish": {
+      "heading": "读完了。",
+      "fulltextText": "读到这里只是节选。去中文维基文库读《背影》全文 ↗",
+      "linkText": "去中文维基文库读《背影》全文 ↗",
+      "href": "https://zh.wikisource.org/wiki/背影",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "aria": "在中文维基文库打开《背影》全文（新标签页）",
+      "visible": true,
+      "overflow": 0
+    },
+    "errors": []
+  },
+  "1440": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reading": {
+      "sections": 3,
+      "paragraphs": 3,
+      "actionButtons": [
+        "我读完了"
+      ],
+      "sectionButtons": 0,
+      "flowNote": "正文已展开，按自己的速度向下读。",
+      "progress": "0%",
+      "noteLabel": "用一句话记住这次阅读可以不写",
+      "bodyHeight": 1089.21875,
+      "scrollHeight": 1759
+    },
+    "bottom": {
+      "progress": "100%",
+      "actionVisible": true,
+      "finishText": "我读完了"
+    },
+    "finish": {
+      "heading": "读完了。",
+      "fulltextText": "读到这里只是节选。去中文维基文库读《背影》全文 ↗",
+      "linkText": "去中文维基文库读《背影》全文 ↗",
+      "href": "https://zh.wikisource.org/wiki/背影",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "aria": "在中文维基文库打开《背影》全文（新标签页）",
+      "visible": true,
+      "overflow": 0
+    },
+    "errors": []
+  },
+  "poem": {
+    "poem": {
+      "title": "《如梦令》常记溪亭日暮",
+      "wholePressed": [
+        {
+          "text": "逐句",
+          "pressed": "false"
+        },
+        {
+          "text": "整首",
+          "pressed": "true"
+        }
+      ],
+      "lines": 6,
+      "action": "我读完了",
+      "nextButtons": 0,
+      "flowNote": "整首已展开，按自己的速度向下读。"
+    },
+    "errors": []
+  }
+}

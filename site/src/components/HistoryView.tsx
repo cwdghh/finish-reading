@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FORM_LABELS, STAMPS } from "../data/moods";
+import { FORM_LABELS, STAMPS, unitSubtitle } from "../data/moods";
 import type { HistoryRecord } from "../lib/types";
 import { formatDate } from "../lib/storage";
 import { downloadFinishCard } from "../lib/exportCard";
@@ -72,7 +72,11 @@ export function HistoryView({ records, onBack, onSources }: HistoryViewProps) {
                 >
                   <span className="history-card__date">{formatDate(record.finishedAt)}</span>
                   <span className="history-card__work">《{record.workTitle}》</span>
-                  <span className="history-card__unit">{record.unitTitle}</span>
+                  {unitSubtitle({ unitTitle: record.unitTitle }) && (
+                    <span className="history-card__unit">
+                      {unitSubtitle({ unitTitle: record.unitTitle })}
+                    </span>
+                  )}
                   <span className="history-card__meta">
                     {record.author} · {FORM_LABELS[record.form]} · {record.readingMinutes} 分钟
                   </span>
@@ -111,7 +115,10 @@ export function HistoryView({ records, onBack, onSources }: HistoryViewProps) {
               <div>
                 <p className="kicker">{formatDate(selected.finishedAt)}</p>
                 <h2 id="history-detail-title">
-                  《{selected.workTitle}》· {selected.unitTitle}
+                  《{selected.workTitle}》
+                  {unitSubtitle({ unitTitle: selected.unitTitle })
+                    ? ` · ${unitSubtitle({ unitTitle: selected.unitTitle })}`
+                    : ""}
                 </h2>
               </div>
               <button

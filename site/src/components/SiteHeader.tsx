@@ -15,7 +15,13 @@ export function SiteHeader({ historyCount, onHome, onHistory, onSources }: SiteH
         <span className="brand__en">FINISH READING</span>
       </button>
       <nav className="site-nav" aria-label="站点导航">
-        <button type="button" className="nav-button" onClick={onHistory}>
+        <button
+          type="button"
+          className="nav-button"
+          onClick={onHistory}
+          aria-label={`处方笺，查看读过的卡片${historyCount > 0 ? `，共 ${historyCount} 张` : ""}`}
+          title="处方笺 · 读过的卡片"
+        >
           <HistoryIcon />
           <span>处方笺</span>
           {historyCount > 0 && <span className="nav-count">{historyCount}</span>}

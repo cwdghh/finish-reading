@@ -1,14 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
-import { MOODS } from "./data/moods";
+import { MOOD_BY_ID } from "./data/moods";
 import { TEXTS } from "./data/texts";
 import type { Answers, AppView, HistoryRecord, TextUnit } from "./lib/types";
-import { rankTexts, type MatchResult } from "./lib/match";
+import { makeBaseSeed, makeBatchSeed, rankTexts, type MatchResult } from "./lib/match";
 import {
+  getSessionNonce,
+  loadBatchCache,
   loadHistory,
   loadPrefs,
   recentUnitIds,
+  recordShown,
+  saveBatchCache,
   saveHistory,
   savePrefs,
+  shownUnitIds,
 } from "./lib/storage";
 import { CheckIn } from "./components/CheckIn";
 import { Results } from "./components/Results";
@@ -23,9 +28,19 @@ interface ReadingPayload {
   readingNotes: string[];
 }
 
+const BATCH_SIZE = 9;
+
+function todayKey(): string {
+  const date = new Date();
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(
+    date.getDate(),
+  ).padStart(2, "0")}`;
+}
+
 export default function App() {
   const [prefs] = useState(loadPrefs);
   const [answers, setAnswers] = useState<Answers>({
+    branchId: "",
     moodId: "",
     needId: "",
     minutes: prefs.minutes,
@@ -37,16 +52,20 @@ export default function App() {
   const [view, setView] = useState<AppView>("checkin");
   const [history, setHistory] = useState<HistoryRecord[]>(loadHistory);
   const [result, setResult] = useState<MatchResult | null>(null);
+  const [batchIndex, setBatchIndex] = useState(0);
   const [activeUnit, setActiveUnit] = useState<TextUnit | null>(null);
   const [readingPayload, setReadingPayload] = useState<ReadingPayload>({
     durationSeconds: 0,
     readingNotes: [],
   });
   const [sourcesOpen, setSourcesOpen] = useState(false);
+  const sessionNonce = useMemo(getSessionNonce, []);
 
   const preMoodLabel = useMemo(
-    () => MOODS.find((item) => item.id === answers.moodId)?.label ?? "此刻",
-    [answers.moodId],
+    () =>
+      MOOD_BY_ID.get(answers.moodId)?.label ??
+      (answers.freeText.trim() ? "按一句话来配" : "未选状态"),
+    [answers.moodId, answers.freeText],
   );
 
   useEffect(() => {
@@ -57,33 +76,52 @@ export default function App() {
     setAnswers((current) => ({ ...current, ...patch }));
   };
 
-  const handleNext = () => {
-    setStep((current) => Math.min(3, current + 1));
-  };
-
-  const handleBack = () => {
-    setStep((current) => Math.max(1, current - 1));
-  };
-
-  const handleSelectStep = (nextStep: number) => {
-    if (nextStep <= step) setStep(nextStep);
+  const generateBatch = (
+    nextBatchIndex: number,
+    options: { excludeIds?: string[] } = {},
+  ) => {
+    const baseSeed = makeBaseSeed(answers, todayKey());
+    const seed = makeBatchSeed(baseSeed, sessionNonce, nextBatchIndex);
+    const cached = loadBatchCache();
+    const useCached = nextBatchIndex === 0 && cached?.seed === baseSeed;
+    const next = rankTexts(TEXTS, answers, {
+      seed,
+      recentIds: recentUnitIds(history),
+      shownIds: useCached ? [] : shownUnitIds(),
+      excludeIds: options.excludeIds ?? [],
+      preferredIds: useCached ? cached.ids : undefined,
+      batchSize: BATCH_SIZE,
+      batchIndex: nextBatchIndex,
+    });
+    setResult(next);
+    setBatchIndex(nextBatchIndex);
+    setView("results");
+    recordShown(next.items.map((item) => item.unit.id));
+    if (nextBatchIndex === 0) {
+      saveBatchCache({
+        seed,
+        ids: next.items.map((item) => item.unit.id),
+        createdAt: new Date().toISOString(),
+        batchIndex: 0,
+      });
+    }
   };
 
   const handleStart = () => {
-    const nextPrefs = {
-      minutes: answers.minutes,
-      form: answers.form,
-      avoid: answers.avoid,
-    };
-    savePrefs(nextPrefs);
-    const nextResult = rankTexts(TEXTS, answers, recentUnitIds(history));
-    setResult(nextResult);
-    setView("results");
+    savePrefs({ minutes: answers.minutes, form: answers.form, avoid: answers.avoid });
+    generateBatch(0);
   };
 
-  const handleRematch = () => {
+  const handleShuffle = () => {
+    if (!result) return;
+    generateBatch(batchIndex + 1, {
+      excludeIds: result.items.map((item) => item.unit.id),
+    });
+  };
+
+  const handleAdjust = () => {
     setView("checkin");
-    setStep(1);
+    setStep(4);
   };
 
   const handleRead = (unit: TextUnit) => {
@@ -116,14 +154,13 @@ export default function App() {
   const handleAgain = () => {
     const latest = loadHistory();
     setHistory(latest);
-    setResult(rankTexts(TEXTS, answers, recentUnitIds(latest)));
-    setActiveUnit(null);
-    setView("results");
+    generateBatch(0);
   };
 
   const handleHome = () => {
     const latest = loadPrefs();
     setAnswers({
+      branchId: "",
       moodId: "",
       needId: "",
       minutes: latest.minutes,
@@ -159,10 +196,9 @@ export default function App() {
             answers={answers}
             historyCount={history.length}
             onChange={handleChange}
-            onNext={handleNext}
-            onBack={handleBack}
-            onSelectStep={handleSelectStep}
+            onGoToStep={setStep}
             onStart={handleStart}
+            onDirectStart={handleStart}
           />
         )}
 
@@ -171,7 +207,8 @@ export default function App() {
             result={result}
             answers={answers}
             onRead={handleRead}
-            onRematch={handleRematch}
+            onAdjust={handleAdjust}
+            onShuffle={handleShuffle}
             onSources={() => setSourcesOpen(true)}
           />
         )}
@@ -193,6 +230,7 @@ export default function App() {
             onSave={handleSave}
             onAgain={handleAgain}
             onHome={handleHome}
+            onHistory={() => setView("history")}
             onSources={() => setSourcesOpen(true)}
           />
         )}

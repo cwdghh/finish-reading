@@ -1,0 +1,143 @@
+{
+  "adaptation": {
+    "branches": [
+      {
+        "branch": "低落",
+        "leaves": [
+          "心里有点堵",
+          "想逃开一会儿",
+          "有点委屈"
+        ]
+      },
+      {
+        "branch": "疲惫",
+        "leaves": [
+          "累但不想睡",
+          "需要一点力气",
+          "脑子停不下来"
+        ]
+      },
+      {
+        "branch": "还不错",
+        "leaves": [
+          "今天还不错",
+          "想轻松一点"
+        ]
+      }
+    ],
+    "lowNeeds": [
+      "被安慰",
+      "被陪着",
+      "被点醒",
+      "都行"
+    ],
+    "lowExtra": [
+      "被逗笑",
+      "想看美的东西"
+    ],
+    "errors": []
+  },
+  "skip": {
+    "step3": "你想被怎样对待？",
+    "skippedRail": {
+      "cls": "step-rail__item is-done is-skipped",
+      "disabled": true,
+      "number": "略更具体"
+    },
+    "backTo": "此刻，你更接近哪一种？",
+    "weak": {
+      "heading": "今天先读一篇",
+      "neutral": "未选状态按时间和体裁来配",
+      "count": 9,
+      "labels": [
+        "可以看看",
+        "可以看看",
+        "可以看看",
+        "可以看看",
+        "可以看看",
+        "可以看看",
+        "可以看看",
+        "可以看看",
+        "可以看看"
+      ],
+      "metrics": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      }
+    },
+    "errors": []
+  },
+  "freeSuggestion": {
+    "pressed": "true",
+    "afterNext": "你想被怎样对待？",
+    "step": "想要",
+    "errors": []
+  },
+  "freshness": {
+    "first": [
+      "《背影》",
+      "《风筝》",
+      "《春风沉醉的晚上》",
+      "《落花生》",
+      "《故乡》",
+      "《桨声灯影里的秦淮河》",
+      "《秋夜》",
+      "《月下独酌》",
+      "《教我如何不想她》"
+    ],
+    "sameDay": [
+      "《背影》",
+      "《风筝》",
+      "《春风沉醉的晚上》",
+      "《落花生》",
+      "《故乡》",
+      "《桨声灯影里的秦淮河》",
+      "《秋夜》",
+      "《月下独酌》",
+      "《教我如何不想她》"
+    ],
+    "sameDayStable": true,
+    "nextDay": [
+      "《偶然》",
+      "《雪》",
+      "《海滨故人》",
+      "《虞美人》",
+      "《荷塘月色》",
+      "《一剪梅》",
+      "《敬业与乐业》",
+      "《天净沙·秋思》",
+      "《再别康桥》"
+    ],
+    "nextDayChanged": true,
+    "shown": 18,
+    "errors": []
+  },
+  "recentlyRead": {
+    "mainTitle": "《背影》",
+    "afterRead": [
+      "《风筝》",
+      "《春风沉醉的晚上》",
+      "《落花生》",
+      "《故乡》",
+      "《桨声灯影里的秦淮河》",
+      "《秋夜》",
+      "《月下独酌》",
+      "《教我如何不想她》",
+      "《偶然》"
+    ],
+    "excluded": true,
+    "headerAria": "处方笺，查看读过的卡片，共 1 张",
+    "readingOverflow": {
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    "errors": []
+  },
+  "reducedMotion": {
+    "animationDuration": "1e-05s",
+    "scrollBehavior": "auto"
+  },
+  "desktopFull": {
+    "errors": []
+  }
+}

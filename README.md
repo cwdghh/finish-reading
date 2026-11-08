@@ -13,7 +13,7 @@ Created: 2026-11-05
 
 - 工作名：读完
 - 赛道：LifeHack 生活娱乐
-- 一句话：说出此刻的心情和可用时间，读完按匹配度为你排出 10+ 个公共版权短篇/节选；你选一个，它陪你按节奏读完，并留下一张读完卡片。
+- 一句话：说出此刻的心情和可用时间，读完按匹配度为你排出 8–10 个公共版权短篇/节选；你选一个，它陪你按节奏读完，并留下一张读完卡片。
 - 阅读对象：2–15 分钟的“阅读单元”，不要求读完整本书。
 - 仓库格式：[docs/product/site-format.md](docs/product/site-format.md)。
 - 产品文档：[docs/product/](docs/product/)
@@ -85,4 +85,4 @@ npm run build
 
 ## Progress
 
-本地实现、Qoder Sites 公网部署与公网五步验收已完成；论坛作品帖尚未发布。本地验收见 [docs/evidence/2026-11-07-local-acceptance.md](docs/evidence/2026-11-07-local-acceptance.md)，公网验收见 [docs/evidence/06-deploy/2026-11-07-deployment.md](docs/evidence/06-deploy/2026-11-07-deployment.md)，当前进度与下一步见 [STATUS.md](STATUS.md)。
+v1 已完成 Qoder Sites 公网部署与验收；v2（四步签到、自由输入、9 个结果、53 个单元、新鲜度与移动端修正）已在本地实现并通过 375/1440 验收，尚未重新部署，论坛作品帖尚未发布。v1 公网验收见 [docs/evidence/06-deploy/2026-11-07-deployment.md](docs/evidence/06-deploy/2026-11-07-deployment.md)，v2 本地验收见 [docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md](docs/evidence/07-v2/2026-11-08-v2-local-acceptance.md)，当前进度与下一步见 [STATUS.md](STATUS.md)。
